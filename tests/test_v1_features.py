@@ -1764,7 +1764,37 @@ class TestNewStackFeatures(unittest.TestCase):
         import nvidia_service
         succ, msg = nvidia_service.query_nvidia_ai("Hello", api_key="")
         self.assertFalse(succ)
-        self.assertIn("NVIDIA API Key not configured", msg)
+        self.assertIn("not configured", msg.lower())
+
+    def test_nvidia_service_openrouter_routing(self):
+        """Verify OpenRouter routing and reasoning parsing with sk-or key."""
+        import nvidia_service
+        from unittest.mock import MagicMock, patch
+        import json
+        import io
+
+        mock_resp_data = {
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": None,
+                        "reasoning": "Nemotron reasoning output on OpenRouter."
+                    }
+                }
+            ]
+        }
+        mock_response = io.BytesIO(json.dumps(mock_resp_data).encode("utf-8"))
+        mock_response.getcode = MagicMock(return_value=200)
+
+        with patch("urllib.request.urlopen", return_value=mock_response):
+            succ, msg = nvidia_service.query_nvidia_ai(
+                "Explain Herbert Simon's bounded rationality.",
+                model="nvidia/nemotron-3.5-super-vl:free",
+                api_key="sk-or-v1-fake-mock-test-key",
+            )
+            self.assertTrue(succ)
+            self.assertIn("Nemotron reasoning output", msg)
 
     def test_nvidia_service_mocked_success(self):
         """Verify NVIDIA NIM API response parsing with mocked HTTP response."""

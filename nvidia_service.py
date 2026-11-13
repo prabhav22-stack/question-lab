@@ -1,7 +1,7 @@
-"""NVIDIA NIM / AI Foundation Endpoints integration service for Question Lab and ExamForge.
+"""NVIDIA NIM and OpenRouter AI integration service for Question Lab and ExamForge.
 
-Provides high-speed inference via NVIDIA's OpenAI-compatible NIM API
-(https://integrate.api.nvidia.com/v1) for conceptual doubt-solving, syllabus inquiries,
+Provides high-speed inference via NVIDIA's NIM API (https://integrate.api.nvidia.com/v1)
+and OpenRouter (https://openrouter.ai/api/v1) for conceptual doubt-solving, syllabus inquiries,
 and essay evaluation.
 """
 
@@ -14,62 +14,79 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import config
 
-NVIDIA_API_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+NVIDIA_NIM_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 NVIDIA_MODELS: Dict[str, str] = {
-    "meta/llama-3.3-70b-instruct": "Llama 3.3 70B Instruct (Recommended - Highest Reasoning Quality)",
-    "nvidia/llama-3.1-nemotron-70b-instruct": "NVIDIA Llama 3.1 Nemotron 70B (Optimized for Deep Reasoning)",
-    "deepseek-ai/deepseek-r1": "DeepSeek R1 (Advanced Reasoning & Multi-Step Logic)",
-    "mistralai/mixtral-8x22b-instruct": "Mixtral 8x22B Instruct (Fast Multilingual MoE)",
-    "meta/llama-3.1-8b-instruct": "Llama 3.1 8B Instruct (Ultra-Fast Response)",
+    "nvidia/nemotron-3.5-super-vl:free": "NVIDIA Nemotron 3.5 Super VL [Free via OpenRouter] (Recommended)",
+    "nvidia/nemotron-3.5-lightning:free": "NVIDIA Nemotron 3.5 Lightning [Free via OpenRouter] (Fast Reasoning)",
+    "nvidia/nemotron-3-ultra-550b-a55b:free": "NVIDIA Nemotron 3 Ultra 550B [Free via OpenRouter]",
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": "NVIDIA Nemotron 3 Nano Omni Reasoning [Free via OpenRouter]",
+    "meta/llama-3.3-70b-instruct": "Llama 3.3 70B Instruct [NVIDIA NIM Direct]",
+    "nvidia/llama-3.1-nemotron-70b-instruct": "NVIDIA Llama 3.1 Nemotron 70B [NVIDIA NIM Direct]",
+    "deepseek-ai/deepseek-r1": "DeepSeek R1 [NVIDIA NIM Direct]",
+    "mistralai/mixtral-8x22b-instruct": "Mixtral 8x22B Instruct [NVIDIA NIM Direct]",
+    "meta/llama-3.1-8b-instruct": "Llama 3.1 8B Instruct [NVIDIA NIM Direct]",
 }
 
-DEFAULT_NVIDIA_MODEL = "meta/llama-3.3-70b-instruct"
+DEFAULT_NVIDIA_MODEL = "nvidia/nemotron-3.5-super-vl:free"
 
 
 def query_nvidia_ai(
     prompt: str,
     system_prompt: str = "",
-    model: str = DEFAULT_NVIDIA_MODEL,
+    model: Optional[str] = None,
     api_key: Optional[str] = None,
     temperature: float = 0.4,
     max_tokens: int = 2048,
     timeout: int = 45,
 ) -> Tuple[bool, str]:
-    """Execute a query against the NVIDIA NIM OpenAI-compatible API.
+    """Execute a query against NVIDIA NIM or OpenRouter API.
 
     Returns:
         (success: bool, response_or_error: str)
     """
-    key = api_key or config.get_nvidia_api_key()
-    if not key or key == "YOUR_NVIDIA_API_KEY":
+    key = (api_key if api_key is not None else config.get_nvidia_api_key()).strip()
+    if not key or key in ("YOUR_NVIDIA_API_KEY", "YOUR_OPENROUTER_API_KEY"):
         return (
             False,
-            "NVIDIA API Key not configured. Please enter your API key (starts with 'nvapi-') "
-            "obtained from https://build.nvidia.com/.",
+            "NVIDIA / OpenRouter API Key not configured. Please enter your API key (starts with 'nvapi-' or 'sk-or-').",
         )
+
+    target_model = model or config.get_nvidia_model() or DEFAULT_NVIDIA_MODEL
+
+    # Determine endpoint based on API key prefix or model name
+    is_openrouter = key.startswith("sk-or-") or ":free" in target_model or "openrouter" in target_model.lower()
+    endpoint = OPENROUTER_API_URL if is_openrouter else NVIDIA_NIM_URL
 
     messages: List[Dict[str, str]] = []
     if system_prompt:
         messages.append({"role": "system", "content": system_prompt})
     messages.append({"role": "user", "content": prompt})
 
-    payload = {
-        "model": model,
+    payload: Dict[str, Any] = {
+        "model": target_model,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
-        "top_p": 0.95,
     }
+    if not is_openrouter:
+        payload["top_p"] = 0.95
+
+    headers: Dict[str, str] = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {key}",
+    }
+    if is_openrouter:
+        headers["HTTP-Referer"] = "https://question-lab.streamlit.app"
+        headers["X-Title"] = "Question Lab"
+    else:
+        headers["User-Agent"] = "QuestionLab-ExamForge/3.1"
 
     req = urllib.request.Request(
-        NVIDIA_API_URL,
+        endpoint,
         data=json.dumps(payload).encode("utf-8"),
-        headers={
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {key}",
-            "User-Agent": "QuestionLab-ExamForge/3.1",
-        },
+        headers=headers,
         method="POST",
     )
 
@@ -81,17 +98,23 @@ def query_nvidia_ai(
                 data = json.loads(raw_body)
                 choices = data.get("choices", [])
                 if choices:
-                    content = choices[0].get("message", {}).get("content", "")
-                    return (True, content)
-                return (False, "NVIDIA API returned an empty choices list.")
-            return (False, f"NVIDIA API error: HTTP status {status_code} - {raw_body}")
+                    msg_obj = choices[0].get("message", {})
+                    content = msg_obj.get("content")
+                    # Handle reasoning models where main content or thought output is in reasoning
+                    if not content:
+                        content = msg_obj.get("reasoning")
+                    if content:
+                        return (True, str(content).strip())
+                    return (False, "API returned an empty response content.")
+                return (False, "API returned an empty choices list.")
+            return (False, f"API error: HTTP status {status_code} - {raw_body}")
     except urllib.error.HTTPError as http_err:
         err_msg = http_err.read().decode("utf-8", errors="ignore")
-        return (False, f"NVIDIA API HTTP {http_err.code}: {err_msg}")
+        return (False, f"API HTTP {http_err.code}: {err_msg}")
     except urllib.error.URLError as url_err:
-        return (False, f"Network connection error to NVIDIA API: {url_err.reason}")
+        return (False, f"Network connection error to API: {url_err.reason}")
     except Exception as exc:
-        return (False, f"Unexpected error during NVIDIA API request: {exc}")
+        return (False, f"Unexpected error during API request: {exc}")
 
 
 def ask_examforge_question(

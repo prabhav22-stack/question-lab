@@ -411,28 +411,33 @@ def show_examforge_lab() -> None:
         nv_key = config.get_nvidia_api_key()
         if not nv_key:
             st.info(
-                "💡 **NVIDIA NIM API Key**: Enter your key below or set `NVIDIA_API_KEY` in `.streamlit/secrets.toml`. "
-                "Get 1,000 free inference credits at [build.nvidia.com](https://build.nvidia.com/)."
+                "💡 **NVIDIA NIM / OpenRouter API Key**: Enter your key below or set `OPENROUTER_API_KEY` or `NVIDIA_API_KEY` in `.streamlit/secrets.toml`. "
+                "Free tier keys work with `nvidia/nemotron-3.5-super-vl:free` on OpenRouter, or get direct NIM credits at [build.nvidia.com](https://build.nvidia.com/)."
             )
-            user_nv_key = st.text_input("Enter NVIDIA API Key (starts with nvapi-):", type="password", key="ef_user_nv_key")
+            user_nv_key = st.text_input("Enter NVIDIA or OpenRouter API Key (starts with nvapi- or sk-or-):", type="password", key="ef_user_nv_key")
             if user_nv_key:
                 st.session_state["nvidia_api_key"] = user_nv_key.strip()
                 st.success("API key stored for this session!")
                 nv_key = user_nv_key.strip()
         else:
-            st.success("🟢 **NVIDIA AI Connected**: API key active.")
+            provider_label = "OpenRouter (Free NVIDIA Nemotron)" if nv_key.startswith("sk-or-") else "NVIDIA NIM"
+            st.success(f"🟢 **{provider_label} Connected**: API key active ({config.mask_secret(nv_key)}).")
+
+        model_options = list(nvidia_service.NVIDIA_MODELS.keys())
+        default_model = config.get_nvidia_model()
+        default_idx = model_options.index(default_model) if default_model in model_options else 0
 
         nv_model_col1, nv_model_col2 = st.columns([2, 1])
         with nv_model_col1:
             sel_nv_model = st.selectbox(
-                "Select NVIDIA NIM Model:",
-                options=list(nvidia_service.NVIDIA_MODELS.keys()),
+                "Select Model:",
+                options=model_options,
                 format_func=lambda m: nvidia_service.NVIDIA_MODELS.get(m, m),
-                index=0,
+                index=default_idx,
                 key="ef_nv_model_choice",
             )
         with nv_model_col2:
-            st.caption("⚡ High-throughput GPU inference on NVIDIA Tensor Cores.")
+            st.caption("⚡ High-throughput GPU inference on NVIDIA Tensor Cores & OpenRouter.")
 
         # Quick prompt buttons
         st.markdown("**💡 Quick Question Starters:**")
