@@ -6023,17 +6023,16 @@ def show_settings() -> None:
 
     st.divider()
 
-    # 2. NVIDIA AI & OpenRouter Inference Engine
-    st.subheader("2. NVIDIA AI & OpenRouter Inference Engine")
+    # 2. OpenRouter NVIDIA AI Inference Engine
+    st.subheader("2. OpenRouter NVIDIA AI Inference Engine")
     nv_key = config.get_nvidia_api_key()
     c_nv1, c_nv2 = st.columns(2)
-    provider_name = "OpenRouter" if nv_key.startswith("sk-or-") else "NVIDIA NIM"
-    c_nv1.write(f"**API Key ({provider_name}):** `{config.mask_secret(nv_key)}`")
+    c_nv1.write(f"**OpenRouter API Key:** `{config.mask_secret(nv_key)}`")
     c_nv2.write(f"**Default Model:** `{config.get_nvidia_model()}`")
 
     col_nv1, col_nv2 = st.columns([1, 2])
     if col_nv1.button("🔌 Test Connection", type="primary", key="btn_test_nv_conn"):
-        with st.spinner("Testing AI inference connection..."):
+        with st.spinner("Testing OpenRouter NVIDIA AI connection..."):
             succ, msg = nvidia_service.query_nvidia_ai("Respond with 'Connection successful.' if you receive this.", max_tokens=150)
             st.session_state["nvidia_test_result"] = {"success": succ, "message": msg}
 
@@ -6046,9 +6045,9 @@ def show_settings() -> None:
 
     if not config.is_nvidia_configured():
         st.info(
-            "To configure your AI inference key:\n"
-            "1. **OpenRouter (Free NVIDIA Nemotron):** Get a key at [openrouter.ai](https://openrouter.ai/) and set `OPENROUTER_API_KEY`.\n"
-            "2. **Direct NVIDIA NIM:** Get a key (1,000 free credits) at [build.nvidia.com](https://build.nvidia.com/) and set `NVIDIA_API_KEY` in `.streamlit/secrets.toml`."
+            "To configure your OpenRouter AI key:\n"
+            "1. Obtain an API key from [openrouter.ai](https://openrouter.ai/).\n"
+            "2. Add to `.streamlit/secrets.toml` or Streamlit Cloud Secrets: `OPENROUTER_API_KEY = \"sk-or-v1-...\"`"
         )
 
     st.divider()

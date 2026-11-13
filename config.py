@@ -63,49 +63,41 @@ def get_gemini_analysis_model() -> str:
 
 
 def get_nvidia_api_key() -> str:
-    """Return the configured NVIDIA NIM or OpenRouter API key, or empty string."""
+    """Return configured OpenRouter API key for NVIDIA models, or empty string."""
     if _HAS_STREAMLIT:
         try:
-            if "nvidia_api_key" in st.session_state and st.session_state["nvidia_api_key"]:
-                return str(st.session_state["nvidia_api_key"]).strip()
             if "openrouter_api_key" in st.session_state and st.session_state["openrouter_api_key"]:
                 return str(st.session_state["openrouter_api_key"]).strip()
+            if "nvidia_api_key" in st.session_state and st.session_state["nvidia_api_key"]:
+                return str(st.session_state["nvidia_api_key"]).strip()
         except Exception:
             pass
-    val = _get_setting("NVIDIA_API_KEY", "")
+    val = _get_setting("OPENROUTER_API_KEY", "")
     if not val:
-        val = _get_setting("OPENROUTER_API_KEY", "")
+        val = _get_setting("NVIDIA_API_KEY", "")
     return val
 
 
 def get_openrouter_api_key() -> str:
     """Return configured OpenRouter API key, or empty string."""
-    if _HAS_STREAMLIT:
-        try:
-            if "openrouter_api_key" in st.session_state and st.session_state["openrouter_api_key"]:
-                return str(st.session_state["openrouter_api_key"]).strip()
-        except Exception:
-            pass
-    return _get_setting("OPENROUTER_API_KEY", "")
+    return get_nvidia_api_key()
 
 
 def get_nvidia_model() -> str:
-    """Return configured NVIDIA model name (supports NIM and OpenRouter free models)."""
+    """Return configured OpenRouter NVIDIA model name."""
+    m = _get_setting("OPENROUTER_MODEL", "")
+    if m:
+        return m
     nv = _get_setting("NVIDIA_MODEL", "")
-    if nv:
+    if nv and "free" in nv:
         return nv
-    or_m = _get_setting("OPENROUTER_MODEL", "")
-    if or_m:
-        return or_m
-    if get_openrouter_api_key():
-        return "nvidia/nemotron-3.5-super-vl:free"
-    return "meta/llama-3.3-70b-instruct"
+    return "nvidia/nemotron-3.5-super-vl:free"
 
 
 def is_nvidia_configured() -> bool:
-    """Check if an NVIDIA or OpenRouter API key is configured."""
+    """Check if an OpenRouter API key is configured."""
     key = get_nvidia_api_key()
-    return bool(key and key != "YOUR_NVIDIA_API_KEY")
+    return bool(key and key not in ("YOUR_NVIDIA_API_KEY", "YOUR_OPENROUTER_API_KEY"))
 
 
 def get_supabase_url() -> str:

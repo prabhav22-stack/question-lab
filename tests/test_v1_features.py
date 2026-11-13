@@ -1797,7 +1797,7 @@ class TestNewStackFeatures(unittest.TestCase):
             self.assertIn("Nemotron reasoning output", msg)
 
     def test_nvidia_service_mocked_success(self):
-        """Verify NVIDIA NIM API response parsing with mocked HTTP response."""
+        """Verify OpenRouter NVIDIA response parsing with mocked HTTP response."""
         import nvidia_service
         from unittest.mock import MagicMock, patch
         import json
@@ -1819,7 +1819,7 @@ class TestNewStackFeatures(unittest.TestCase):
         with patch("urllib.request.urlopen", return_value=mock_response):
             succ, msg = nvidia_service.query_nvidia_ai(
                 "Explain the origins of administrative theory.",
-                api_key="nvapi-test-fake-key",
+                api_key="sk-or-v1-test-fake-key",
             )
             self.assertTrue(succ)
             self.assertIn("Woodrow Wilson", msg)
@@ -1837,7 +1837,7 @@ class TestNewStackFeatures(unittest.TestCase):
                 unit_title="Decision Making (Herbert Simon)",
                 representative_pyq="Critically evaluate Simon's decision-making model.",
                 model_answer_summary="Simon rejects classical economic rationality in favor of satisficing.",
-                api_key="nvapi-fake",
+                api_key="sk-or-v1-fake",
             )
             self.assertTrue(succ)
             self.assertEqual(msg, "Mocked tutor answer")

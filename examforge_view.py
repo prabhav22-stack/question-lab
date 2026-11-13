@@ -403,7 +403,7 @@ def show_examforge_lab() -> None:
     with tab5:
         st.markdown(f"### 🤖 Ask NVIDIA AI: Concept & PYQ Doubts Tutor for **Unit {selected_unit_id}**")
         st.caption(
-            "Powered by NVIDIA NIM Inference Endpoints (Llama 3.3 70B & Nemotron 70B). "
+            "Powered by OpenRouter NVIDIA AI Models (Nemotron 3.5 Super VL, Lightning, and Ultra). "
             "Ask any conceptual question, request thinker comparisons, or ask for answer structuring grounded in this unit."
         )
 
@@ -411,17 +411,17 @@ def show_examforge_lab() -> None:
         nv_key = config.get_nvidia_api_key()
         if not nv_key:
             st.info(
-                "💡 **NVIDIA NIM / OpenRouter API Key**: Enter your key below or set `OPENROUTER_API_KEY` or `NVIDIA_API_KEY` in `.streamlit/secrets.toml`. "
-                "Free tier keys work with `nvidia/nemotron-3.5-super-vl:free` on OpenRouter, or get direct NIM credits at [build.nvidia.com](https://build.nvidia.com/)."
+                "💡 **OpenRouter API Key**: Enter your key below or set `OPENROUTER_API_KEY` in Streamlit App Settings -> Secrets. "
+                "Get your key at [openrouter.ai](https://openrouter.ai/)."
             )
-            user_nv_key = st.text_input("Enter NVIDIA or OpenRouter API Key (starts with nvapi- or sk-or-):", type="password", key="ef_user_nv_key")
+            user_nv_key = st.text_input("Enter OpenRouter API Key (starts with sk-or-v1-):", type="password", key="ef_user_nv_key")
             if user_nv_key:
                 st.session_state["nvidia_api_key"] = user_nv_key.strip()
+                st.session_state["openrouter_api_key"] = user_nv_key.strip()
                 st.success("API key stored for this session!")
                 nv_key = user_nv_key.strip()
         else:
-            provider_label = "OpenRouter (Free NVIDIA Nemotron)" if nv_key.startswith("sk-or-") else "NVIDIA NIM"
-            st.success(f"🟢 **{provider_label} Connected**: API key active ({config.mask_secret(nv_key)}).")
+            st.success(f"🟢 **OpenRouter NVIDIA AI Connected**: API key active ({config.mask_secret(nv_key)}).")
 
         model_options = list(nvidia_service.NVIDIA_MODELS.keys())
         default_model = config.get_nvidia_model()
@@ -430,14 +430,14 @@ def show_examforge_lab() -> None:
         nv_model_col1, nv_model_col2 = st.columns([2, 1])
         with nv_model_col1:
             sel_nv_model = st.selectbox(
-                "Select Model:",
+                "Select NVIDIA Model:",
                 options=model_options,
                 format_func=lambda m: nvidia_service.NVIDIA_MODELS.get(m, m),
                 index=default_idx,
                 key="ef_nv_model_choice",
             )
         with nv_model_col2:
-            st.caption("⚡ High-throughput GPU inference on NVIDIA Tensor Cores & OpenRouter.")
+            st.caption("⚡ High-throughput GPU inference via OpenRouter.")
 
         # Quick prompt buttons
         st.markdown("**💡 Quick Question Starters:**")
@@ -477,7 +477,7 @@ def show_examforge_lab() -> None:
             if not user_ask.strip():
                 st.warning("Please type a question or select one of the quick starters above.")
             else:
-                with st.spinner(f"Consulting {nvidia_service.NVIDIA_MODELS.get(sel_nv_model, sel_nv_model)} on NVIDIA DGX Cloud..."):
+                with st.spinner(f"Consulting {nvidia_service.NVIDIA_MODELS.get(sel_nv_model, sel_nv_model)} via OpenRouter..."):
                     success, answer = nvidia_service.ask_examforge_question(
                         user_query=user_ask.strip(),
                         course_id=selected_course,
