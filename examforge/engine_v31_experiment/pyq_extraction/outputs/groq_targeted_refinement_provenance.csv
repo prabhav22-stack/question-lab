@@ -1,0 +1,235 @@
+cluster_id,course_id,old_title,refined_title,canonical_topic_id,confidence,cached
+MPA011-U01+U02_C01,MPA-011,Weber and Riggs Perspectives on Society-Administration Relationship,Theoretical Perspectives on Society-Administration Relations,MPA011-U02-T2_3,0.96,False
+MPA011-U01+U02_C02,MPA-011,Changing Perspectives on the Nature of the State,Defining the State and Its Evolving Nature,MPA011-U01-T1_3,0.96,False
+MPA011-U01+U02_C03,MPA-011,"Conceptual Interrelationships among State, Society, and Public Administration","Interrelationships among State, Society, and Public Administration",MPA011-U02-T2_3,0.96,False
+MPA011-U01+U02_C04,MPA-011,Defining and Analyzing the Modern State,Nature and Emergence of the Modern State,MPA011-U01-T1_3,0.96,False
+MPA011-U01+U02_C07,MPA-011,Interplay between Public Administration and Society,Interplay of Public Administration and Societal Dynamics,MPA011-U02-T2_3,0.97,False
+MPA011-U01+U02_C06,MPA-011,Debating the Definition and Nature of the State,Debating Definitions and Nature of the State,MPA011-U01-T1_2,0.96,False
+MPA011-U01+U02_C08,MPA-011,Equality Concept and Its Emergence in Public Administration,Equality as a Foundational Concept in Public Administration,MPA011-U02-T2_2,0.96,False
+MPA011-U01+U02_C11,MPA-011,Relevance of Institutional Devices in Developing Countries,Institutional Mechanisms Enhancing Administration in Developing Nations,MPA011-U02-T2_3,0.92,False
+MPA011-U01+U02_C13,MPA-011,Social Equity in Public Administration,Conceptual Foundations of Social Equity in Public Administration,MPA011-U02-T2_2,0.96,False
+MPA011-U01+U02_C14,MPA-011,Rti: the changing norm of participation....,Evolving Norms of Participation in Public Administration,MPA011-U02-T2_3,0.92,False
+MPA011-U01+U02_C05,MPA-011,'Societal culture affects administrative performance'. Discuss the,Impact of Societal Culture on Public Administration,MPA011-U02-T2_4,0.97,False
+MPA011-U01+U02_C09,MPA-011,Trace the various phases of evolution of,Trace the various phases of evolution of,UNMAPPED,0.92,False
+MPA011-U01+U02_C10,MPA-011,Thatcherism,Thatcherism,UNMAPPED,0.92,False
+MPA011-U01+U02_C12,MPA-011,Citizen Charter,Citizen Charter,UNMAPPED,0.92,False
+MPA011-U04_C01,MPA-011,Marx & Marxist: Describe the liberal perspective of stat...,Marx & Marxist: Describe the liberal perspective of stat...,UNMAPPED,0.92,False
+MPA011-U06_C01,MPA-011,Gandhi & Gandhian & Rti,Gandhi & Gandhian & Rti,UNMAPPED,0.92,False
+MPA011-U06_C02,MPA-011,Concept of trusteeship,Concept of trusteeship,UNMAPPED,0.92,False
+MPA011-U09_C01,MPA-011,Rti: Define social equity and describe changi...,Rti: Define social equity and describe changi...,UNMAPPED,0.92,False
+MPA011-U09_C03,MPA-011,“Social Justice becomes more effective through its,“Social Justice becomes more effective through its,UNMAPPED,0.92,False
+MPA011-U09_C04,MPA-011,Describe social equality and locate its emergence,Describe social equality and locate its emergence,UNMAPPED,0.92,False
+MPA011-U09_C02,MPA-011,Norms of autonomy and flexibility,Norms of autonomy and flexibility,UNMAPPED,0.92,False
+MPA011-U10_C01,MPA-011,‘Engendering Public Administration and Development’,‘Engendering Public Administration and Development’,UNMAPPED,0.92,False
+MPA011-U10_C02,MPA-011,“Applied aspects of social justice”,“Applied aspects of social justice”,UNMAPPED,0.92,False
+MPA011-U10_C05,MPA-011,Environment and Citizen’s Concerns 10 2,Environmental Governance and Citizen Participation,MPA011-U10-T10_6,0.98,False
+MPA011-U10_C03,MPA-011,gender sensitization in public administration and development,gender sensitization in public administration and development,UNMAPPED,0.92,False
+MPA011-U10_C04,MPA-011,Rti: Social Participation 10 1...,Rti: Social Participation 10 1...,UNMAPPED,0.92,False
+MPA011-U10_C06,MPA-011,the general parameters of gender issues,the general parameters of gender issues,UNMAPPED,0.92,False
+MPA011-U12_C01,MPA-011,Bureaucracy: “Bureaucracy plays a major role in polic...,Bureaucracy: “Bureaucracy plays a major role in polic...,UNMAPPED,0.92,False
+MPA011-U12_C04,MPA-011,“Public policy formulation and implementation are two,“Public policy formulation and implementation are two,UNMAPPED,0.92,False
+MPA011-U12_C03,MPA-011,Describe the public policy process. A–1272/,Describe the public policy process. A–1272/,UNMAPPED,0.92,False
+MPA011-U12_C02,MPA-011,the role of middle-level and top-level bureaucrats,the role of middle-level and top-level bureaucrats,UNMAPPED,0.92,False
+MPA011-U14_C01,MPA-011,the impact of globalisation on public administration,the impact of globalisation on public administration,UNMAPPED,0.92,False
+MPA011-U14_C02,MPA-011,the impact of globalization on developing countries,the impact of globalization on developing countries,UNMAPPED,0.92,False
+MPA011-U14_C05,MPA-011,the new challenges to Public Administration,the new challenges to Public Administration,UNMAPPED,0.92,False
+MPA011-U14_C08,MPA-011,'The impact of globalisation on administration manifests,'The impact of globalisation on administration manifests,UNMAPPED,0.92,False
+MPA011-U14_C03,MPA-011,Define IGlobalisation' and highlight the emerging challenges,Define IGlobalisation' and highlight the emerging challenges,UNMAPPED,0.92,False
+MPA011-U14_C04,MPA-011,Humanistic Perspectives on Globalisation and Public Administration Practice,Humanistic Perspectives on Globalisation and Public Administration Practice,UNMAPPED,0.92,False
+MPA011-U14_C06,MPA-011,Judicial Accountability 10 2,Judicial Accountability 10 2,UNMAPPED,0.92,False
+MPA011-U14_C07,MPA-011,legislative reforms in India,legislative reforms in India,UNMAPPED,0.92,False
+MPA011-U17_C01,MPA-011,Good Governance,Good Governance,UNMAPPED,0.92,False
+MPA011-U19_C01,MPA-011,Civil Society: “Civil society has evolved over the year...,Civil Society: “Civil society has evolved over the year...,UNMAPPED,0.92,False
+MPA011-U21_C01,MPA-011,Rti: the nature of work ethics in Public Admi...,Rti: the nature of work ethics in Public Admi...,UNMAPPED,0.92,False
+MPA011-U21_C02,MPA-011,“Ethical Concerns in Administration”,“Ethical Concerns in Administration”,UNMAPPED,0.92,False
+MPA011-U21_C03,MPA-011,Define Ethics and discuss obstacles to ethical,Challenges to Ethical Accountability in Public Administration,MPA011-U21-T21_9,0.98,False
+MPA011-U21_C04,MPA-011,Right To Information,Right To Information,UNMAPPED,0.92,False
+MPA011-U05_C01,MPA-011,The Neo-liberal view of the State,The Neo-liberal view of the State,UNMAPPED,0.92,False
+MPA011-U05_C02,MPA-011,‘Neo-liberalism has impacted on the discipline of,‘Neo-liberalism has impacted on the discipline of,UNMAPPED,0.92,False
+MPA011-U05_C03,MPA-011,Views of Milton Friedman,Views of Milton Friedman,UNMAPPED,0.92,False
+MPA011-U05_C04,MPA-011,Views of Friedrich von Hayek,Views of Friedrich von Hayek,UNMAPPED,0.92,False
+MPA011-U11_C01,MPA-011,the changing role of the Indian state,the changing role of the Indian state,UNMAPPED,0.92,False
+MPA011-U11_C02,MPA-011,‘Many issues confront the state in India.’,‘Many issues confront the state in India.’,UNMAPPED,0.92,False
+MPA012-U01_C01,MPA-012,the importance of Public Administration as a,the importance of Public Administration as a,UNMAPPED,0.92,False
+MPA012-U01_C02,MPA-012,Define public administration and examine its scope,Define public administration and examine its scope,UNMAPPED,0.92,False
+MPA012-U01_C04,MPA-012,“The role of public administration has changed,“The role of public administration has changed,UNMAPPED,0.92,False
+MPA012-U01_C06,MPA-012,Scope of Public Administration 10,Scope of Public Administration 10,UNMAPPED,0.92,False
+MPA012-U01_C07,MPA-012,the features of Administrative Management Approach by,the features of Administrative Management Approach by,UNMAPPED,0.92,False
+MPA012-U01_C08,MPA-012,Principles of Span of Control and Division,Principles of Span of Control and Division,UNMAPPED,0.92,False
+MPA012-U01_C09,MPA-012,In the view of Felix A. Nigro,In the view of Felix A. Nigro,UNMAPPED,0.92,False
+MPA012-U01_C03,MPA-012,the similarities and distinction between Public and,the similarities and distinction between Public and,UNMAPPED,0.92,False
+MPA012-U01_C11,MPA-012,"the meaning, nature and scope of Public","the meaning, nature and scope of Public",UNMAPPED,0.92,False
+MPA012-U01_C12,MPA-012,"the meaning, nature and scope of Public","the meaning, nature and scope of Public",UNMAPPED,0.92,False
+MPA012-U01_C05,MPA-012,Bureaucracy & Marx,Bureaucracy & Marx,UNMAPPED,0.92,False
+MPA012-U01_C10,MPA-012,Choice and Behaviour 10,Choice and Behaviour 10,UNMAPPED,0.92,False
+MPA012-U01_C13,MPA-012,Relay Assembly Test Room Experiment. 10,"Foundations, Scope, and Significance of Public Administration",UNMAPPED,0.92,False
+MPA012-U04_C01,MPA-012,Taylor: the Scientific Management Approach of F....,Taylor: the Scientific Management Approach of F....,UNMAPPED,0.92,False
+MPA012-U04_C02,MPA-012,Functional Foremanship and Mental Revolution in Taylorism,Functional Foremanship and Mental Revolution in Taylorism,UNMAPPED,0.92,False
+MPA012-U04_C03,MPA-012,scientific management movement and its relevance in,scientific management movement and its relevance in,UNMAPPED,0.92,False
+MPA012-U04_C04,MPA-012,the important concerns of Scientific Management,the important concerns of Scientific Management,UNMAPPED,0.92,False
+MPA012-U05_C01,MPA-012,the general principles of administration,the general principles of administration,UNMAPPED,0.92,False
+MPA012-U05_C02,MPA-012,Fayol & Gulick & Urwick,Fayol & Gulick & Urwick,UNMAPPED,0.92,False
+MPA012-U05_C03,MPA-012,the major principles of an organization. 20,the major principles of an organization. 20,UNMAPPED,0.92,False
+MPA012-U05_C04,MPA-012,Posdcorb: 'Just as POSDCORB describes the scope of...,Posdcorb: 'Just as POSDCORB describes the scope of...,UNMAPPED,0.92,False
+MPA012-U08_C02,MPA-012,Human relations vs. Classical approaches 10 Section—II,Human relations vs. Classical approaches 10 Section—II,UNMAPPED,0.92,False
+MPA012-U08_C01,MPA-012,Hawthorne & Mayo,Hawthorne & Mayo,UNMAPPED,0.92,False
+MPA012-U08_C04,MPA-012,Great illumination experiment 10 Section—II,Great illumination experiment 10 Section—II,UNMAPPED,0.92,False
+MPA012-U08_C03,MPA-012,Hawthorne & Mayo,Hawthorne & Mayo,UNMAPPED,0.92,False
+MPA012-U09_C02,MPA-012,Simon: Role of choice and behaviour in decision...,Simon: Role of choice and behaviour in decision...,UNMAPPED,0.92,False
+MPA012-U09_C01,MPA-012,Bounded & Simon,Bounded & Simon,UNMAPPED,0.92,False
+MPA012-U09_C03,MPA-012,Role of Choice and Behaviour in Decision,Role of Choice and Behaviour in Decision,UNMAPPED,0.92,False
+MPA012-U12_C01,MPA-012,Herzberg & Hygiene & Job Enlargement,Herzberg & Hygiene & Job Enlargement,UNMAPPED,0.92,False
+MPA012-U13_C02,MPA-012,Expectancy & Vroom,Expectancy & Vroom,UNMAPPED,0.92,False
+MPA012-U13_C01,MPA-012,Mcgregor & Theory X & Theory Y,Douglas McGregor’s Theory X and Theory Y,MPA012-U13-T13_3,0.97,False
+MPA012-U13_C03,MPA-012,Mcgregor: Highlight the assumptions behind the the...,Mcgregor: Highlight the assumptions behind the the...,UNMAPPED,0.92,False
+MPA012-U15_C01,MPA-012,Barnard & Cooperative & Easton,Barnard & Cooperative & Easton,UNMAPPED,0.92,False
+MPA012-U15_C02,MPA-012,Barnard & Rti: the views of Chester Bernard on organisa...,Barnard & Rti: the views of Chester Bernard on organisa...,UNMAPPED,0.92,False
+MPA012-U15_C03,MPA-012,Easton: ‘Organisation is an open system.” Elucid...,Easton: ‘Organisation is an open system.” Elucid...,UNMAPPED,0.92,False
+MPA012-U15_C04,MPA-012,'Chester Bernard added a new dimension to,'Chester Bernard added a new dimension to,UNMAPPED,0.92,False
+MPA012-U17_C01,MPA-012,the components of organizational culture,the components of organizational culture,UNMAPPED,0.92,False
+MPA012-U17_C02,MPA-012,Organisational Culture. 20 [ 3 ] MPA-012,Organisational Culture. 20 [ 3 ] MPA-012,UNMAPPED,0.92,False
+MPA012-U17_C03,MPA-012,“Cultural change is a slow process.” Discuss,“Cultural change is a slow process.” Discuss,UNMAPPED,0.92,False
+MPA012-U18_C01,MPA-012,New Public Administration,New Public Administration,UNMAPPED,0.92,False
+MPA012-U18_C02,MPA-012,Minnowbrook: Describe the major thrust areas of the S...,Minnowbrook: Describe the major thrust areas of the S...,UNMAPPED,0.92,False
+MPA012-U02_C01,MPA-012,Highlight the major principles and significance of,Highlight the major principles and significance of,UNMAPPED,0.92,False
+MPA012-U02_C02,MPA-012,“Both formal and informal organisations are important,“Both formal and informal organisations are important,UNMAPPED,0.92,False
+MPA012-U02_C05,MPA-012,Characteristics of Formal Organization 10,Characteristics of Formal Organization 10,UNMAPPED,0.92,False
+MPA012-U02_C07,MPA-012,‘‘Administration occurs in both public and private,‘‘Administration occurs in both public and private,UNMAPPED,0.92,False
+MPA012-U02_C04,MPA-012,the typologies of an organiza- tion,the typologies of an organiza- tion,UNMAPPED,0.92,False
+MPA012-U02_C06,MPA-012,"Define administration and differentiate between administration, organization","Define administration and differentiate between administration, organization",UNMAPPED,0.92,False
+MPA012-U02_C03,MPA-012,Bring to light typologies of organisations,Bring to light typologies of organisations,UNMAPPED,0.92,False
+MPA012-U02_C08,MPA-012,Contingency approaches to organisational 10 design MPA-012,Contingency approaches to organisational 10 design MPA-012,UNMAPPED,0.92,False
+MPA012-U21_C01,MPA-012,Hygiene & New Public Management & Rti,Hygiene & New Public Management & Rti,UNMAPPED,0.92,False
+MPA012-U21_C03,MPA-012,Key Features of New Public Management,Key Features of New Public Management,MPA012-U21-T21_3,0.97,False
+MPA012-U21_C02,MPA-012,Methodological individualism,Methodological individualism,UNMAPPED,0.92,False
+MPA012-U21_C04,MPA-012,Administrative Management Movement 10 A–275/MPA–012 P. T,Administrative Management Movement 10 A–275/MPA–012 P. T,UNMAPPED,0.92,False
+MPA012-U21_C05,MPA-012,the assumptions and managerial implications of Theories,the assumptions and managerial implications of Theories,UNMAPPED,0.92,False
+MPA012-U21_C06,MPA-012,"ict cei cr) MTN * arid, ati","ict cei cr) MTN * arid, ati",UNMAPPED,0.92,False
+MPA012-U21_C07,MPA-012,Citizen VS. Customer Orientation 10 MPA-012 2,Citizen VS. Customer Orientation 10 MPA-012 2,UNMAPPED,0.92,False
+MPA012-U21_C08,MPA-012,Methodological Individualism and Rationality 10 MPA-012 3,Methodological Individualism and Rationality 10 MPA-012 3,UNMAPPED,0.92,False
+MPA012-U21_C09,MPA-012,Administrative Management Movement 10,Administrative Management Movement 10,UNMAPPED,0.92,False
+MPA012-U21_C10,MPA-012,Salient features of NPM perspective 10 MPA-012,Salient features of NPM perspective 10 MPA-012,UNMAPPED,0.92,False
+MPA013-U01_C01,MPA-013,the theoretical foundations of evolution of public,the theoretical foundations of evolution of public,UNMAPPED,0.92,False
+MPA013-U01_C02,MPA-013,Inter-State Council,Inter-State Council,UNMAPPED,0.92,False
+MPA013-U01_C04,MPA-013,the concept of Public Systems Management and,the concept of Public Systems Management and,UNMAPPED,0.92,False
+MPA013-U01_C03,MPA-013,Comptroller and Auditor General of India,Comptroller and Auditor General of India,UNMAPPED,0.92,False
+MPA013-U01_C05,MPA-013,Steps in Zero-based budgting,Steps in Zero-based budgting,UNMAPPED,0.92,False
+MPA013-U01_C06,MPA-013,Describe the nature and scope of Public,Describe the nature and scope of Public,UNMAPPED,0.92,False
+MPA013-U01_C07,MPA-013,“The concept of governanc e is used,“The concept of governanc e is used,UNMAPPED,0.92,False
+MPA013-U01_C08,MPA-013,the concept of Public System s Management,the concept of Public System s Management,UNMAPPED,0.92,False
+MPA013-U01_C09,MPA-013,the concept of public systems management and,the concept of public systems management and,UNMAPPED,0.92,False
+MPA013-U01_C10,MPA-013,the concept and scope of public systems,Conceptual Foundations and Scope of Public Systems Management,MPA013-U01-T1_2,0.96,False
+MPA013-U01_C11,MPA-013,‘The Indian parliament is a multi-functional institution,‘The Indian parliament is a multi-functional institution,UNMAPPED,0.92,False
+MPA013-U01_C14,MPA-013,the concept and scope of public systems,the concept and scope of public systems,UNMAPPED,0.92,False
+MPA013-U01_C15,MPA-013,the concept of Public Systems Management and,the concept of Public Systems Management and,UNMAPPED,0.92,False
+MPA013-U01_C17,MPA-013,the nature and scope of Public Systems,the nature and scope of Public Systems,UNMAPPED,0.92,False
+MPA013-U01_C12,MPA-013,Roll-back of the state,Roll-back of the state,UNMAPPED,0.92,False
+MPA013-U01_C13,MPA-013,Citizens' Right,Citizens' Right,UNMAPPED,0.92,False
+MPA013-U01_C16,MPA-013,Rural Urban Interface,Rural Urban Interface,UNMAPPED,0.92,False
+MPA013-U01_C18,MPA-013,National Human Rights Commission and 10 State,National Human Rights Commission and 10 State,UNMAPPED,0.92,False
+MPA013-U02_C01,MPA-013,the changing nature of public service,the changing nature of public service,UNMAPPED,0.92,False
+MPA013-U02_C02,MPA-013,the concept of public systems management and,the concept of public systems management and,UNMAPPED,0.92,False
+MPA013-U02_C03,MPA-013,Nature and Characteristics of Public Systems Management,Nature and Characteristics of Public Systems Management,UNMAPPED,0.92,False
+MPA013-U02_C04,MPA-013,the concept an d features of Public,the concept an d features of Public,UNMAPPED,0.92,False
+MPA013-U02_C06,MPA-013,the role of Comptroller and Auditor General,the role of Comptroller and Auditor General,UNMAPPED,0.92,False
+MPA013-U02_C08,MPA-013,Analyse the social factors that affect the,Analyse the social factors that affect the,UNMAPPED,0.92,False
+MPA013-U02_C05,MPA-013,the theoretical foundations of the evolution of,the theoretical foundations of the evolution of,UNMAPPED,0.92,False
+MPA013-U02_C07,MPA-013,the traditional Public Administration model and discuss,the traditional Public Administration model and discuss,UNMAPPED,0.92,False
+MPA013-U07_C01,MPA-013,the contextual uses of Governance. A–197/,the contextual uses of Governance. A–197/,UNMAPPED,0.92,False
+MPA013-U07_C02,MPA-013,The concept of governance is used in,The concept of governance is used in,UNMAPPED,0.92,False
+MPA013-U07_C03,MPA-013,Bureaucracy: Role of bureaucracy and po litical execu...,Bureaucracy: Role of bureaucracy and po litical execu...,UNMAPPED,0.92,False
+MPA013-U09_C01,MPA-013,Analyse the role of legislature in Governance,Roles of Legislature and Judiciary in Governance,MPA013-U09-T9_3,0.92,False
+MPA013-U09_C02,MPA-013,Areas of Judicial Activism,Areas of Judicial Activism,UNMAPPED,0.92,False
+MPA013-U09_C03,MPA-013,Analyse the role of judiciary in governance,Analyse the role of judiciary in governance,UNMAPPED,0.92,False
+MPA013-U09_C04,MPA-013,Public Interest Litigation,Public Interest Litigation,UNMAPPED,0.92,False
+MPA013-U09_C05,MPA-013,Bureaucracy: Relationship between legislature and bur...,Bureaucracy: Relationship between legislature and bur...,UNMAPPED,0.92,False
+MPA013-U11_C01,MPA-013,Performance Budgeting,Performance Budgeting,UNMAPPED,0.92,False
+MPA013-U11_C02,MPA-013,zero-based budgeting,zero-based budgeting,UNMAPPED,0.92,False
+MPA013-U11_C04,MPA-013,the impact of ICT enabled initiatives on,the impact of ICT enabled initiatives on,UNMAPPED,0.92,False
+MPA013-U11_C03,MPA-013,Public Accounts Committee,Public Accounts Committee,UNMAPPED,0.92,False
+MPA013-U11_C05,MPA-013,“Auditing of Accounts and Parliamentary Scrutiny are,“Auditing of Accounts and Parliamentary Scrutiny are,UNMAPPED,0.92,False
+MPA013-U11_C06,MPA-013,the various phases of legislation o f,the various phases of legislation o f,UNMAPPED,0.92,False
+MPA013-U11_C07,MPA-013,the concept of budget and highlight the,the concept of budget and highlight the,UNMAPPED,0.92,False
+MPA013-U11_C08,MPA-013,'There has been a significant impact of,'There has been a significant impact of,UNMAPPED,0.92,False
+MPA013-U11_C09,MPA-013,the role of parliament in controlling receipts,the role of parliament in controlling receipts,UNMAPPED,0.92,False
+MPA013-U11_C10,MPA-013,the role of financial committees with reference,Parliamentary Financial Committees and Budgetary Oversight,MPA013-U11-T11_5,0.96,False
+MPA013-U11_C11,MPA-013,"Planning, Programming and Budgeting 10 System 1","Planning, Programming and Budgeting 10 System 1",UNMAPPED,0.92,False
+MPA013-U14_C01,MPA-013,Describe the phases of systems analysis,Describe the phases of systems analysis,UNMAPPED,0.92,False
+MPA013-U14_C02,MPA-013,Tqm: the important principles and techniques ...,Tqm: the important principles and techniques ...,UNMAPPED,0.92,False
+MPA013-U18_C01,MPA-013,Trend extrapolation,Trend extrapolation,UNMAPPED,0.92,False
+MPA013-U18_C02,MPA-013,Analyse the various group decision -making techniques,Analyse the various group decision -making techniques,UNMAPPED,0.92,False
+MPA013-U18_C03,MPA-013,Group Decision-Making Techniques: Delphi and Nominal Group,Group Decision-Making Techniques: Delphi and Nominal Group,UNMAPPED,0.92,False
+MPA013-U19_C01,MPA-013,Changing Complexion of Accountability,Changing Complexion of Accountability,UNMAPPED,0.92,False
+MPA013-U19_C02,MPA-013,Good Governance,Good Governance,UNMAPPED,0.92,False
+MPA013-U23_C01,MPA-013,Describe the models of change management,Describe the models of change management,UNMAPPED,0.92,False
+MPA013-U23_C02,MPA-013,Organisational Development,Organisational Development,UNMAPPED,0.92,False
+MPA013-U23_C03,MPA-013,Elaborate the important ways through which the,Elaborate the important ways through which the,UNMAPPED,0.92,False
+MPA013-U23_C04,MPA-013,Approaches to change 10 2,Approaches to change 10 2,UNMAPPED,0.92,False
+MPA013-U23_C05,MPA-013,Public-Private partnership 20 10 10 2,Public-Private partnership 20 10 10 2,UNMAPPED,0.92,False
+MPA013-U23_C06,MPA-013,Analyse the components of the strategy th,Analyse the components of the strategy th,UNMAPPED,0.92,False
+MPA013-U23_C07,MPA-013,Activity Sampling,Activity Sampling in Change Management,UNMAPPED,0.85,False
+MPA013-U23_C08,MPA-013,"Brainstorming 10 ,e- ,- (yksd iz'kklu) (,e-","Brainstorming 10 ,e- ,- (yksd iz'kklu) (,e-",UNMAPPED,0.92,False
+MPA013-U23_C12,MPA-013,Analyse public sector reforms in the light,Analyse public sector reforms in the light,UNMAPPED,0.92,False
+MPA013-U23_C09,MPA-013,Pre-determined Motion Time Systems (PMTS),Pre-determined Motion Time Systems (PMTS),UNMAPPED,0.92,False
+MPA013-U23_C10,MPA-013,Brain Storming 10 2,Brain Storming 10 2,UNMAPPED,0.92,False
+MPA013-U23_C11,MPA-013,the various ways of classifications of logistics,the various ways of classifications of logistics,UNMAPPED,0.92,False
+MPA013-U25_C01,MPA-013,Analyse the major maladies of Public System,Analyse the major maladies of Public System,UNMAPPED,0.92,False
+MPA013-U25_C03,MPA-013,Analyse the key dysfunctionalities of public systems,Analyse the key dysfunctionalities of public systems,UNMAPPED,0.92,False
+MPA013-U25_C02,MPA-013,‘A four-pronged strategy is needed to deal,‘A four-pronged strategy is needed to deal,UNMAPPED,0.92,False
+MPA013-U25_C04,MPA-013,globalisation and public systems reforms,globalisation and public systems reforms,UNMAPPED,0.92,False
+MPA013-U05_C01,MPA-013,the socio -economic context of Public Systems,the socio -economic context of Public Systems,UNMAPPED,0.92,False
+MPA013-U05_C02,MPA-013,‘There are various factors that determine the,‘There are various factors that determine the,UNMAPPED,0.92,False
+MPA013-U05_C03,MPA-013,"'Economic factors affect the nature, organisation and","'Economic factors affect the nature, organisation and",UNMAPPED,0.92,False
+MPA013-U05_C04,MPA-013,the social context of public systems,the social context of public systems,UNMAPPED,0.92,False
+MPA013-U12_C01,MPA-013,Always Better Control (ABC) Analysis,Always Better Control (ABC) Analysis,UNMAPPED,0.92,False
+MPA013-U12_C02,MPA-013,Inventory Control,Inventory Control,UNMAPPED,0.92,False
+MPA013-U12_C03,MPA-013,Logistics Management 10 3,Logistics Management 10 3,UNMAPPED,0.92,False
+MPA014-U01_C01,MPA-014,the significance of Human Resource Management in,the significance of Human Resource Management in,UNMAPPED,0.92,False
+MPA014-U01_C02,MPA-014,Describe HRM and discuss its objectives,Describe HRM and discuss its objectives,UNMAPPED,0.92,False
+MPA014-U01_C03,MPA-014,“HRM has evolved over the years.” Discuss,Evolution and Contemporary Significance of HRM,MPA014-U01-T1_2,0.96,False
+MPA014-U04_C01,MPA-014,Job Description & Job Enlargement & Job Enrichment,Job Description & Job Enlargement & Job Enrichment,UNMAPPED,0.92,False
+MPA014-U05_C01,MPA-014,Recruitment: “Recruitment is the cornerstone of the e...,Recruitment: “Recruitment is the cornerstone of the e...,UNMAPPED,0.92,False
+MPA014-U05_C04,MPA-014,Methodologies for Determining Merit in Recruitment,Methodologies for Determining Merit in Recruitment,UNMAPPED,0.92,False
+MPA014-U05_C05,MPA-014,“Promotion plays an important role in meeting,“Promotion plays an important role in meeting,UNMAPPED,0.92,False
+MPA014-U05_C03,MPA-014,the features and principles of Promotion,the features and principles of Promotion,UNMAPPED,0.92,False
+MPA014-U05_C02,MPA-014,the different methods to ascertain merit,the different methods to ascertain merit,UNMAPPED,0.92,False
+MPA014-U05_C06,MPA-014,'A good promotion system is useful to,'A good promotion system is useful to,UNMAPPED,0.92,False
+MPA014-U07_C01,MPA-014,Sala: the methods of determining salary struct...,Sala: the methods of determining salary struct...,UNMAPPED,0.92,False
+MPA014-U07_C02,MPA-014,the principles of remuneration,the principles of remuneration,UNMAPPED,0.92,False
+MPA014-U07_C04,MPA-014,Define Job Evaluation and explain its methods,Define Job Evaluation and explain its methods,UNMAPPED,0.92,False
+MPA014-U07_C03,MPA-014,Write a note in brief on the,Write a note in brief on the,UNMAPPED,0.92,False
+MPA014-U10_C01,MPA-014,Training Methods,Training Methods,UNMAPPED,0.92,False
+MPA014-U10_C02,MPA-014,the meaning and importance of training,the meaning and importance of training,UNMAPPED,0.92,False
+MPA014-U10_C03,MPA-014,"“Training, development and education are interrelated concepts.”","“Training, development and education are interrelated concepts.”",UNMAPPED,0.92,False
+MPA014-U13_C01,MPA-014,Define Management Development and discuss its approaches,Define Management Development and discuss its approaches,UNMAPPED,0.92,False
+MPA014-U13_C02,MPA-014,"the concept of management development, by bringing","the concept of management development, by bringing",UNMAPPED,0.92,False
+MPA014-U13_C03,MPA-014,'Management Education and Training form the core,'Management Education and Training form the core,UNMAPPED,0.92,False
+MPA014-U15_C01,MPA-014,Tqm: Describe the concept of Total Quality Ma...,Tqm: Describe the concept of Total Quality Ma...,UNMAPPED,0.92,False
+MPA014-U17_C01,MPA-014,Rti: the institutional mechanism for workers’...,Rti: the institutional mechanism for workers’...,UNMAPPED,0.92,False
+MPA014-U17_C02,MPA-014,"Quality Circle: the meaning, structure and objectives of...","Quality Circle: the meaning, structure and objectives of...",UNMAPPED,0.92,False
+MPA014-U17_C03,MPA-014,Describe the features of Industrial Peace,"Industrial Peace: Concepts, Theories, and Practices",MPA014-U17-T17_7,0.96,False
+MPA014-U17_C04,MPA-014,the methods of Conflict Resolution,the methods of Conflict Resolution,UNMAPPED,0.92,False
+MPA014-U17_C06,MPA-014,What is Grouse ? Explain its causes,What is Grouse ? Explain its causes,UNMAPPED,0.92,False
+MPA014-U17_C05,MPA-014,the role of grievance handling machinery,the role of grievance handling machinery,UNMAPPED,0.92,False
+MPA014-U18_C01,MPA-014,Collective Bargaining,Collective Bargaining,UNMAPPED,0.92,False
+MPA014-U18_C04,MPA-014,Industrial Relations,Industrial Relations,UNMAPPED,0.92,False
+MPA014-U18_C03,MPA-014,Rti: the features of labour policy in India....,Rti: the features of labour policy in India....,UNMAPPED,0.92,False
+MPA014-U18_C06,MPA-014,Define organisational development and describe its techniques,Define organisational development and describe its techniques,UNMAPPED,0.92,False
+MPA014-U18_C07,MPA-014,What do you understand by change at,What do you understand by change at,UNMAPPED,0.92,False
+MPA014-U18_C08,MPA-014,the different approaches to bring change in,the different approaches to bring change in,UNMAPPED,0.92,False
+MPA014-U18_C02,MPA-014,Major Techniques of Conflict Resolution in HR,Major Techniques of Conflict Resolution in HR,UNMAPPED,0.92,False
+MPA014-U18_C05,MPA-014,Define stress and discuss its sources and,Define stress and discuss its sources and,UNMAPPED,0.92,False
+MPA014-U18_C10,MPA-014,"the meaning, causes and effects of 'grievances'","the meaning, causes and effects of 'grievances'",UNMAPPED,0.92,False
+MPA014-U18_C11,MPA-014,"Define grievance and describe its cauF,es and","Define grievance and describe its cauF,es and",UNMAPPED,0.92,False
+MPA014-U18_C09,MPA-014,the labour laws for the unorganised sector,the labour laws for the unorganised sector,UNMAPPED,0.92,False
+MPA014-U20_C01,MPA-014,Rti: “Assessing the effectiveness of human re...,Rti: “Assessing the effectiveness of human re...,UNMAPPED,0.92,False
+MPA014-U20_C02,MPA-014,"Describe the requirements, levels and bases of","Describe the requirements, levels and bases of",UNMAPPED,0.92,False
+MPA014-U20_C03,MPA-014,the purpose of assessing HRM effectiveness and,the purpose of assessing HRM effectiveness and,UNMAPPED,0.92,False
+MPA014-U06_C01,MPA-014,Performance Appraisal,Methods and Traditional Approaches to Performance Appraisal,MPA014-U06-T6_3,0.98,False
+MPA014-U06_C02,MPA-014,Describe the characteristic features of Management by,Describe the characteristic features of Management by,UNMAPPED,0.92,False
+MPA014-U06_C03,MPA-014,"the concept of performance management, discussing its","the concept of performance management, discussing its",UNMAPPED,0.92,False
+MPA014-U06_C04,MPA-014,Define MBO and describe major steps involved,Define MBO and describe major steps involved,UNMAPPED,0.92,False
+MPA014-U06_C05,MPA-014,‘Performance Management is a result-oriented exercise.’ Elaborate,‘Performance Management is a result-oriented exercise.’ Elaborate,UNMAPPED,0.92,False
+MPA014-U06_C06,MPA-014,- What are the different methods of,- What are the different methods of,UNMAPPED,0.92,False
+MPA014-U12_C01,MPA-014,"the concept of Learning and Development, explain","the concept of Learning and Development, explain",UNMAPPED,0.92,False
+MPA014-U12_C02,MPA-014,‘Training principles can be studied through the,‘Training principles can be studied through the,UNMAPPED,0.92,False

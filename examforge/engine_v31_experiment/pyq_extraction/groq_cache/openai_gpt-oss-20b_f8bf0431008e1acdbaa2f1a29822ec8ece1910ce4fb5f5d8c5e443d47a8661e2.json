@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS_WITH_MINOR_WARNINGS",
+  "factual_accuracy_score": 0.95,
+  "comments": "The framework accurately attributes core liberal concepts to the correct thinkers and aligns with established political theory. Minor stylistic concerns include the thematic mismatch between \u201cMarx & Marxist\u201d and the liberal focus, and a slight overstatement of Weber\u2019s bureaucracy as inherently neutral within a liberal state. No fabricated facts are present.",
+  "correction_needed": "None"
+}

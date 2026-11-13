@@ -1,0 +1,28 @@
+{
+  "question": "Discuss the concept, characteristics and types of 20 organisation.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Organisation is the purposeful arrangement of people, resources and activities to achieve predetermined goals. As Katz and Kahn observe, when goal\u2011directed activities are coordinated rationally through assignment of duties and responsibilities, this rational coordination constitutes organisation. In public administration, organisation provides the structural backbone that aligns individual efforts with collective objectives, thereby preventing duplication, confusion and conflict. The concept therefore bridges the gap between abstract policy intent and concrete service delivery.",
+  "body_sections": [
+    {
+      "heading": "Characteristics of an Organisation",
+      "content": "An organisation exhibits several distinctive traits. First, it is goal\u2011oriented; every activity is directed towards a common purpose. Second, it possesses a defined structure of authority and hierarchy, which delineates roles, responsibilities and reporting relationships. Third, it operates through a system of coordinated activities, ensuring that tasks are interdependent yet complementary. Fourth, it is a social entity, comprising individuals who interact, share norms and develop a collective identity. Fifth, it is enduring, persisting beyond the tenure of any single member, and finally, it is adaptable, capable of modifying its processes and structures in response to environmental changes."
+    },
+    {
+      "heading": "Formal and Informal Organisations",
+      "content": "Formal organisations are deliberately created by statutes, policies or managerial decisions and are characterised by written rules, official hierarchies and clearly defined procedures. Public agencies, ministries and statutory bodies exemplify formal structures. In contrast, informal organisations emerge spontaneously from interpersonal relationships, shared values and social networks within the formal framework. They influence communication patterns, morale and decision\u2011making, often filling gaps left by formal mechanisms. Recognising both dimensions is essential for administrators, as informal dynamics can either reinforce or undermine formal objectives."
+    },
+    {
+      "heading": "Typologies of Organisations",
+      "content": "IGNOU classifies organisations on several bases. By goal or function, they are categorized as regulatory (e.g., Election Commission), service\u2011oriented (e.g., Municipal Corporations) or developmental (e.g., Planning Commission). On the basis of the primary beneficiary, they are public\u2011oriented, private\u2011oriented or mixed. Compliance\u2011based typology distinguishes statutory bodies that must adhere to legal mandates from discretionary agencies with greater flexibility. Finally, authority\u2011based typology differentiates hierarchical (bureaucratic) organisations from flat or networked structures. These typologies help administrators tailor management approaches to the specific nature of each entity."
+    }
+  ],
+  "critical_evaluation": "While the classical view of organisation emphasises hierarchy and formal rules, contemporary public administration acknowledges the growing relevance of network governance, collaborative partnerships and digital platforms. The rigid typologies may obscure hybrid forms such as public\u2011private partnerships, where authority and beneficiary lines blur. Moreover, the focus on structural characteristics can underplay cultural and behavioural aspects that shape performance. Hence, scholars advocate a more fluid, systems\u2011oriented perspective that integrates formal design with informal dynamics and external stakeholder influences.",
+  "conclusion": "In sum, organisation is a goal\u2011directed, structured, enduring and adaptable social system. Its key characteristics\u2014goal orientation, hierarchical authority, coordinated activity, social nature, durability and adaptability\u2014provide the scaffolding for public administration. Understanding formal versus informal dimensions and the multiple typologies equips administrators to design, manage and reform organisations that are responsive to contemporary governance challenges.",
+  "key_thinkers_cited": [
+    "Katz",
+    "Kahn",
+    "Max Weber",
+    "Henri Fayol"
+  ]
+}

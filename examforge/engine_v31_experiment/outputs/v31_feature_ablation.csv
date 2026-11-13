@@ -1,0 +1,21 @@
+course_code,configuration,total_test_papers,brier_score,mean_attemptable_marks,min_attemptable_marks,statutory_100m_rate_pct,statutory_ge_90m_rate_pct
+MPA-011,"v3.0 Baseline (15yr, Std Cooldown, Std MILP)",11,0.2963,87.27,40,54.5,54.5
+MPA-011,v3.1 + Format/OCR Fixes Only,11,0.2963,91.82,60,54.5,81.8
+MPA-011,v3.1 + 5-Yr Window (No Cooldown),11,0.2339,97.27,90,72.7,100.0
+MPA-011,v3.1 + 5-Yr Window (Beta-Binomial Cooldown),11,0.2419,97.27,90,72.7,100.0
+MPA-011,v3.1 + Joint 10-Core & 2-Buffer + TMA Tie-Breaker,11,0.2319,100.0,100,100.0,100.0
+MPA-012,"v3.0 Baseline (15yr, Std Cooldown, Std MILP)",11,0.2532,96.36,70,81.8,90.9
+MPA-012,v3.1 + Format/OCR Fixes Only,11,0.2532,98.18,90,81.8,100.0
+MPA-012,v3.1 + 5-Yr Window (No Cooldown),11,0.235,98.18,90,81.8,100.0
+MPA-012,v3.1 + 5-Yr Window (Beta-Binomial Cooldown),11,0.2372,97.27,90,72.7,100.0
+MPA-012,v3.1 + Joint 10-Core & 2-Buffer + TMA Tie-Breaker,11,0.2249,99.09,90,90.9,100.0
+MPA-013,"v3.0 Baseline (15yr, Std Cooldown, Std MILP)",11,0.2432,90.91,60,63.6,72.7
+MPA-013,v3.1 + Format/OCR Fixes Only,11,0.2432,96.36,80,81.8,81.8
+MPA-013,v3.1 + 5-Yr Window (No Cooldown),11,0.258,87.27,60,27.3,72.7
+MPA-013,v3.1 + 5-Yr Window (Beta-Binomial Cooldown),11,0.2538,89.09,60,45.5,63.6
+MPA-013,v3.1 + Joint 10-Core & 2-Buffer + TMA Tie-Breaker,11,0.2458,90.91,60,45.5,81.8
+MPA-014,"v3.0 Baseline (15yr, Std Cooldown, Std MILP)",11,0.253,93.64,80,63.6,72.7
+MPA-014,v3.1 + Format/OCR Fixes Only,11,0.253,96.36,90,63.6,100.0
+MPA-014,v3.1 + 5-Yr Window (No Cooldown),11,0.2374,94.55,80,54.5,90.9
+MPA-014,v3.1 + 5-Yr Window (Beta-Binomial Cooldown),11,0.239,98.18,90,81.8,100.0
+MPA-014,v3.1 + Joint 10-Core & 2-Buffer + TMA Tie-Breaker,11,0.2271,98.18,90,81.8,100.0

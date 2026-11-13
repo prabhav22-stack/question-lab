@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS_WITH_MINOR_WARNINGS",
+  "factual_accuracy_score": 0.97,
+  "comments": "The framework accurately cites key thinkers and theories relevant to the impact of globalisation on public administration. It demonstrates appropriate academic depth for a 500\u2011word or 250\u2011word essay and contains no fabricated facts. Minor clarifications are suggested: New Public Management and the UNDP Human Development Model are conceptual frameworks rather than individual thinkers, and the term \"policy transfer\" refers to a process rather than a thinker.",
+  "correction_needed": "Clarify that New Public Management and UNDP Human Development Model are models, not individual thinkers."
+}

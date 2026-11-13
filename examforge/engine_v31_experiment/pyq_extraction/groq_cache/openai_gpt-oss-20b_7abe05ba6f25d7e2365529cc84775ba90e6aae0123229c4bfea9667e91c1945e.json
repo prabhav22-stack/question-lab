@@ -1,0 +1,6 @@
+{
+  "verdict": "REQUIRES_REVISION",
+  "factual_accuracy_score": 0.0,
+  "comments": "The proposed framework is not a substantive answer; it contains only an HTTP error message and no content to evaluate against the official IGNOU unit text. Consequently, it fails all review criteria: no factual fidelity, no academic depth, and it is entirely fabricated (the error message is not a legitimate answer).",
+  "correction_needed": "Provide a complete answer framework that follows the structure of Unit 14, includes the key concepts, learning outcomes, and aligns with the official text. Ensure all statements are directly supported by the excerpt and avoid any hallucinated theories."
+}

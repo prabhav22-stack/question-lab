@@ -1,0 +1,32 @@
+{
+  "question": "Initiatives towards Good Governance in India.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Good governance, as defined in the IGNOU unit, denotes a process of decision\u2011making and implementation that is participatory, transparent, accountable, responsive and equitable. It marks a shift from the New Public Management paradigm to a broader, citizen\u2011centred approach. In the Indian context, the quest for good governance has been institutionalised through constitutional, legislative and policy initiatives that aim to align state actions with the expectations of a democratic, pluralistic society.",
+  "body_sections": [
+    {
+      "heading": "Legislative Framework for Transparency and Accountability",
+      "content": "The Right to Information (RTI) Act, 2005 epitomises India\u2019s commitment to transparency. By empowering citizens to seek information from public authorities, the RTI Act operationalises the principle of openness and has led to the emergence of social audits, especially in rural development programmes such as MGNREGA. Complementing RTI, the Lokpal and Lokayuktas Act, 2013 establishes independent anti\u2011corruption bodies at the central and state levels, thereby strengthening accountability mechanisms. Both statutes are repeatedly cited in the unit as cornerstone initiatives that institutionalise citizen oversight."
+    },
+    {
+      "heading": "E\u2011Governance and Digital Service Delivery",
+      "content": "The National e\u2011Governance Plan (NeGP) and subsequent Digital India programme represent strategic moves to harness information technology for efficient service delivery. Initiatives such as the Aadhaar biometric identity system, online portals for tax filing (e\u2011TDS, GST), and the Integrated Financial Management Information System (IFMIS) reduce procedural delays, curtail discretionary power and enhance traceability. The unit highlights these as practical embodiments of the \u2018responsive\u2019 and \u2018efficient\u2019 attributes of good governance."
+    },
+    {
+      "heading": "Participatory Mechanisms and Decentralisation",
+      "content": "Grass\u2011roots participation is fostered through the 73rd and 74th Constitutional Amendments, which institutionalise Panchayati Raj Institutions (PRIs) and Urban Local Bodies (ULBs). These bodies are mandated to prepare Social Impact Assessments, maintain citizen charters and conduct Gram Sabhas, thereby embedding participation and inclusiveness. The unit underscores the role of these decentralised structures in translating the principle of \u2018people\u2011centric governance\u2019 into actionable outcomes."
+    },
+    {
+      "heading": "Performance\u2011Based Reforms and Institutional Audits",
+      "content": "The introduction of the Performance Management System (PMS) for civil servants, the Public Financial Management System (PFMS), and the Comptroller and Auditor General\u2019s (CAG) performance audits reflect a shift towards results\u2011oriented governance. By linking promotions and incentives to measurable outcomes, these reforms aim to embed efficiency and effectiveness\u2014key characteristics of good governance as outlined in the unit."
+    }
+  ],
+  "critical_evaluation": "While the aforementioned initiatives have markedly improved transparency, service delivery and citizen participation, challenges persist. Implementation gaps, especially in remote districts, dilute the impact of RTI and e\u2011governance. Moreover, the multiplicity of agencies sometimes leads to overlapping mandates, undermining coordination. The unit cautions that without sustained capacity building, robust grievance redressal mechanisms and political will, the aspirational goals of good governance may remain unevenly realised across the federation.",
+  "conclusion": "India\u2019s multi\u2011pronged approach\u2014legislative reforms, digitalisation, decentralisation and performance\u2011based management\u2014constitutes a comprehensive framework for good governance. These initiatives collectively address the core dimensions of transparency, accountability, participation and efficiency. Nonetheless, continuous monitoring, capacity enhancement and adaptive policy design are essential to translate these initiatives into uniformly high standards of governance nationwide.",
+  "key_thinkers_cited": [
+    "Amartya Sen",
+    "Mahatma Gandhi",
+    "World Bank Governance Indicators",
+    "UNDP Human Development Report"
+  ]
+}

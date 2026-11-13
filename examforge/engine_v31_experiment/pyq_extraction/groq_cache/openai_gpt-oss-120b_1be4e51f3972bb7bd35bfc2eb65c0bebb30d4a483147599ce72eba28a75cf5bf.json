@@ -1,0 +1,28 @@
+{
+  "question": "Analyse the issue confronting the Indian State.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "The Indian State, as envisaged in the Constitution (1950), is a sovereign, democratic, secular and socialist republic tasked with ensuring justice, liberty, equality and fraternity. Over the decades its role has expanded from a minimalist post\u2011colonial apparatus to a proactive development engine. However, this expansion has generated a set of inter\u2011linked challenges\u2014political, administrative and socio\u2011economic\u2014that confront the State\u2019s capacity to fulfil its constitutional mandate. This answer analyses these issues by tracing their historical roots, structural dimensions and contemporary implications.",
+  "body_sections": [
+    {
+      "heading": "1. Structural and Functional Overstretch",
+      "content": "The modern Indian State inherited a colonial bureaucracy designed for extraction rather than welfare. Post\u2011independence, successive governments (Nehrus, Indira Gandhi, coalition era) layered new ministries, agencies and welfare schemes, leading to a sprawling administrative architecture. The resultant functional overlap\u2014e.g., multiple ministries handling health, education and rural development\u2014creates coordination failures, duplication of effort and fiscal strain. The 73rd\u201174th constitutional amendments, while empowering local bodies, have not fully devolved resources, leaving the State overburdened with both macro\u2011policy and micro\u2011service delivery."
+    },
+    {
+      "heading": "2. Federal\u2011State Relations and Governance Fragmentation",
+      "content": "India\u2019s quasi\u2011federal structure, articulated in the Constitution\u2019s division of powers, has been tested by divergent political mandates of the Centre and the States. Coalition politics and regional parties have intensified centre\u2011state negotiations, often resulting in policy paralysis or ad\u2011hoc arrangements (e.g., GST Council). Moreover, fiscal federalism remains skewed: the Centre\u2019s dominance in revenue generation limits State autonomy, while States grapple with inadequate de\u2011centralised financing for local development, exacerbating regional disparities."
+    },
+    {
+      "heading": "3. Democratic Participation and Governance Legitimacy",
+      "content": "The State\u2019s legitimacy is contingent on effective citizen participation. Yet, democratic participation is uneven due to socio\u2011economic cleavages, caste hierarchies and digital divides. While the Constitution guarantees universal adult franchise, voter apathy, clientelist politics and the rise of identity\u2011based mobilisations challenge the quality of representation. Judicial activism, as highlighted in the official unit, has filled governance gaps but also raised concerns about the separation of powers and the State\u2019s accountability mechanisms."
+    }
+  ],
+  "critical_evaluation": "The issues identified reveal a paradox: the State\u2019s ambition to be an agent of development collides with institutional inertia and fragmented federalism. While decentralisation reforms aim to enhance responsiveness, inadequate fiscal devolution and capacity deficits undermine their effectiveness. Moreover, the over\u2011reliance on judicial intervention signals a democratic deficit that may erode public trust. Contemporary relevance is evident in debates on fiscal consolidation, digital governance and the need for a leaner, more accountable bureaucracy.",
+  "conclusion": "In sum, the Indian State confronts structural overstretch, strained centre\u2011state dynamics and challenges to democratic legitimacy. Addressing these requires constitutional\u2011level reforms for fiscal federalism, rationalisation of administrative structures and strengthening participatory mechanisms, thereby realigning the State\u2019s capacity with its constitutional vision.",
+  "key_thinkers_cited": [
+    "Mahatma Gandhi",
+    "B.R. Ambedkar",
+    "Jawaharlal Nehru",
+    "Supreme Court of India"
+  ]
+}

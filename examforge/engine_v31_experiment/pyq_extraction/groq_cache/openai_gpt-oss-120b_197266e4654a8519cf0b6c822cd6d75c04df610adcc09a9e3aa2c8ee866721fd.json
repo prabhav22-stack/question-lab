@@ -1,0 +1,31 @@
+{
+  "question": "Describe the important steps involved in recruitment in an organisation.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Recruitment is described in the IGNOU textbook as \u201cthe cornerstone of the entire personnel structure\u201d. It is the systematic process through which an organisation identifies, attracts and secures suitable candidates for vacant posts. A sound recruitment policy, as emphasised by Stahl (1966) and reiterated by A.B. Vajpayee, ensures fairness, competence and public confidence, especially in the civil service. The following steps constitute a coherent recruitment cycle that aligns with the theoretical and practical insights presented in Unit\u20115 of MPA\u2011014.",
+  "body_sections": [
+    {
+      "heading": "1. Manpower Planning and Job Analysis",
+      "content": "The first step is to forecast human\u2011resource needs based on organisational goals, workload and attrition rates. Manpower planning determines the number and type of positions required. Concurrently, a detailed job analysis is undertaken to delineate duties, responsibilities, qualifications and working conditions. This creates a precise job description and specification, which serve as the benchmark for all subsequent recruitment activities and minimise mismatches between job demands and candidate capabilities."
+    },
+    {
+      "heading": "2. Recruitment Planning and Sourcing",
+      "content": "Having defined the vacancy, the recruitment plan outlines the mode (internal, external or mixed), timeline, budget and selection criteria. The plan is approved by the relevant authority to ensure transparency. Sourcing then involves advertising the vacancy through appropriate channels \u2013 government gazettes, online portals, newspapers or recruitment agencies \u2013 as recommended for civil\u2011service recruitment in India. Effective sourcing widens the talent pool, promotes equal opportunity and upholds the impartiality stressed in public\u2011service recruitment."
+    },
+    {
+      "heading": "3. Application Processing and Shortlisting",
+      "content": "Applications received are screened against the job specification. Automated or manual shortlisting eliminates candidates lacking essential qualifications, experience or eligibility. This step is crucial for maintaining procedural fairness and reducing administrative burden. Shortlisted candidates are notified and invited for further assessment, thereby ensuring that only those who meet the minimum criteria proceed to the selection stage."
+    },
+    {
+      "heading": "4. Selection Procedures and Appointment",
+      "content": "Selection combines objective tests (written examinations, aptitude assessments) and subjective methods (interviews, group discussions, psychometric evaluations) to ascertain merit, as highlighted in the unit\u2019s discussion on methods to ascertain merit. The final merit list is prepared, approved by the appointing authority and communicated to candidates. An appointment letter formalises the offer, specifying terms of service, probation period and other conditions, thereby completing the recruitment cycle."
+    }
+  ],
+  "critical_evaluation": "While the outlined steps provide a comprehensive framework, practical challenges persist. Over\u2011reliance on written tests may overlook soft skills essential for public administration. Moreover, bureaucratic delays in approval and advertisement can lengthen vacancy periods, affecting service delivery. Contemporary reforms advocate for e\u2011recruitment platforms and competency\u2011based interviews to enhance efficiency and relevance, suggesting that the traditional model requires periodic updating to meet modern organisational demands.",
+  "conclusion": "In sum, recruitment in an organisation proceeds through systematic stages of planning, sourcing, screening and selection, each anchored in the principles of fairness, merit and transparency. Adhering to these steps not only fulfills statutory requirements but also builds a competent workforce capable of delivering effective public administration.",
+  "key_thinkers_cited": [
+    "Stahl (1966)",
+    "A.B. Vajpayee",
+    "Union Public Service Commission"
+  ]
+}

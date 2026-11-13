@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS",
+  "factual_accuracy_score": 0.95,
+  "comments": "The framework accurately attributes key concepts to the correct thinkers and models, maintains academic depth suitable for IGNOU\u2019s word limits, and contains no fabricated or hallucinated facts. Minor stylistic tightening could improve conciseness, but no substantive revisions are required.",
+  "correction_needed": "None"
+}

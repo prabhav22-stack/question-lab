@@ -1,0 +1,792 @@
+{
+  "MPA011-U01+U02_C01": {
+    "framework": {
+      "theme": "Marx & Marxist & Riggs",
+      "suggested_introduction": "The State is a complex, contested concept that has evolved from tribal communities to modern welfare and communist regimes. IGNOU\u2019s Unit\u202f1 stresses that no single definition enjoys consensus; scholars view the State variously as a moral\u2011legal entity, an instrument of exploitation, a separate association, or a synonym for government. Establishing this definitional base is essential before analysing its nature through competing perspectives.",
+      "core_dimensions": [
+        "Historical trajectory of the State \u2013 from tribal societies to welfare and communist forms",
+        "Liberal perspective \u2013 the State as a neutral arbiter and guarantor of individual rights",
+        "Marxist perspective \u2013 the State as an instrument of class exploitation and a tool of capitalist domination",
+        "Neo\u2011liberal perspective \u2013 the State as a facilitator of market mechanisms and limited regulator",
+        "\u2018Bringing the State Back In\u2019 debate and the role of the State in the era of globalisation"
+      ],
+      "key_thinkers_and_models": [
+        "Marxist perspective (class struggle, state as instrument of exploitation)",
+        "Liberal perspective (state as neutral guarantor of rights)",
+        "Neo\u2011liberal perspective (state as market facilitator)",
+        "Contemporary \u2018State\u2011Back\u2011In\u2019 framework (re\u2011asserting state relevance in global governance)"
+      ],
+      "critical_evaluation": "While the Marxist view foregrounds power relations and class domination, IGNOU notes its limitation in addressing the pluralistic and networked nature of contemporary governance. The liberal and neo\u2011liberal lenses, though useful for understanding rights\u2011based and market\u2011oriented functions, tend to underplay structural inequalities. The current \u2018State\u2011Back\u2011In\u2019 debate attempts to synthesize these critiques by recognising the State\u2019s regulatory capacity amid globalisation, yet it still grapples with balancing autonomy and interdependence. A nuanced answer must therefore situate the Marxist critique within this broader, contested discourse.",
+      "suggested_conclusion": "The State, as portrayed in IGNOU\u2019s Unit\u202f1, cannot be reduced to a single definition. Liberal, Marxist, and neo\u2011liberal perspectives each illuminate distinct functions and contradictions. Contemporary scholarship, through the \u2018Bringing the State Back In\u2019 debate, seeks to reconcile these views, emphasizing the State\u2019s pivotal yet contested role in a globalised world. A balanced answer acknowledges the explanatory power of the Marxist critique while recognising its limits in today\u2019s complex governance landscape.",
+      "essential_keywords": [
+        "State",
+        "Marxist perspective",
+        "Liberal perspective",
+        "Neo\u2011liberal perspective",
+        "Bringing the State Back In",
+        "Globalisation",
+        "Class exploitation",
+        "Governance"
+      ]
+    },
+    "review": {
+      "verdict": "PASS_WITH_MINOR_WARNINGS",
+      "factual_accuracy_score": 0.85,
+      "comments": "The proposed framework largely aligns with the official IGNOU Unit 1 structure and content, accurately reflecting the key perspectives (Liberal, Marxist, Neo\u2011liberal), the \u2018Bringing the State Back In\u2019 debate, and the role of the State in globalisation. Minor deviations include the mention of \u201cRiggs\u201d in the theme and the reference to \u201ccommunist regimes\u201d in the introduction, neither of which appear in the official excerpt. These additions do not undermine the overall fidelity but should be clarified or removed to maintain strict alignment with the source material. The analysis is academically sound and suitable for high\u2011mark responses.",
+      "correction_needed": "Remove or clarify the reference to \u2018Riggs\u2019 and the mention of \u2018communist regimes\u2019 to ensure strict adherence to the official text."
+    },
+    "ebook_source_units": [
+      1,
+      2
+    ]
+  },
+  "MPA011-U04_C01": {
+    "framework": {
+      "theme": "Marx & Marxist: Describe the liberal perspective of state",
+      "suggested_introduction": "The liberal perspective views the State as an impersonal, privileged legal\u2011constitutional order that administers and controls a defined territory. Rooted in modern Western political thought, it emphasizes the State\u2019s role in safeguarding individual rights, maintaining public order and limiting arbitrary power, as outlined in the IGNOU Unit 4 introduction.",
+      "core_dimensions": [
+        "Conceptualisation of the State as an impartial legal\u2011constitutional order",
+        "Origins and foundations of the liberal State \u2013 social\u2011contract ideas and protection of individual liberty",
+        "Relationship between the liberal State and civil society \u2013 limited intervention and rule of law",
+        "Core functions and purposes \u2013 security, justice, and facilitation of economic activity",
+        "Contemporary reassessment \u2013 new trends and critiques of the liberal model"
+      ],
+      "key_thinkers_and_models": [
+        "Niccol\u00f2 Machiavelli (early modern analysis of power and state)",
+        "Jean Bodin (theory of sovereign authority)",
+        "Thomas Hobbes (social\u2011contract model underpinning liberal legal order)"
+      ],
+      "critical_evaluation": "While the liberal view foregrounds rule of law and individual freedoms, IGNOU material notes its tendency to overlook class relations and power asymmetries that Marxist analysis foregrounds. The emphasis on legal neutrality can mask structural inequalities, prompting newer scholarly trends that seek to integrate concerns of social justice and economic redistribution within the liberal framework.",
+      "suggested_conclusion": "The liberal perspective offers a foundational understanding of the State as a neutral legal apparatus designed to protect rights and maintain order. However, its limited attention to class dynamics and power structures necessitates contemporary revisions that incorporate broader social concerns, ensuring the State remains responsive to both individual liberty and collective equity.",
+      "essential_keywords": [
+        "State",
+        "Liberal perspective",
+        "Impartial legal order",
+        "Civil society",
+        "Social contract",
+        "Functions of the State",
+        "Modern Western political thought",
+        "New trends"
+      ]
+    },
+    "review": {
+      "verdict": "REQUIRES_REVISION",
+      "factual_accuracy_score": 0.6,
+      "comments": "The framework aligns with the unit\u2019s general description of the liberal state as an impersonal, privileged legal\u2011constitutional order and with the learning outcomes. However, it introduces thinkers (Machiavelli, Bodin, Hobbes) and claims (IGNOU material\u2019s critique of class relations, emphasis on legal neutrality masking inequalities) that are not explicitly supported by the provided excerpt. These additions risk hallucination and reduce factual fidelity. The critical evaluation also extrapolates beyond the excerpt\u2019s content. To meet the review criteria, the framework should be revised to cite only concepts and references that appear in the official text, or to provide evidence that these thinkers and critiques are indeed part of the unit\u2019s material.",
+      "correction_needed": "Remove unsupported thinkers and claims; explicitly reference the unit\u2019s discussion of the State as an impersonal, privileged legal\u2011constitutional order, its historical evolution, and the new trends section. Add citations or evidence that the unit discusses class relations and critiques of the liberal model. Ensure all statements are directly traceable to the official excerpt."
+    },
+    "ebook_source_units": [
+      4
+    ]
+  },
+  "MPA011-U06_C01": {
+    "framework": {
+      "theme": "Gandhi & Gandhian & Rti",
+      "suggested_introduction": "Gandhian perspective, as outlined in IGNOU Unit\u20116, interrogates the very foundations of the modern State and proposes an alternative polity rooted in \u2018Swaraj\u2019. Drawing on Gandhi\u2019s own treatise *Hind Swaraj* (1909), the unit defines Swaraj as a self\u2011governing, non\u2011violent, grassroots system whose guiding principles and functional doctrine constitute a distinct model of governance, contrasting with liberal, Marxist and neo\u2011liberal views of the State.",
+      "core_dimensions": [
+        "Gandhi\u2019s critique of the modern State \u2013 unsuitability for India and the need for a moral, non\u2011violent order",
+        "The concept of \u2018Swaraj\u2019 as Gandhi\u2019s model of polity \u2013 definition, objectives and constitutional implications",
+        "Guiding principles and functional doctrine of Swaraj \u2013 self\u2011containment, decentralisation, moral authority",
+        "Interaction with Liberalism \u2013 points of convergence and divergence in the Gandhian polity",
+        "Theory of Trusteeship \u2013 ethical redistribution of wealth and responsibility as a complement to Swaraj"
+      ],
+      "key_thinkers_and_models": [
+        "Mahatma Gandhi (primary thinker)",
+        "*Hind Swaraj* (source text for Swaraj)",
+        "Swaraj model \u2013 guiding principles & functional doctrine",
+        "Gandhi\u2019s theory of Trusteeship",
+        "Comparative analysis with Liberalism"
+      ],
+      "critical_evaluation": "The Gandhian model offers a morally grounded, participatory alternative to the bureaucratic modern State, emphasizing decentralisation and ethical economics. However, IGNOU material notes practical constraints: the reliance on voluntary self\u2011restraint challenges scalability, the absence of a clear institutional framework limits policy translation, and the theory of Trusteeship, while ethically appealing, lacks concrete mechanisms for enforcement in a complex, market\u2011driven economy. Contemporary scholars therefore view Gandhian polity as an aspirational paradigm that must be adapted to modern administrative realities.",
+      "suggested_conclusion": "Gandhi\u2019s critique and his vision of Swaraj present a coherent, ethically driven alternative to conventional state structures. By integrating guiding principles, functional doctrine, and trusteeship, the Gandhian perspective enriches public administration discourse, even as its implementation demands contextual adaptation and institutional innovation.",
+      "essential_keywords": [
+        "Swaraj",
+        "Modern State",
+        "Trusteeship",
+        "Hind Swaraj",
+        "Guiding Principles",
+        "Functional Doctrine",
+        "Liberalism",
+        "Gandhi\u2019s critique"
+      ]
+    },
+    "review": {
+      "verdict": "PASS_WITH_MINOR_WARNINGS",
+      "factual_accuracy_score": 0.92,
+      "comments": "The proposed framework aligns closely with the official IGNOU unit structure, accurately covering Gandhi\u2019s critique of the modern state, the Swaraj model (guiding principles, functional doctrine, and understanding), the interaction with liberalism, and the theory of trusteeship. It also includes a critical evaluation and conclusion that are academically robust and suitable for high marks. The only minor omission is the absence of explicit reference to Marxist and neo\u2011liberal perspectives, which are mentioned in the official unit as comparative lenses. This does not materially affect the factual fidelity but could be added for completeness.",
+      "correction_needed": "Add a brief mention of Marxist and neo\u2011liberal perspectives in the comparative analysis section to fully reflect the unit\u2019s comparative framework."
+    },
+    "ebook_source_units": [
+      6
+    ]
+  },
+  "MPA011-U09_C01": {
+    "framework": {
+      "theme": "Rti: Define social equity and describe changi...",
+      "suggested_introduction": "Social equity, once equated with equality, is now understood as a dimension of social justice that seeks a fair distribution of resources, opportunities and rights across diverse groups. The IGNOU unit highlights its evolution from caste\u2011based reforms to a broader agenda encompassing gender, ethnicity, human capital, cultural freedom and ecological concerns, situated within a people\u2011centric and governance\u2011focused public administration paradigm.",
+      "core_dimensions": [
+        "Conceptual evolution of social equity from equality to social justice and social engineering",
+        "Emergence of social equity concerns in public administrative studies",
+        "Changing norm of participation and its linkage with equity",
+        "Norms of autonomy and flexibility as mechanisms to operationalise equity",
+        "Indian contextual challenges: managing diversity, cultural identities and multi\u2011culturalism"
+      ],
+      "key_thinkers_and_models": [
+        "Governance school of public administration (emphasis on civil\u2011society activism)",
+        "People\u2011centric and governance\u2011focused approaches to public administration",
+        "Social engineering perspective on equity"
+      ],
+      "critical_evaluation": "While the unit foregrounds equity as essential for inclusive governance, it acknowledges persistent gaps: policy implementation often underplays equity, everyday exclusion and discrimination endure, and the expanding scope (gender, ecology, multiculturalism) strains administrative capacity. Moreover, the reliance on broad concepts like \u2018social engineering\u2019 may dilute actionable strategies, necessitating clearer operational frameworks and stronger institutional mechanisms to translate equity ideals into practice.",
+      "suggested_conclusion": "Social equity has transitioned from a narrow caste\u2011reform agenda to a comprehensive, multidimensional construct integral to modern public administration. Its effective incorporation demands participatory governance, autonomous yet flexible institutions, and context\u2011specific policies that respect India\u2019s diverse social fabric, thereby advancing a truly people\u2011centric state.",
+      "essential_keywords": [
+        "Social equity",
+        "Social justice",
+        "Governance school",
+        "People\u2011centric administration",
+        "Participation",
+        "Autonomy",
+        "Flexibility",
+        "Diversity"
+      ]
+    },
+    "review": {
+      "verdict": "PASS_WITH_MINOR_WARNINGS",
+      "factual_accuracy_score": 0.85,
+      "comments": "The framework largely aligns with the official IGNOU unit text, accurately reflecting key themes such as the governance school, people\u2011centric approaches, and the evolving norms of participation, autonomy, and flexibility. However, it introduces the notion of a \"social engineering perspective on equity\" and frames social equity as evolving from equality to social justice and social engineering\u2014concepts not explicitly present in the excerpt. These additions represent minor hallucinations. The critical evaluation is consistent with the excerpt\u2019s discussion of under\u2011implementation and exclusion. Overall, the content is academically suitable for high\u2011marking IGNOU term\u2011end examinations, provided the hallucinated elements are revised.",
+      "correction_needed": "Remove or rephrase the \"social engineering perspective on equity\" and the evolution from equality to social justice and social engineering to match the official text."
+    },
+    "ebook_source_units": [
+      9
+    ]
+  },
+  "MPA011-U10_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      10
+    ]
+  },
+  "MPA011-U12_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      12
+    ]
+  },
+  "MPA011-U14_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "verdict": "REQUIRES_REVISION",
+      "factual_accuracy_score": 0.0,
+      "comments": "The proposed framework is not a substantive answer; it contains only an HTTP error message and no content to evaluate against the official IGNOU unit text. Consequently, it fails all review criteria: no factual fidelity, no academic depth, and it is entirely fabricated (the error message is not a legitimate answer).",
+      "correction_needed": "Provide a complete answer framework that follows the structure of Unit 14, includes the key concepts, learning outcomes, and aligns with the official text. Ensure all statements are directly supported by the excerpt and avoid any hallucinated theories."
+    },
+    "ebook_source_units": [
+      14
+    ]
+  },
+  "MPA011-U17_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      17
+    ]
+  },
+  "MPA011-U19_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      19
+    ]
+  },
+  "MPA011-U21_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      21
+    ]
+  },
+  "MPA011-U05_C01": {
+    "framework": {
+      "theme": "The Neo-liberal view of the State",
+      "suggested_introduction": "The Neo\u2011liberal perspective, also termed \u2018New Liberalism\u2019, is presented in the IGNOU unit as the dominant paradigm in contemporary social\u2011science discourse. It revives the Classical Liberal notion of a minimalist State limited to law\u2011and\u2011order functions, allowing individuals to pursue self\u2011interest, and emerges as a reaction against perceived failures of the Welfare State such as rising income disparity, unemployment and under\u2011employment.",
+      "core_dimensions": [
+        "Historical evolution: from Classical Liberalism through Positive Liberalism and Welfare State to Neo\u2011liberalism",
+        "The \u2018Troika\u2019 of Hayek, Nozick and Friedman: core theoretical contributions",
+        "Thatcherism and Reaganism as political embodiments of Neo\u2011liberalism",
+        "Neo\u2011liberal view of the State: minimalist, market\u2011oriented, emphasis on competition and choice",
+        "Impact on Public Administration: shift towards New Public Management, decentralisation, performance\u2011based reforms"
+      ],
+      "key_thinkers_and_models": [
+        "Friedrich Hayek \u2013 spontaneous order and limited state intervention",
+        "Robert Nozick \u2013 entitlement theory and minimal state",
+        "Milton Friedman \u2013 monetarism, deregulation and private provision of public services",
+        "Thatcherism \u2013 market\u2011driven reforms in the UK",
+        "Reaganism \u2013 supply\u2011side economics in the US"
+      ],
+      "critical_evaluation": "While the Neo\u2011liberal framework promises efficiency and individual freedom, IGNOU material highlights several limitations: it often overlooks social equity, can exacerbate income inequalities, and may undermine public welfare by prioritising market solutions over collective provision. The retreat from welfare provisions has been critiqued for creating gaps in social safety nets, and the emphasis on competition may lead to fragmentation of public services and reduced accountability.",
+      "suggested_conclusion": "Neo\u2011liberalism re\u2011asserts a minimalist State rooted in Classical Liberal ideals, positioning the market as the primary engine of development. Though it offers a compelling critique of Welfare State inefficiencies, its over\u2011reliance on market mechanisms raises concerns about equity, social justice and the capacity of the State to safeguard vulnerable groups. A balanced approach that integrates Neo\u2011liberal efficiency with welfare safeguards is essential for contemporary public administration.",
+      "essential_keywords": [
+        "Neo\u2011liberalism",
+        "Minimalist State",
+        "Hayek",
+        "Nozick",
+        "Friedman",
+        "Thatcherism",
+        "Reaganism",
+        "Public Choice Theory"
+      ]
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      5
+    ]
+  },
+  "MPA011-U11_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      11
+    ]
+  },
+  "MPA012-U01_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      1
+    ]
+  },
+  "MPA012-U04_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      4
+    ]
+  },
+  "MPA012-U05_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      5
+    ]
+  },
+  "MPA012-U08_C02": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "verdict": "REQUIRES_REVISION",
+      "factual_accuracy_score": 0.0,
+      "comments": "The proposed framework is an HTTP error response rather than a substantive answer framework. It contains no content aligned with the official IGNOU unit text, no mention of human relations concepts, Hawthorne studies, or classical approaches. Consequently, it fails all review criteria: factual fidelity, freedom from hallucination, and academic depth.",
+      "correction_needed": "Provide a detailed answer framework that includes key concepts, Hawthorne study conclusions, differences between human relations and classical approaches, and evaluation points as outlined in the official ebook excerpt."
+    },
+    "ebook_source_units": [
+      8
+    ]
+  },
+  "MPA012-U09_C02": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      9
+    ]
+  },
+  "MPA012-U12_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      12
+    ]
+  },
+  "MPA012-U13_C02": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      13
+    ]
+  },
+  "MPA012-U15_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      15
+    ]
+  },
+  "MPA012-U17_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      17
+    ]
+  },
+  "MPA012-U18_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      18
+    ]
+  },
+  "MPA012-U02_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      2
+    ]
+  },
+  "MPA012-U21_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      21
+    ]
+  },
+  "MPA013-U01_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      1
+    ]
+  },
+  "MPA013-U02_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      2
+    ]
+  },
+  "MPA013-U07_C01": {
+    "framework": {
+      "theme": "the contextual uses of Governance. A\u2013197/",
+      "suggested_introduction": "Governance, as defined in the IGNOU unit, is the process of decision\u2011making and the manner in which those decisions are implemented (or not). The Concise Oxford Dictionary describes it as an \u201cact or manner of governing\u201d and the \u201coffice or function of governing\u201d. Historically the term dates back to the 14th\u2011century French usage and was later revived by Harland Cleveland (1972) as an alternative to public administration, emphasizing \u201cless government and more governance\u201d.",
+      "core_dimensions": [
+        "Conceptual Foundations of Governance \u2013 definition, historical evolution and distinction from government",
+        "Contextual Uses of Governance \u2013 impact of globalisation, market forces and citizen expectations",
+        "Forms of Governance \u2013 shift from hierarchical state to participative and consultative modes",
+        "Models of Governance \u2013 networked systems, diffusion of power and inter\u2011laced webs of tension",
+        "Governance and Public Administration \u2013 the changing role of the state in welfare delivery"
+      ],
+      "key_thinkers_and_models": [
+        "Harland Cleveland (1972) \u2013 introduced governance as a cluster of concepts beyond traditional public administration",
+        "Pierre & Peters (2000) \u2013 highlighted governance as a set of elusive but significant shifts in how governments operate",
+        "Networked Governance Model \u2013 described as inter\u2011laced webs where control is loose and power is diffuse"
+      ],
+      "critical_evaluation": "While the governance paradigm broadens the scope of public management, its conceptual ambiguity remains a limitation. The diffusion of authority can lead to accountability gaps, and the shift toward participative mechanisms demands capacity that many institutions lack. Moreover, the lack of a unified theoretical framework makes comparative analysis difficult, as noted in the unit\u2019s appraisal of governance as an \u2018inchoate\u2019 construct.",
+      "suggested_conclusion": "Governance, emerging from historical notions of governing, now encapsulates a complex, multi\u2011layered process of decision\u2011making, implementation, and stakeholder participation. Its contextual uses reflect contemporary challenges of globalisation and citizen empowerment, while its models point to a move away from hierarchical control toward networked, diffuse power structures. A critical appraisal underscores both its transformative potential and the need for clearer definitions and stronger accountability mechanisms.",
+      "essential_keywords": [
+        "Governance",
+        "Decision\u2011making",
+        "Implementation",
+        "Participative Governance",
+        "Globalisation",
+        "Networked Systems",
+        "Power Diffusion",
+        "Public Administration"
+      ]
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      7
+    ]
+  },
+  "MPA013-U09_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      9
+    ]
+  },
+  "MPA013-U11_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      11
+    ]
+  },
+  "MPA013-U14_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "verdict": "REQUIRES_REVISION",
+      "factual_accuracy_score": 0.0,
+      "comments": "The proposed framework is an error response (HTTP 429) and does not contain any content related to the phases of systems analysis. It fails all review criteria: no factual fidelity, contains no academic depth, and is not aligned with the official IGNOU unit text.",
+      "correction_needed": "Provide a substantive answer framework that lists and explains the phases of systems analysis as described in the official IGNOU ebook excerpt."
+    },
+    "ebook_source_units": [
+      14
+    ]
+  },
+  "MPA013-U18_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      18
+    ]
+  },
+  "MPA013-U19_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      19
+    ]
+  },
+  "MPA013-U23_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      23
+    ]
+  },
+  "MPA013-U25_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      25
+    ]
+  },
+  "MPA013-U05_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      5
+    ]
+  },
+  "MPA013-U12_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      12
+    ]
+  },
+  "MPA014-U01_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      1
+    ]
+  },
+  "MPA014-U04_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      4
+    ]
+  },
+  "MPA014-U05_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "verdict": "REQUIRES_REVISION",
+      "factual_accuracy_score": 0.0,
+      "comments": "The proposed framework is not a substantive answer; it merely contains an HTTP error message and does not reflect any of the concepts, structure, or learning outcomes outlined in the official IGNOU unit excerpt. Consequently, it fails to meet factual fidelity, contains no academic depth, and is not suitable for scoring in a term\u2011end examination.",
+      "correction_needed": "Provide a detailed answer framework that aligns with the unit\u2019s sections (5.1\u20135.12), incorporates the specified learning outcomes, and avoids fabricated or unsupported claims."
+    },
+    "ebook_source_units": [
+      5
+    ]
+  },
+  "MPA014-U07_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      7
+    ]
+  },
+  "MPA014-U10_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      10
+    ]
+  },
+  "MPA014-U13_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      13
+    ]
+  },
+  "MPA014-U15_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      15
+    ]
+  },
+  "MPA014-U17_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      17
+    ]
+  },
+  "MPA014-U18_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      18
+    ]
+  },
+  "MPA014-U20_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      20
+    ]
+  },
+  "MPA014-U06_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      6
+    ]
+  },
+  "MPA014-U12_C01": {
+    "framework": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "review": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "status": "FAILED"
+    },
+    "ebook_source_units": [
+      12
+    ]
+  }
+}

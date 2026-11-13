@@ -1,0 +1,29 @@
+{
+  "question": "The Neo liberal perspective of state has assumed importance in the context of globalization. Discuss.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Neo\u2011liberalism, often termed \u2018New Liberalism\u2019, is the dominant paradigm in contemporary public administration discourse. It envisions the state primarily as a facilitator of market mechanisms, limiting its role to establishing legal\u2011economic frameworks, protecting property rights and ensuring macro\u2011economic stability. The perspective emerged from the intellectual trio of Friedrich Hayek, Robert Nozick and Milton Friedman and gained political expression through Thatcherism and Reaganomics. In the era of globalisation, where capital, goods and ideas move across borders with unprecedented speed, the neo\u2011liberal view of the state has become a strategic template for national development and governance.",
+  "body_sections": [
+    {
+      "heading": "Neo\u2011liberal Foundations and the Role of the State",
+      "content": "The neo\u2011liberal view rests on three core tenets: (i) market primacy \u2013 markets are the most efficient allocators of resources; (ii) limited government \u2013 the state should intervene only to correct market failures, enforce contracts and safeguard individual liberty; and (iii) competition\u2011driven public services \u2013 public provision is to be outsourced or privatized to enhance efficiency. Hayek\u2019s \u2018spontaneous order\u2019, Nozick\u2019s minimal state and Friedman\u2019s monetarist policies collectively argue that excessive state control distorts incentives and hampers economic growth. Consequently, the state is re\u2011conceptualised as a \u2018regulatory steward\u2019 rather than a provider."
+    },
+    {
+      "heading": "Globalisation as Catalyst for Neo\u2011liberal State Reforms",
+      "content": "Globalisation intensifies inter\u2011dependence among economies, creating pressure on governments to adopt policies that attract foreign investment, enhance competitiveness and integrate into global value chains. Neo\u2011liberal reforms\u2014deregulation, trade liberalisation, fiscal austerity and privatisation\u2014are presented as prerequisites for participation in the global market. The Thatcher\u2011Reagan model exemplifies how domestic policy was reshaped to align with global capital flows, reducing tariff barriers, dismantling state\u2011owned enterprises and promoting private sector participation in traditionally public domains such as utilities and transport. Thus, globalisation provides both the rationale and the external impetus for neo\u2011liberal state restructuring."
+    },
+    {
+      "heading": "Implications for Public Administration and Service Delivery",
+      "content": "The neo\u2011liberal perspective reshapes public administration by shifting focus from bureaucratic control to performance\u2011oriented management. Concepts such as New Public Management (NPM), public\u2011choice theory and contracting out become central. Administrative agencies are expected to adopt market\u2011based tools\u2014benchmarking, output\u2011based budgeting and citizen\u2011choice vouchers\u2014to improve efficiency and responsiveness. While these reforms have yielded cost savings and innovation in sectors like health and education, they also raise concerns about equity, accountability and the erosion of the welfare state, as profit motives may supersede public interest."
+    }
+  ],
+  "critical_evaluation": "Although neo\u2011liberalism has facilitated macro\u2011economic stability and attracted investment, its over\u2011reliance on market mechanisms can marginalise vulnerable groups and weaken democratic oversight. The global financial crises of 2008 exposed the limits of deregulation, prompting calls for a more balanced state role. Moreover, the one\u2011size\u2011fits\u2011all export of neo\u2011liberal policies often disregards local institutional capacities and socio\u2011cultural contexts, leading to uneven outcomes across nations.",
+  "conclusion": "In the context of globalisation, the neo\u2011liberal perspective of the state has become a pivotal framework for shaping economic policy and public administration. While it offers efficiency gains and aligns domestic economies with global markets, a nuanced approach that safeguards equity and democratic accountability is essential for sustainable development.",
+  "key_thinkers_cited": [
+    "Friedrich Hayek",
+    "Robert Nozick",
+    "Milton Friedman",
+    "Margaret Thatcher",
+    "Ronald Reagan"
+  ]
+}

@@ -1,0 +1,49 @@
+course_code,role,section,canonical_unit_id,unit_number,official_unit_title,forecast_score,tma_signal_weight,high_yield_subtopic_focus
+MPA-011,10_CORE,Section I,MPA011-U02,2,"Relationship among State, Society and Public Administration",0.898,1.0,Society-Administration relationship with reference to Riggsian Sala model
+MPA-011,10_CORE,Section I,MPA011-U04,4,Liberal and Marxist Perspective of the State,0.501,0.5,Marxist perspective of the State
+MPA-011,10_CORE,Section I,MPA011-U06,6,Gandhian Perspective,0.598,1.0,Gandhian concept of Swaraj and critique of modern state
+MPA-011,10_CORE,Section I,MPA011-U09,9,"Changing Norms of Social Equity, Participation, Flexibility and Autonomy",0.496,0.5,Changing norms of social equity and citizen participation
+MPA-011,10_CORE,Section I,MPA011-U10,10,"Social Participation: Issues of Gender, Weaker Sections and Environment",0.508,0.0,Core Syllabus Empirical Synthesis
+MPA-011,10_CORE,Section II,MPA011-U12,12,"Role of Bureaucracy in Policy Formulation, Implementation and Analysis",0.785,1.0,Bureaucracy role in public policy formulation and analysis
+MPA-011,10_CORE,Section II,MPA011-U14,14,Impact of Globalisation on Administration,0.443,0.5,Impact of globalisation on administrative systems in developing nations
+MPA-011,10_CORE,Section II,MPA011-U17,17,Concept of Good Governance,0.662,1.0,Good Governance criteria and institutional mechanisms
+MPA-011,10_CORE,Section II,MPA011-U19,19,Growing Role of Civil Society Organisations,0.336,0.5,Civil society organisations in democratic governance
+MPA-011,10_CORE,Section II,MPA011-U21,21,Ethical Concerns in Public Administration,0.481,0.5,Ethical concerns and anti-corruption strategies (Nolan principles)
+MPA-011,BUFFER_SUBTOPIC,Section I,MPA011-U05,5,Neo-liberal Perspective,0.468,0.5,Neo-liberal perspective on the rollback of the state
+MPA-011,BUFFER_SUBTOPIC,Section II,MPA011-U11,11,Changing Nature of Indian State,0.298,0.0,Emergency 250-word Skeleton
+MPA-012,10_CORE,Section I,MPA012-U01,1,"Public Administration - Meaning, Nature and Scope and Importance",0.725,1.0,Public vs Private administration and significance in LPG era
+MPA-012,10_CORE,Section I,MPA012-U04,4,Scientific Management Approach,0.502,0.5,F.W. Taylor Scientific Management and Mental Revolution
+MPA-012,10_CORE,Section I,MPA012-U05,5,Administrative Management Approach,0.491,0.5,Henri Fayol 14 principles of management and POSDCORB
+MPA-012,10_CORE,Section I,MPA012-U08,8,Human Relations Approach,0.767,1.0,Hawthorne experiments and Human Relations Approach
+MPA-012,10_CORE,Section I,MPA012-U09,9,Views of Herbert A. Simon on Decisoin-Making in an Organisation,0.55,0.5,Herbert Simon Bounded Rationality and Satisficing model
+MPA-012,10_CORE,Section II,MPA012-U12,12,Socio-Psychological Approach: Views of Abraham Maslow and Frederick Herzberg,0.757,1.0,Maslow Hierarchy of Needs vs Herzberg Two-Factor Theory
+MPA-012,10_CORE,Section II,MPA012-U13,13,Socio-Psychological Approach: Views of Doughlas Mcgregor and Victor Vroom,0.676,1.0,Douglas McGregor Theory X / Theory Y and Victor Vroom expectancy
+MPA-012,10_CORE,Section II,MPA012-U15,15,Systems Approach: Views of David Easton and Chester Barnard,0.524,0.5,David Easton Systems Analysis and Chester Barnard acceptance of authority
+MPA-012,10_CORE,Section II,MPA012-U17,17,New Organisational Culture,0.565,0.5,Edgar Schein Organizational Culture dimensions
+MPA-012,10_CORE,Section II,MPA012-U18,18,New Public Administration,0.42,0.5,New Public Administration Minnowbrook I & II goals
+MPA-012,BUFFER_SUBTOPIC,Section I,MPA012-U02,2,Nature and Typologies of Organisation,0.479,0.0,Emergency 250-word Skeleton
+MPA-012,BUFFER_SUBTOPIC,Section II,MPA012-U21,21,New Public Management Perspective,0.347,0.0,Emergency 250-word Skeleton
+MPA-013,10_CORE,Section I,MPA013-U01,1,"Public Systems Management: Concept, Nature, Scope and Characteristics",0.588,1.0,Theoretical foundations and evolution of Public Systems Management
+MPA-013,10_CORE,Section I,MPA013-U02,2,Distinctiveness of Public Systems Management,0.564,0.5,Distinctiveness of PSM compared to business administration
+MPA-013,10_CORE,Section I,MPA013-U07,7,Concept of Governance: An Introduction,0.557,0.5,"Concept of Governance: State, Market and Civil Society interplay"
+MPA-013,10_CORE,Section I,MPA013-U09,9,Governance: Role of the Legislature and the Judiciary,0.656,1.0,Judicial Activism vs Judicial Restraint in governance
+MPA-013,10_CORE,Section I,MPA013-U11,11,Financial Management,0.579,0.5,Zero-Base Budgeting (ZBB) and Performance Budgeting
+MPA-013,10_CORE,Section II,MPA013-U14,14,Key Management Tools,0.368,0.0,Core Syllabus Empirical Synthesis
+MPA-013,10_CORE,Section II,MPA013-U18,18,Future Designing Techniques,0.379,0.0,Core Syllabus Empirical Synthesis
+MPA-013,10_CORE,Section II,MPA013-U19,19,Accountability,0.562,1.0,"Accountability mechanisms, Social Audit and Citizen oversight"
+MPA-013,10_CORE,Section II,MPA013-U23,23,Reforms and Change Management,0.441,1.0,"Administrative reforms, change management models and bureaucratic resistance"
+MPA-013,10_CORE,Section II,MPA013-U25,25,Continuity and Change in Public Systems Management,0.357,0.0,Core Syllabus Empirical Synthesis
+MPA-013,BUFFER_SUBTOPIC,Section I,MPA013-U05,5,Public Systems Management: Socio-economic Context,0.456,0.0,Emergency 250-word Skeleton
+MPA-013,BUFFER_SUBTOPIC,Section II,MPA013-U12,12,Materials/Logistics Management,0.318,0.0,Emergency 250-word Skeleton
+MPA-014,10_CORE,Section I,MPA014-U01,1,"Human Resource Management: Meaning, Nature, Scope and Significance",0.635,1.0,"Meaning, scope, hard vs soft HRM models"
+MPA-014,10_CORE,Section I,MPA014-U04,4,Job Analysis and Job Design,0.479,0.5,Job Description vs Job Specification and Job Enrichment
+MPA-014,10_CORE,Section I,MPA014-U05,5,"Recruitment, Selection, Appointment and Promotion",0.599,0.5,Recruitment vs Selection procedures and psychometric testing
+MPA-014,10_CORE,Section I,MPA014-U07,7,Remuneration and Salary System,0.522,0.5,Principles of remuneration and salary determination methods
+MPA-014,10_CORE,Section I,MPA014-U10,10,Training and Development,0.616,1.0,On-the-job and off-the-job training methods and TNA
+MPA-014,10_CORE,Section II,MPA014-U13,13,Management Development,0.275,0.0,Core Syllabus Empirical Synthesis
+MPA-014,10_CORE,Section II,MPA014-U15,15,Total Quality Management,0.338,0.0,Core Syllabus Empirical Synthesis
+MPA-014,10_CORE,Section II,MPA014-U17,17,Human Resource Management and Employment Involvement,0.687,1.0,Workers' Participation in Management (WPM) and Quality Circles
+MPA-014,10_CORE,Section II,MPA014-U18,18,Human Resource Management and Industrial Relations,0.694,1.0,"Industrial Relations, Collective Bargaining and Works Committees"
+MPA-014,10_CORE,Section II,MPA014-U20,20,Assessing Human Resource Management Effectiveness,0.487,0.5,Assessing HRM effectiveness and 4-Cs model
+MPA-014,BUFFER_SUBTOPIC,Section I,MPA014-U06,6,Performance Appraisal,0.37,0.5,Management by Objectives (MBO) and 360-degree appraisal
+MPA-014,BUFFER_SUBTOPIC,Section II,MPA014-U12,12,Learning and Development,0.261,0.0,Emergency 250-word Skeleton

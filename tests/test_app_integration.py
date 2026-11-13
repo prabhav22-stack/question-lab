@@ -73,6 +73,7 @@ class TestStreamlitAppIntegration(unittest.TestCase):
             "Question Bank",
             "Practice & Mock Tests",
             "🖨️ Offline Exam & OMR Simulation",
+            "🎓 ExamForge: MPA Lab",
             "AI Study Tutor",
             "AI Performance Coach",
             "Error Notebook",

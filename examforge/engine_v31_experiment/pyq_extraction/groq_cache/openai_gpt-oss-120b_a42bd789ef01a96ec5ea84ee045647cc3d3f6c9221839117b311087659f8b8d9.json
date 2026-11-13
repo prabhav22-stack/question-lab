@@ -1,0 +1,26 @@
+{
+  "question": "Maladies of Public Systems Management.",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "Public systems management in India is often portrayed as a stagnant entity plagued by bureaucratic complacency. The unit defines continuity as the persistence of existing structures that resist renewal, while maladies refer to systemic weaknesses that hinder effective governance. Recognising these ailments is essential for any reform agenda.",
+  "body_sections": [
+    {
+      "heading": "Bureaucratic Inertia and Complacency",
+      "content": "The prevailing culture of leisurely complacency discourages critical appraisal and innovation. As the official text notes, this inertia creates an environment where bureaucratic lapses become endemic, limiting responsiveness to emerging public needs."
+    },
+    {
+      "heading": "Deficit of Accountability and Transparency",
+      "content": "A second major malaise is the weak accountability framework. The lack of transparent decision\u2011making mechanisms allows discretionary power to be exercised without adequate checks, fostering corruption and eroding public trust."
+    },
+    {
+      "heading": "Inadequate Incentive Structures",
+      "content": "The Fifth Pay Commission (1997) highlighted remuneration as a core structural flaw. Inadequate and outdated pay scales demotivate officials, perpetuating low performance and resistance to change, thereby reinforcing other systemic maladies."
+    }
+  ],
+  "critical_evaluation": "While these maladies remain salient, contemporary reforms such as e\u2011governance and performance\u2011linked incentives attempt to mitigate them. However, without a holistic change model that addresses cultural, procedural, and motivational dimensions, isolated interventions risk being superficial.",
+  "conclusion": "In sum, bureaucratic inertia, accountability deficits, and flawed incentive mechanisms constitute the principal maladies of public systems management. Addressing them through integrated structural reforms is indispensable for achieving dynamic and responsive governance.",
+  "key_thinkers_cited": [
+    "Fifth Pay Commission",
+    "Public Management Critics"
+  ]
+}

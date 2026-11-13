@@ -1,0 +1,30 @@
+{
+  "question": "Analyse the basic assumptions of Victor Vroome's 20 Expectancy theory and its different implications.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Victor Vroom\u2019s Expectancy Theory, presented in the IGNOU unit on socio\u2011psychological approaches, explains motivation as a function of three cognitions: expectancy (effort \u2192 performance), instrumentality (performance \u2192 outcome) and valence (value of the outcome). The theory assumes that individuals make rational choices based on perceived probabilities and the attractiveness of rewards. By linking personal goals with organisational rewards, Vroom provides a systematic framework for managers to influence employee effort.",
+  "body_sections": [
+    {
+      "heading": "Assumption 1 \u2013 Expectancy (Effort\u2011Performance Relationship)",
+      "content": "Vroom assumes that an employee\u2019s belief that increased effort will lead to better performance is contingent on self\u2011efficacy, clarity of task requirements and availability of necessary resources. The official IGNOU text stresses that when employees perceive the task as achievable, expectancy is high, prompting greater effort. Conversely, ambiguous goals or lack of skill lower expectancy, reducing motivation."
+    },
+    {
+      "heading": "Assumption 2 \u2013 Instrumentality (Performance\u2011Reward Link)",
+      "content": "The second assumption posits that individuals judge the likelihood that successful performance will be rewarded. This judgment depends on trust in the organisational system, transparent reward policies and the perceived fairness of the reward structure. The IGNOU material highlights that when instrumentality is strong, employees see a direct cause\u2011effect between performance and outcomes, reinforcing effort."
+    },
+    {
+      "heading": "Assumption 3 \u2013 Valence (Reward Value)",
+      "content": "Valence reflects the personal importance attached to the expected reward, which may be monetary, recognition, career advancement or intrinsic satisfaction. Vroom\u2019s theory assumes that rewards must align with individual needs; a high\u2011pay bonus may have low valence for an employee who values learning opportunities. The IGNOU syllabus notes that managers must identify diverse valences to design effective incentive systems."
+    },
+    {
+      "heading": "Implications for Managerial Practice",
+      "content": "From the three assumptions, Vroom derives several managerial implications: (i) clarify task expectations and provide training to raise expectancy; (ii) establish transparent performance\u2011reward linkages to enhance instrumentality; (iii) customise reward packages to match employee valences, thereby increasing overall motivation. The IGNOU unit further suggests that performance appraisal systems, feedback mechanisms and participative decision\u2011making are practical tools to operationalise these implications."
+    }
+  ],
+  "critical_evaluation": "While Vroom\u2019s model offers a logical structure, critics argue that it over\u2011emphasises rational calculation and underestimates emotional, cultural and social influences on motivation. Empirical studies cited in later IGNOU readings reveal measurement difficulties in quantifying expectancy, instrumentality and valence, especially in collectivist settings where group rewards dominate. Moreover, the theory assumes stable preferences, whereas employee valences may shift with changing personal circumstances, limiting its predictive accuracy over time.",
+  "conclusion": "Victor Vroom\u2019s Expectancy Theory rests on three core assumptions\u2014expectancy, instrumentality and valence\u2014that together explain how individuals decide to exert effort. By translating these cognitions into managerial actions\u2014clear goals, transparent reward systems and personalised incentives\u2014organizations can enhance motivation. Nevertheless, the theory\u2019s rationalist bias and contextual limitations require managers to complement it with broader socio\u2011psychological insights for sustainable performance.",
+  "key_thinkers_cited": [
+    "Victor Vroom",
+    "IGNOU Unit 13 (Socio\u2011Psychological Approach)"
+  ]
+}

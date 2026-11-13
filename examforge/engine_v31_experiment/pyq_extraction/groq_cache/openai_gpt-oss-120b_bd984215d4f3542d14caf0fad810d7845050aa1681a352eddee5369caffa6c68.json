@@ -1,0 +1,27 @@
+{
+  "question": "Define Human Resource Management and highlight its features.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Human Resource Management (HRM) is a distinct management function that concentrates on the \u2018people\u2019 dimension of organisations. As the IGNOU unit explains, HRM weaves individual and sectional interests into the organisational matrix, moving beyond the traditional \u2018personnel department\u2019 to a strategic partner in policy planning, resource allocation and conflict resolution. It thus integrates the scientific, artistic and craft aspects of management to achieve organisational effectiveness.",
+  "body_sections": [
+    {
+      "heading": "Definition and Scope of HRM",
+      "content": "HRM is defined as the systematic process of planning, acquiring, developing, maintaining and utilizing human resources to achieve organisational goals. Its scope extends to recruitment, selection, training, performance appraisal, compensation, employee relations and compliance with labour laws. By aligning human capabilities with strategic objectives, HRM ensures that the right people are in the right jobs at the right time, thereby enhancing productivity and adaptability."
+    },
+    {
+      "heading": "Core Features of HRM",
+      "content": "The salient features of HRM include: (i) Strategic orientation \u2013 HR policies are linked with overall organisational strategy; (ii) Integrated approach \u2013 functions such as staffing, training, remuneration and industrial relations are coordinated; (iii) Continuous development \u2013 emphasis on employee learning, career planning and skill up\u2011gradation; (iv) Performance management \u2013 systematic appraisal and feedback mechanisms; (v) Legal compliance \u2013 adherence to statutes like the Industrial Disputes Act and ILO conventions; (vi) Employee welfare \u2013 focus on motivation, job satisfaction and work\u2011life balance."
+    },
+    {
+      "heading": "Roles of the HR Manager",
+      "content": "The HR manager acts as a planner, organiser, controller and facilitator. He/she designs manpower forecasts, formulates recruitment strategies, oversees training programmes, administers compensation structures and mediates industrial relations. In the public sector, the HR manager also ensures transparency, equity and accountability in personnel administration, thereby contributing to good governance and service delivery."
+    }
+  ],
+  "critical_evaluation": "While HRM offers a comprehensive framework for managing people, its effectiveness can be constrained by bureaucratic rigidity, inadequate data analytics and resistance to change. In developing economies, limited resources may impede extensive training and development initiatives. Moreover, the traditional POSDCORB view may overlook emerging issues such as remote work, digital talent management and diversity\u2011inclusion, demanding continual adaptation of HR practices.",
+  "conclusion": "In sum, Human Resource Management is a strategic, integrated function that transforms human potential into organisational performance. Its features\u2014strategic alignment, comprehensive staffing, development, performance appraisal, legal compliance and employee welfare\u2014collectively enable both public and private entities to meet contemporary challenges. A dynamic HRM approach, responsive to technological and societal shifts, remains essential for sustainable organisational success.",
+  "key_thinkers_cited": [
+    "Frederick Taylor",
+    "Henri Fayol",
+    "Elton Mayo"
+  ]
+}

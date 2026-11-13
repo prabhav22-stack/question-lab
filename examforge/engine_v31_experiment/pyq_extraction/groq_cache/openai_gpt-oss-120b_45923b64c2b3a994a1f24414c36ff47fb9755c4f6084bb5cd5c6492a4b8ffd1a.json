@@ -1,0 +1,29 @@
+{
+  "question": "Discuss various types of bargaining and bring to light the essentials and process of collective bargaining.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Collective bargaining is a core mechanism of industrial relations whereby employers and recognised trade unions negotiate terms and conditions of employment. As highlighted in the IGNOU Unit\u201118 material, industrial relations encompass the formal relationship between employers and employees, and collective bargaining serves as the principal conduit for translating labour policy into workplace practice. The process rests on mutual recognition, good\u2011faith negotiations and a legally defined framework that seeks industrial peace.",
+  "body_sections": [
+    {
+      "heading": "1. Types of Bargaining",
+      "content": "Three principal types of bargaining are recognised in the literature. (a) Distributive or positional bargaining focuses on the division of a fixed pie \u2013 typically wages, overtime rates or bonuses \u2013 and is characterised by win\u2011lose outcomes. (b) Integrative or interest\u2011based bargaining seeks win\u2011win solutions by expanding the pie, addressing issues such as training, work\u2011life balance and productivity incentives. (c) Attitudinal or behavioural bargaining deals with the relational aspects \u2013 trust, communication and grievance mechanisms \u2013 that sustain long\u2011term cooperation. The IGNOU text underscores that effective industrial relations require a blend of these approaches, with unions and management moving beyond pure positional tactics to integrative solutions that enhance organisational climate."
+    },
+    {
+      "heading": "2. Essentials of Collective Bargaining",
+      "content": "The essentials, as derived from the official study material, include: (i) Legal recognition of the trade union under the Trade Unions Act, ensuring its legitimacy to represent workers. (ii) Clear definition of the subject matter \u2013 wages, hours of work, conditions of service, health and safety \u2013 as stipulated in the Labour Laws. (iii) Commitment to good\u2011faith negotiations, a principle reiterated by Owen (1987) and reinforced by the ILO conventions referenced in the unit. (iv) Equality of bargaining power, achieved through collective strength of the union and the employer\u2019s responsibility to provide a safe, productive environment. (v) Transparency and documentation of agreements, which become binding contracts enforceable by law."
+    },
+    {
+      "heading": "3. Process of Collective Bargaining",
+      "content": "The collective bargaining cycle follows six systematic stages. First, preparation \u2013 both parties gather data, analyse economic conditions and set objectives. Second, agenda setting \u2013 a mutually agreed list of issues is prepared. Third, negotiation \u2013 parties exchange proposals, employing distributive or integrative tactics as appropriate. Fourth, agreement \u2013 consensus is reached and recorded in a collective agreement. Fifth, ratification \u2013 the union\u2019s members vote to endorse the pact, while management obtains internal approval. Sixth, implementation and monitoring \u2013 the agreement is operationalised, with grievance redress mechanisms activated to resolve any breaches. This procedural framework aligns with the unit\u2019s emphasis on conflict\u2011resolution methods and the need for administrative arrangements to sustain industrial peace."
+    }
+  ],
+  "critical_evaluation": "While the typology of bargaining provides analytical clarity, real\u2011world negotiations often blur the boundaries between distributive and integrative approaches, especially in sectors with high skill scarcity. Moreover, the legal essentials presuppose a robust statutory environment; in informal economies, the absence of recognised unions undermines the applicability of the prescribed process. Contemporary challenges such as gig\u2011work, digital surveillance and remote work demand an expansion of the traditional agenda to include data privacy and algorithmic management, areas not fully addressed in the classic IGNOU framework.",
+  "conclusion": "In sum, collective bargaining remains the linchpin of industrial relations, integrating various bargaining types, essential legal\u2011normative pre\u2011conditions and a structured negotiation process. By adapting these foundations to emerging work patterns, practitioners can preserve industrial peace while fostering equitable and productive workplaces.",
+  "key_thinkers_cited": [
+    "Frederick Taylor",
+    "Owen",
+    "Robinson",
+    "Mayo",
+    "International Labour Organization"
+  ]
+}

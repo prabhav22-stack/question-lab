@@ -1,0 +1,26 @@
+{
+  "question": "Trend extrapolation 10 2",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "Trend extrapolation is a quantitative forecasting technique that projects future values of a variable by extending its historical trend line, assuming that past patterns will continue under similar conditions. In public administration it assists planners to anticipate service demand, resource requirements and socio\u2011economic shifts.",
+  "body_sections": [
+    {
+      "heading": "Linear Trend Method",
+      "content": "The simplest form uses a straight\u2011line equation (Y = a + bX) derived from past data points. By calculating the slope (b) and intercept (a), administrators can estimate future values of indicators such as population growth or budget outlays. The method is easy to apply but presumes a constant rate of change, which may not hold in volatile environments."
+    },
+    {
+      "heading": "Moving Average and Smoothing Techniques",
+      "content": "Moving averages smooth short\u2011term fluctuations by averaging a fixed number of consecutive observations, producing a clearer trend line. Weighted moving averages assign greater importance to recent data, enhancing responsiveness to emerging patterns. These techniques are valuable for smoothing erratic administrative data like monthly service requests, though they may lag behind rapid shifts."
+    },
+    {
+      "heading": "Exponential Smoothing and Regression Models",
+      "content": "Exponential smoothing applies decreasing weights to older observations, allowing quicker adaptation to changes while retaining stability. Multiple regression extends extrapolation by incorporating several independent variables (e.g., income, education) to predict a dependent administrative outcome. Both increase predictive accuracy but require statistical competence and reliable data."
+    }
+  ],
+  "critical_evaluation": "While trend extrapolation offers a systematic basis for future planning, its reliance on historical continuity can overlook structural breaks, policy interventions or unprecedented crises. Combining it with qualitative methods (e.g., Delphi) mitigates such limitations.",
+  "conclusion": "Trend extrapolation remains a core tool for public administrators, providing a data\u2011driven glimpse of probable futures. Its effectiveness is maximized when used alongside complementary techniques and when its assumptions are regularly reviewed.",
+  "key_thinkers_cited": [
+    "Rohtagi et al.",
+    "Delphi technique proponents"
+  ]
+}

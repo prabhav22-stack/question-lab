@@ -1,0 +1,27 @@
+{
+  "question": "Explain the concept of performance budgeting and describe its key elements.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Performance budgeting is a results\u2011oriented approach that links the allocation of public funds to the achievement of specific outputs and outcomes. Unlike traditional line\u2011item budgeting, which focuses merely on inputs, performance budgeting emphasizes what the government intends to accomplish with those inputs. The concept is embedded in Unit\u202f11.4.2 of the IGNOU syllabus, which highlights its role in enhancing accountability, improving resource utilisation, and fostering a culture of results\u2011based management in the public sector.",
+  "body_sections": [
+    {
+      "heading": "Linkage of Resources to Outputs",
+      "content": "The first key element is the explicit connection between budgetary allocations and measurable outputs. Ministries and departments must define clear performance indicators\u2014such as number of schools built, patients treated, or licences issued\u2014and allocate funds on the basis of these targets. This element operationalises the Planning Commission\u2019s directive that every fiscal year should be accompanied by a performance plan, thereby ensuring that financial resources are not merely spent but are directed toward tangible public services."
+    },
+    {
+      "heading": "Performance Measurement and Reporting",
+      "content": "The second element concerns the systematic measurement, monitoring and reporting of performance. After the allocation, agencies collect data on the pre\u2011specified indicators, compare actual results with targets, and submit performance reports to the Ministry of Finance and the Finance Commission. These reports become the basis for mid\u2011year reviews and post\u2011year evaluations, enabling corrective actions and informing future budget cycles. The emphasis on transparent reporting aligns with the unit\u2019s focus on budgetary control and parliamentary oversight."
+    },
+    {
+      "heading": "Incentive\u2011Based Budget Adjustments",
+      "content": "The third element involves using performance information to adjust future allocations. Good performers may receive reward allocations or increased funding, while under\u2011performers may face reductions or be required to submit remedial action plans. This feedback loop, advocated in the Planning Commission\u2019s guidelines, creates an incentive structure that drives efficiency and effectiveness across government programmes. It also integrates with the zero\u2011based budgeting principle, ensuring that each allocation is justified on the basis of expected results rather than historical precedent."
+    }
+  ],
+  "critical_evaluation": "While performance budgeting promises greater accountability, its implementation faces practical challenges. Accurate measurement of public outputs can be hampered by data\u2011collection constraints, especially in remote or resource\u2011poor settings. Moreover, an over\u2011emphasis on quantifiable indicators may marginalise qualitative outcomes such as equity or citizen satisfaction, which are harder to capture. The approach also requires strong institutional capacity within the Ministry of Finance, the Finance Commission and the Planning Commission to analyse performance data and translate it into budgetary decisions. Consequently, without adequate capacity building and a balanced set of indicators, performance budgeting may lead to \u2018gaming\u2019 of targets rather than genuine service improvement.",
+  "conclusion": "Performance budgeting redefines public financial management by shifting the focus from inputs to results. Its three core elements\u2014linking resources to outputs, systematic performance measurement, and incentive\u2011based budget adjustments\u2014collectively aim to make public spending more transparent, accountable and outcome\u2011driven. While challenges remain, especially regarding data reliability and institutional capacity, the approach aligns with the broader objectives of modern public administration as outlined in the IGNOU curriculum and offers a viable pathway for enhancing fiscal effectiveness in India.",
+  "key_thinkers_cited": [
+    "Planning Commission",
+    "Ministry of Finance",
+    "Finance Commission"
+  ]
+}

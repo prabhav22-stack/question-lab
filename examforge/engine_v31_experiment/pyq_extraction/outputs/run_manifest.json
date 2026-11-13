@@ -1,0 +1,37 @@
+{
+  "execution_timestamp": "2026-11-12T18:13:00+05:30",
+  "engine_version": "v3.1",
+  "inputs": {
+    "frozen_portfolio": "engine_v31_experiment/outputs/december_2026_frozen_portfolio.csv",
+    "canonical_unit_registry": "shared/canonical_syllabus_registry/unit_registry.csv",
+    "format_and_marks_audit": "engine_v31_experiment/outputs/question_format_and_marks_audit.csv",
+    "official_ebooks_dir": "MPA-1st Year"
+  },
+  "portfolio_overrides": {
+    "MPA-011": "Combine U01 and U02 into MPA011-U01+U02",
+    "MPA-014": "Promote U06 to Full Core (Core count: 11)"
+  },
+  "outputs": {
+    "csv": "engine_v31_experiment/pyq_extraction/outputs/locked_units_clustered_pyqs.csv",
+    "markdown_study_banks": [
+      "engine_v31_experiment/pyq_extraction/outputs/MPA-011_study_pyq_bank.md",
+      "engine_v31_experiment/pyq_extraction/outputs/MPA-012_study_pyq_bank.md",
+      "engine_v31_experiment/pyq_extraction/outputs/MPA-013_study_pyq_bank.md",
+      "engine_v31_experiment/pyq_extraction/outputs/MPA-014_study_pyq_bank.md"
+    ],
+    "individual_pdfs": [
+      "D:\\Stuff\\ExamForge\\engine_v31_experiment\\pyq_extraction\\outputs\\pdf\\MPA-011_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf",
+      "D:\\Stuff\\ExamForge\\engine_v31_experiment\\pyq_extraction\\outputs\\pdf\\MPA-012_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf",
+      "D:\\Stuff\\ExamForge\\engine_v31_experiment\\pyq_extraction\\outputs\\pdf\\MPA-013_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf",
+      "D:\\Stuff\\ExamForge\\engine_v31_experiment\\pyq_extraction\\outputs\\pdf\\MPA-014_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf"
+    ],
+    "consolidated_pdf": "D:\\Stuff\\ExamForge\\engine_v31_experiment\\pyq_extraction\\outputs\\pdf\\FINAL_COMBINED_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf"
+  },
+  "groq_configuration": {
+    "primary_model": "openai/gpt-oss-120b",
+    "reviewer_model": "openai/gpt-oss-20b",
+    "temperature": 0.1,
+    "status": "ACTIVE_VERIFIED"
+  },
+  "status": "COMPLETED_SUCCESSFULLY"
+}

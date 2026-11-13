@@ -1,0 +1,28 @@
+{
+  "question": "Examine the role of Indian Judiciary in Governance.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "The judiciary, as one of the three pillars of the Indian Constitution, functions as the guardian of the rule of law and a pivotal agent of governance. Its constitutional mandate, enshrined in Articles 124\u2011147, obliges the courts to interpret statutes, protect fundamental rights and ensure that executive and legislative actions conform to constitutional norms. In the IGNOU unit on Governance, the judiciary is presented not merely as an adjudicatory body but as an institution that shapes policy outcomes, resolves disputes of public importance and reinforces democratic accountability.",
+  "body_sections": [
+    {
+      "heading": "Interpretation of Law and Protection of Rights",
+      "content": "The Supreme Court and High Courts interpret statutes in light of the Constitution, thereby giving legal effect to policy objectives. Landmark judgments such as *Kesavananda Bharati* (1973) established the basic structure doctrine, limiting arbitrary amendments and preserving democratic governance. Through the enforcement of fundamental rights under Part III, the judiciary safeguards individual liberties, thereby fostering an inclusive governance framework. The unit underscores that this protective role is essential for translating constitutional ideals into everyday governance."
+    },
+    {
+      "heading": "Judicial Activism and Public Interest Litigation (PIL)",
+      "content": "Judicial activism, as highlighted in the IGNOU material, refers to the proactive stance of courts in addressing gaps left by the legislature or executive. The emergence of PIL in the 1980s, pioneered by Justice P.N. Bhagwati and Justice V.R. Krishna Iyer, enabled citizens to approach courts on matters of public concern without formal standing. Cases such as *MC Mehta v. Union of India* (environmental protection) and *Vineet Narain v. Union of India* (anti-corruption) illustrate how the judiciary has expanded its governance role by directing policy implementation, monitoring administrative action and ensuring accountability."
+    },
+    {
+      "heading": "Checks and Balances within the Separation of Powers",
+      "content": "The judiciary acts as a check on both the legislature and the executive, preserving the balance envisaged by the Constitution. Through the power of judicial review, courts can strike down laws that contravene constitutional provisions, as demonstrated in *Shankari Prasad* (1951) and *Minerva Mills* (1980). This oversight ensures that governance remains within the constitutional envelope, preventing majoritarian excesses and protecting minority interests. The IGNOU text stresses that such checks are indispensable for a healthy democratic polity."
+    }
+  ],
+  "critical_evaluation": "While judicial activism has enhanced accountability, critics argue that excessive intervention may blur the separation of powers, leading to judicial overreach. Contemporary debates question whether courts, lacking electoral legitimacy, should dictate policy directions traditionally reserved for elected bodies. Moreover, the backlog of cases hampers timely justice, limiting the judiciary\u2019s effectiveness as a governance instrument. Balancing activism with restraint remains a central challenge for Indian courts.",
+  "conclusion": "In sum, the Indian judiciary contributes to governance through constitutional interpretation, protection of rights, proactive judicial activism and robust checks on other state organs. Its interventions have filled legislative and executive lacunae, promoted social justice and reinforced democratic values. Nonetheless, maintaining an equilibrium between judicial assertiveness and institutional restraint is essential to sustain its legitimacy and efficacy in governance.",
+  "key_thinkers_cited": [
+    "Dr. B.R. Ambedkar",
+    "Justice P.N. Bhagwati",
+    "Justice V.R. Krishna Iyer",
+    "Justice H.R. Khanna"
+  ]
+}

@@ -1724,5 +1724,40 @@ class TestNewStackFeatures(unittest.TestCase):
             self.assertIn("fsrs_stability", queue_df.columns)
 
 
+    def test_examforge_data_integrity(self):
+        """Verify ExamForge v3.1 dataset loads with 951 PYQs, 4 courses, and 48 model answers."""
+        import examforge_view
+        df, model_answers = examforge_view.load_examforge_data()
+        self.assertIsNotNone(df)
+        self.assertFalse(df.empty)
+        self.assertGreaterEqual(len(df), 900)
+
+        # Verify all 4 MPA courses are present
+        courses = df["course_id"].unique().tolist()
+        for c in ["MPA-011", "MPA-012", "MPA-013", "MPA-014"]:
+            self.assertIn(c, courses)
+
+        # Verify model answers
+        self.assertGreaterEqual(len(model_answers), 40)
+        first_key = list(model_answers.keys())[0]
+        sample_ma = model_answers[first_key]
+        self.assertIn("structured_data", sample_ma)
+        sdata = sample_ma["structured_data"]
+        self.assertIn("introduction", sdata)
+        self.assertIn("body_sections", sdata)
+        self.assertIn("conclusion", sdata)
+
+    def test_examforge_pdf_assets_exist(self):
+        """Verify that ExamForge master compendium and course PDFs are present."""
+        import examforge_view
+        master_pdf = examforge_view.PDF_DIR / "FINAL_COMBINED_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf"
+        self.assertTrue(master_pdf.exists(), "Master PDF missing")
+        self.assertGreater(master_pdf.stat().st_size, 100000)
+
+        for c in ["MPA-011", "MPA-012", "MPA-013", "MPA-014"]:
+            c_pdf = examforge_view.PDF_DIR / f"{c}_LOCKED_PYQ_STUDY_BANK_DEC_2026.pdf"
+            self.assertTrue(c_pdf.exists(), f"Course PDF for {c} missing")
+
+
 if __name__ == "__main__":
     unittest.main()

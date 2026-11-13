@@ -1,0 +1,27 @@
+{
+  "question": "What are the foci and concerns of administrative ethics? Discuss.",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "Administrative ethics, as defined in the IGNOU unit, concerns the moral principles that guide public administrators in questioning, reflecting and acting responsibly. It integrates values with the actions and decisions of the bureaucracy, ensuring that public service is delivered with integrity, accountability and public interest at its core.",
+  "body_sections": [
+    {
+      "heading": "Core Foci of Administrative Ethics",
+      "content": "The primary foci include accountability to citizens, transparency in decision\u2011making, integrity in the exercise of authority, and the commitment to serve the public good. These foci stem from the unit's emphasis that ethics in governance is shaped by social, economic, political and cultural contexts, demanding that administrators constantly align personal conduct with collective expectations."
+    },
+    {
+      "heading": "Principal Concerns and Ethical Dilemmas",
+      "content": "Key concerns involve conflicts of interest, misuse of discretionary power, corruption, and the erosion of public trust. The unit highlights that ethical dilemmas arise when personal values clash with institutional pressures, leading to challenges such as favoritism, nepotism, and the temptation to prioritize private gain over public welfare."
+    },
+    {
+      "heading": "Institutional Mechanisms and Codes",
+      "content": "To address these foci and concerns, the unit stresses the pertinence of a formal Code of Administrative Ethics, exemplified by the Indian Administrative Service (IAS) Code of Conduct and statutory guidelines. Such codes operationalise ethical standards, provide a framework for ethical accountability, and serve as reference points for disciplinary action."
+    }
+  ],
+  "critical_evaluation": "While the foci and concerns outlined provide a robust normative framework, their practical implementation often confronts bureaucratic inertia, political interference and limited enforcement capacity. Contemporary scholarship urges a shift towards ethical leadership and continuous ethics training to bridge the gap between theory and practice.",
+  "conclusion": "Administrative ethics thus centres on accountability, transparency, integrity and public service, while grappling with conflicts of interest, corruption and institutional constraints. Effective codes and ethical leadership are essential to translate these principles into trustworthy governance.",
+  "key_thinkers_cited": [
+    "Max Weber",
+    "Woodrow Wilson",
+    "Indian Administrative Service (IAS) Code of Conduct"
+  ]
+}

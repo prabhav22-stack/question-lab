@@ -1,0 +1,6 @@
+{
+  "verdict": "REQUIRES_REVISION",
+  "factual_accuracy_score": 0.0,
+  "comments": "The proposed framework is missing substantive content; it only contains an HTTP error message. No thinkers, theories, or arguments are presented, so factual accuracy cannot be assessed. The framework does not meet the academic depth or length requirements for a 500-word/250-word answer. Additionally, the presence of an error indicates a failure in content generation.",
+  "correction_needed": "Provide a complete answer framework that includes relevant thinkers (e.g., Rawls, Habermas, etc.), theories of accountability, contextual examples, and meets the word limit. Ensure all facts are accurate and cited."
+}

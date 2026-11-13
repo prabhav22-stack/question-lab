@@ -1,0 +1,27 @@
+{
+  "question": "Discuss the nature, significance and types of accountability.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Accountability is the cornerstone of democratic governance. In the IGNOU syllabus it is defined as the twin concepts of answerability \u2013 the duty of officials to give a clear account of their actions \u2013 and enforceability \u2013 the capacity of the system to impose sanctions for non\u2011performance. It therefore links the exercise of public power with the obligation to justify and justify actions before the rightful authority, ensuring that bureaucratic discretion does not become arbitrary.",
+  "body_sections": [
+    {
+      "heading": "Nature of Accountability",
+      "content": "The nature of accountability is both normative and procedural. Normatively, it reflects the ethical expectation that public servants act in the public interest, a principle reiterated throughout the unit. Procedurally, accountability is operationalised through formal mechanisms such as audits, performance reviews, parliamentary questioning and judicial scrutiny. As the ebook stresses, accountability is not a one\u2011off event but an ongoing relationship between the state and citizens, requiring transparency, traceability of decisions and the possibility of corrective action."
+    },
+    {
+      "heading": "Significance of Accountability",
+      "content": "Accountability underpins good governance, legitimacy and public trust. By making officials answerable, it curtails the misuse of power and promotes efficiency, as officials know their performance will be examined. It also enhances policy effectiveness because feedback loops enable learning and adaptation. In a democratic set\u2011up, accountability fulfills the social contract \u2013 the state derives its authority from the people and must therefore be answerable to them. The unit highlights that without accountability, the distance between the bureaucracy and the citizenry widens, leading to opacity and erosion of democratic values."
+    },
+    {
+      "heading": "Types of Accountability",
+      "content": "The IGNOU material classifies accountability into four major types: (i) **Political accountability**, where elected representatives answer to the electorate through elections and legislative oversight; (ii) **Administrative or bureaucratic accountability**, which obliges civil servants to adhere to rules, standards and performance targets set by superior agencies; (iii) **Legal accountability**, whereby actions are subject to judicial review, statutory compliance and criminal liability; and (iv) **Fiscal or financial accountability**, which concerns the prudent use of public resources, monitored through audits, budgetary controls and financial reporting. Each type operates at a different level but together they create a comprehensive accountability architecture."
+    }
+  ],
+  "critical_evaluation": "While the typology offers a clear framework, contemporary challenges blur these boundaries. For instance, digital governance introduces algorithmic decision\u2011making that raises questions about who is answerable \u2013 the programmer, the agency or the elected official. Moreover, the rise of multi\u2011level governance (global, national, sub\u2011national) complicates the \"accountable to whom\" question, as responsibilities are shared across jurisdictions. Hence, the traditional models must be expanded to incorporate networked accountability and citizen\u2011centric tools such as participatory budgeting and social audits.",
+  "conclusion": "In sum, accountability is a dynamic, multi\u2011dimensional concept that ensures public power is exercised responsibly. Its nature combines ethical imperatives with procedural safeguards; its significance lies in safeguarding democracy, efficiency and public trust; and its types \u2013 political, administrative, legal and fiscal \u2013 provide a structured means to operationalise answerability. Adapting these foundations to emerging governance realities will keep accountability relevant in the evolving public sector.",
+  "key_thinkers_cited": [
+    "Max Weber",
+    "Woodrow Wilson",
+    "UNDP"
+  ]
+}

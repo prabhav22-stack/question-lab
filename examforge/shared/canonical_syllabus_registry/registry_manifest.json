@@ -1,0 +1,52 @@
+{
+  "registry_name": "IGNOU_MPA_SYLLABUS_REGISTRY",
+  "registry_version": "v1.0",
+  "release_date": "2026-11-11",
+  "governance_status": "LOCKED_IMMUTABLE",
+  "scope": "First-Year MPA (MPA-011, MPA-012, MPA-013, MPA-014)",
+  "total_courses": 4,
+  "total_blocks": 23,
+  "total_units": 91,
+  "total_topics": 1063,
+  "total_subtopics": 243,
+  "files": {
+    "course_registry.csv": {
+      "sha256": "e8b43119b430daf37a8e25adb8c118f108fba61b298424a098edc0e42116e8c3",
+      "bytes": 1277
+    },
+    "block_registry.csv": {
+      "sha256": "a69ecc1356e585024f7fa9cbbc42f2f1ee22e59e49896cc58cfe576b4c1d13ff",
+      "bytes": 3122
+    },
+    "unit_registry.csv": {
+      "sha256": "27a4da6fc729e5287ba48a2e10a12f45cd2278959b1b2a2106d4fa45c8b1319b",
+      "bytes": 32880
+    },
+    "topic_registry.csv": {
+      "sha256": "184d61e41f4110f70af3973ef46b6d5320dc7add5d4c7d71db9f6e8c26cdd85f",
+      "bytes": 153175
+    },
+    "subtopic_registry.csv": {
+      "sha256": "02fb6aff556af8571fd5cec1bd5062eefdd01dad6676bfcbf935cc702485b21b",
+      "bytes": 34573
+    },
+    "course_mapping.json": {
+      "sha256": "6520b6d347f44c7d4ca66c27a3be1bc82cfef89e801d0809a70cda51b12dd98d",
+      "bytes": 341468
+    },
+    "syllabus_sources.csv": {
+      "sha256": "d81a33f30f8a303626ad6da885141b7ff99aa1f48650fe4afbe8fef78cf5f14f",
+      "bytes": 911
+    },
+    "known_aliases.csv": {
+      "sha256": "3afc05805b2eccbaca5a509ae8a5597e371167df412a4af0446bc4efab265a14",
+      "bytes": 2203
+    }
+  },
+  "controlled_update_protocol": {
+    "rule_1": "No pipeline script may modify registry files during execution.",
+    "rule_2": "Modifications require verified IGNOU academic source documentation.",
+    "rule_3": "Must increment registry version and update SHA-256 manifests.",
+    "rule_4": "Must execute regression test suite verifying 100% concordance."
+  }
+}

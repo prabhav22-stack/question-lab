@@ -1,0 +1,27 @@
+{
+  "question": "Goals and Anti-Goals of New Public Administration.",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "New Public Administration (NPA) emerged in the 1960s as a reformist response to the technocratic and efficiency\u2011driven paradigm of traditional public administration. It foregrounds social equity, citizen participation and value\u2011oriented outcomes rather than mere procedural regularity.",
+  "body_sections": [
+    {
+      "heading": "Goal: Social Equity and Justice",
+      "content": "NPA posits that public agencies must actively reduce socioeconomic disparities by designing policies that benefit marginalized groups. This goal reflects the Minnowbrook consensus that public administration is a value\u2011laden enterprise, seeking distributive justice rather than neutral service delivery."
+    },
+    {
+      "heading": "Goal: Responsiveness and Citizen Participation",
+      "content": "The movement stresses that administrators should be responsive to citizens\u2019 needs and involve them in decision\u2011making through participatory mechanisms such as public hearings, advisory councils and collaborative budgeting. Such engagement enhances legitimacy and aligns public services with community priorities."
+    },
+    {
+      "heading": "Anti\u2011Goal: Bureaucratic Neutrality and Technocratic Isolation",
+      "content": "NPA explicitly rejects the anti\u2011goal of treating administration as a value\u2011free, technocratic function detached from political and social contexts. It argues that neutrality masks power relations and hampers the pursuit of equity, thereby contradicting the core ethos of the New Public Administration."
+    }
+  ],
+  "critical_evaluation": "While the goals of equity and participation broaden democratic accountability, implementation often collides with resource constraints and entrenched bureaucratic cultures. Moreover, the anti\u2011goal of neutrality may be idealistic, as complete value\u2011free administration is practically unattainable.",
+  "conclusion": "In sum, New Public Administration reorients public management toward social justice, citizen engagement and value\u2011driven action, while repudiating bureaucratic neutrality. Its goals remain pertinent, yet translating them into practice demands sustained political will and institutional reform.",
+  "key_thinkers_cited": [
+    "Dwight Waldo",
+    "Charles Lindblom",
+    "Herbert Simon"
+  ]
+}

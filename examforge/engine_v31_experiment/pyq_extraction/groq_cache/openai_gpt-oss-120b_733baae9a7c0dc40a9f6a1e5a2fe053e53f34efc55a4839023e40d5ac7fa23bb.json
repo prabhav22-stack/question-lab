@@ -1,0 +1,26 @@
+{
+  "question": "Write a note in brief on the methods of performance appraisal.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Performance appraisal is the systematic assessment of an employee\u2019s past and present work behaviour against pre\u2011determined standards, as highlighted in the IGNOU unit on Performance Appraisal. It seeks to measure both quantitative and qualitative aspects of performance, linking individual contribution to organisational objectives. The process is central to human\u2011resource management in the public sector, providing a basis for training, promotion, and accountability. A clear understanding of the various appraisal methods is therefore essential for effective public administration.",
+  "body_sections": [
+    {
+      "heading": "Traditional Methods of Appraisal",
+      "content": "Traditional techniques, rooted in early HR practice, remain widely used in Indian public services. The Graphic Rating Scale rates employees on a set of traits (e.g., reliability, initiative) using a numerical continuum. Ranking orders staff from best to worst, facilitating comparative judgments. The Critical Incident Method records specific exemplary or deficient behaviours, offering concrete evidence for feedback. The Essay Method allows the appraiser to write a narrative assessment, capturing nuances that numeric scales miss. These methods, though simple, are criticised for subjectivity and limited diagnostic power."
+    },
+    {
+      "heading": "Modern Methods of Appraisal",
+      "content": "Contemporary approaches integrate behavioural and developmental dimensions. Behaviourally Anchored Rating Scales (BARS) combine quantitative ratings with qualitative behavioural examples, enhancing reliability. Management by Objectives (MBO) aligns individual goals with organisational targets, emphasizing measurable outcomes. The 360\u2011Degree Feedback system gathers appraisals from peers, sub\u2011ordinates, superiors and, where relevant, external stakeholders, providing a holistic view of performance. Assessment Centres employ simulations and role\u2011plays to evaluate competencies in realistic settings. These modern methods address many limitations of traditional tools by promoting objectivity, participation and continuous improvement."
+    },
+    {
+      "heading": "Selection and Application in the Public Sector",
+      "content": "Choosing an appropriate method depends on the nature of the public job, the level of the employee and the administrative context. For clerical and routine positions, the Graphic Rating Scale or Checklist may suffice due to ease of administration. For managerial and policy\u2011making roles, MBO and 360\u2011Degree Feedback are preferred to capture strategic contributions and stakeholder interactions. The IGNIGN framework stresses the need for a mixed\u2011method approach, combining quantitative scales with qualitative narratives, to ensure fairness, transparency and alignment with the objectives of public service delivery."
+    }
+  ],
+  "critical_evaluation": "While traditional methods are cost\u2011effective and familiar to supervisors, they often suffer from halo effects, rater bias and limited developmental feedback. Modern techniques improve validity and employee involvement but demand greater resources, training and cultural change\u2014challenges for many public agencies constrained by budgetary and bureaucratic rigidity. Moreover, the effectiveness of any method hinges on clear performance criteria, consistent implementation and the willingness of managers to act on appraisal outcomes, aspects repeatedly underscored in the IGNOU study material.",
+  "conclusion": "In sum, performance appraisal methods range from simple traditional scales to sophisticated modern systems. A judicious blend, tailored to the specific public\u2011service context, maximises objectivity, developmental value and administrative accountability. Continuous refinement, guided by the principles outlined in the IGNOU unit, ensures that appraisal remains a vital instrument for enhancing public sector performance.",
+  "key_thinkers_cited": [
+    "Meggioson (1967)",
+    "Cunning (1972)"
+  ]
+}

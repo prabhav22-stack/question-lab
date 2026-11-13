@@ -1,0 +1,25 @@
+{
+  "question": "Gandhian model of Polity.",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "Gandhi\u2019s polity is anchored in the concept of \u2018Swaraj\u2019 \u2013 self\u2011rule that integrates moral, social and economic dimensions. Drawing chiefly from *Hind Swaraj* (1909), Gandhi critiques the modern state as a mechanistic, profit\u2011driven apparatus and proposes a people\u2011centred alternative.",
+  "body_sections": [
+    {
+      "heading": "Critique of the Modern State",
+      "content": "Gandhi argues that the modern state, modeled on Western techno\u2011modernism, alienates individuals by treating them as mere cogs. It prioritises territorial sovereignty over human welfare, leading to a \u2018necessary evil\u2019 that fails to address India\u2019s socio\u2011cultural realities."
+    },
+    {
+      "heading": "Swaraj as Functional Doctrine",
+      "content": "Swaraj is presented as a functional doctrine where political power devolves to village\u2011level self\u2011government (panchayats). It rests on three guiding principles \u2013 truth (Satya), non\u2011violence (Ahimsa) and self\u2011discipline \u2013 ensuring that authority is exercised responsibly and locally."
+    },
+    {
+      "heading": "Trusteeship and Moral Governance",
+      "content": "Gandhi\u2019s trusteeship extends Swaraj by obligating individuals and institutions to act as custodians of wealth for the common good. This moral economy counters capitalist accumulation, aligning governance with ethical stewardship rather than mere administrative efficiency."
+    }
+  ],
+  "critical_evaluation": "While Gandhi\u2019s model offers a visionary, participatory framework, its implementation faces practical constraints in a complex, pluralistic nation. The reliance on moral persuasion may limit enforceability, and scaling village\u2011level institutions to a modern bureaucracy poses challenges. Nonetheless, its emphasis on decentralisation resonates with contemporary devolution debates.",
+  "conclusion": "Gandhi\u2019s polity re\u2011imagines the state as a servant of the people, rooted in Swaraj and trusteeship. Though idealistic, it provides a normative benchmark for democratic deepening and ethical governance in India.",
+  "key_thinkers_cited": [
+    "Mahatma Gandhi"
+  ]
+}

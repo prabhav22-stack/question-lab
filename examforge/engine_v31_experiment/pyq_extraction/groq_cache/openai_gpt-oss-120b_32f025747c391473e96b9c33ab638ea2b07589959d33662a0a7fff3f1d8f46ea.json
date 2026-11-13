@@ -1,0 +1,27 @@
+{
+  "question": "Discuss the general principles of administration.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Administration is the systematic process of planning, organising, directing, coordinating and controlling organisational resources to achieve defined objectives. The classical administrative school, articulated by Henry Fayol, Gulick, Urwick and later by Mooney & Reiley, distilled this process into a set of universal principles that guide managerial action irrespective of the type or size of the organisation. These principles constitute the backbone of public administration and remain relevant for contemporary governance.",
+  "body_sections": [
+    {
+      "heading": "Principles of Unity, Authority and Responsibility",
+      "content": "The principle of Unity of Direction asserts that activities having a common objective must be coordinated under a single plan, ensuring coherence in public policy implementation. Closely linked is the Unity of Command, which stipulates that each subordinate should receive orders from only one superior, thereby avoiding confusion and conflict of interest. Gulick\u2019s POSDCORB framework further emphasises the matching of responsibility with authority \u2013 a manager must be empowered with the requisite authority to discharge the responsibilities assigned, otherwise accountability becomes meaningless. Together, these principles create a clear line of accountability and facilitate effective decision\u2011making in administrative hierarchies."
+    },
+    {
+      "heading": "Principles of Organisation Structure",
+      "content": "Departmentalisation, as articulated by Fayol, involves grouping activities into distinct units (functional, geographical or product\u2011based) to achieve specialisation and efficiency. The Principle of Span of Control defines the optimal number of subordinates a manager can effectively supervise; a narrow span enhances supervision while a wide span promotes autonomy. Complementing these is the Principle of Hierarchy, which establishes a clear chain of command, enabling orderly flow of information and authority. The Principle of Division of Work, derived from scientific management, advocates for task specialisation to increase proficiency and productivity within each department."
+    },
+    {
+      "heading": "Principles of Coordination, Delegation and Staff",
+      "content": "Coordination is the continuous process of integrating activities across departments to avoid duplication and conflict, a necessity in complex public organisations. Delegation, the systematic transfer of authority and responsibility to lower levels, empowers sub\u2011managers, fosters initiative and relieves top executives for strategic tasks. The Principle of Staff underscores the need for a supportive advisory cadre that assists line managers with expertise, ensuring that decisions are informed by technical knowledge. Together, these principles promote flexibility, responsiveness and the effective utilisation of human resources in the public sector."
+    }
+  ],
+  "critical_evaluation": "While the classical principles provide a robust framework, critics argue that their rigidity may impede innovation in dynamic environments. Unity of Command, for instance, can clash with matrix structures that require dual reporting lines. Similarly, a narrow span of control may lead to bureaucratic bottlenecks, whereas an overly wide span can dilute supervision. Contemporary public administration therefore adapts these principles, blending them with network governance and collaborative models to retain their logical foundation while enhancing adaptability.",
+  "conclusion": "The general principles of administration\u2014unity of direction and command, matching authority with responsibility, departmentalisation, span of control, hierarchy, division of work, coordination, delegation and staff\u2014constitute a timeless blueprint for organising public enterprises. By interpreting them flexibly, modern administrators can preserve organisational coherence while meeting the complex demands of 21st\u2011century governance.",
+  "key_thinkers_cited": [
+    "Henry Fayol",
+    "Gulick and Urwick",
+    "Mooney and Reiley"
+  ]
+}

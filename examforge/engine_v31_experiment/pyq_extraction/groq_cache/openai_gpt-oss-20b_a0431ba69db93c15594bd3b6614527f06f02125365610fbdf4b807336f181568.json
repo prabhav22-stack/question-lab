@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS_WITH_MINOR_WARNINGS",
+  "factual_accuracy_score": 0.92,
+  "comments": "The framework demonstrates strong academic depth and accurate attribution of most key concepts. Minor factual inaccuracies include the use of \"state capture\" as a Marxist concept, which is a contemporary term rather than a Marxian one. Additionally, while the IAS can be seen as influenced by Riggsian ideas, it is not a direct embodiment of his theory. These points warrant slight revision.",
+  "correction_needed": "Replace \"state capture\" with a more accurate Marxist description of the state as an instrument of class domination, and clarify that the IAS reflects Riggsian principles but is not a pure embodiment of his theory."
+}

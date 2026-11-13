@@ -1,0 +1,28 @@
+{
+  "question": "Define public administration and examine it's scope under liberalisation, privatisation and globalization.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 500-550 words",
+  "introduction": "Public administration is the systematic process by which governments formulate, implement, and evaluate public policies and programmes for the welfare of citizens. Rooted in Woodrow Wilson's seminal 1887 essay, it is distinguished from private administration by its focus on public interest, accountability, and the legal\u2011political framework within which it operates. The discipline studies the structures, processes, and behaviour of public organisations, while the activity concerns the day\u2011to\u2011day execution of governmental functions.",
+  "body_sections": [
+    {
+      "heading": "1. Definition, Nature and Scope of Public Administration",
+      "content": "The official IGNOU text defines public administration as the art and science of managing public affairs, integrating the concepts of administration, organisation and management. Its nature is both normative and empirical, encompassing value\u2011laden decision\u2011making and factual analysis of bureaucratic processes. The scope is two\u2011fold: as an activity it includes policy formulation, implementation, budgeting, and service delivery; as a discipline it draws on political science, economics, sociology and law to develop theories of governance, public management, and administrative behaviour."
+    },
+    {
+      "heading": "2. Scope as an Activity and a Discipline in Contemporary India",
+      "content": "As an activity, public administration operates at all levels of government\u2014central, state and local\u2014ensuring that legislative intent translates into tangible outcomes. It involves coordination among ministries, regulatory agencies, and public enterprises, guided by principles of efficiency, equity and responsiveness. As a discipline, it provides a scholarly framework for analysing bureaucratic reforms, performance measurement, and citizen\u2011state interaction. The IGNOU curriculum stresses the importance of specialised study, enabling administrators to adopt scientific methods, comparative analysis and ethical standards in public service."
+    },
+    {
+      "heading": "3. Role of Public Administration under Liberalisation, Privatisation and Globalisation (LPG)",
+      "content": "Liberalisation, privatisation and globalisation have re\u2011shaped the Indian administrative landscape. Liberalisation (post\u20111991) opened markets, demanding that public administrators facilitate competition, deregulate sectors and redesign fiscal policies while safeguarding public welfare. Privatisation transfers ownership of state assets to private players, requiring administrators to design robust contract\u2011management systems, monitor performance, and ensure transparency to prevent rent\u2011seeking. Globalisation integrates India into the world economy, compelling public administration to harmonise domestic regulations with international standards, manage cross\u2011border trade, and address transnational challenges such as climate change. In each dimension, the public administrator acts as a regulator, facilitator and watchdog, balancing market efficiency with social equity."
+    }
+  ],
+  "critical_evaluation": "While the LPG paradigm expands the functional ambit of public administration, it also exposes limitations. Excessive market orientation may erode the welfare orientation intrinsic to the public sector, leading to policy capture by powerful corporate interests. Moreover, the rapid pace of global integration can outstrip the capacity of traditional bureaucratic structures, necessitating adaptive governance, digitalisation and capacity\u2011building. Hence, scholars like Dwight Waldo caution against a purely technocratic approach, urging a renewed emphasis on democratic accountability and ethical stewardship.",
+  "conclusion": "In sum, public administration is both a scholarly discipline and a practical activity that underpins democratic governance. Its scope, traditionally confined to policy execution, now embraces the complex demands of liberalisation, privatisation and globalisation. Administrators must therefore blend managerial competence with normative commitment, ensuring that economic reforms translate into inclusive development and that global interdependence strengthens, rather than undermines, public welfare.",
+  "key_thinkers_cited": [
+    "Woodrow Wilson",
+    "Max Weber",
+    "Dwight Waldo",
+    "Indian Administrative Service (IAS)"
+  ]
+}

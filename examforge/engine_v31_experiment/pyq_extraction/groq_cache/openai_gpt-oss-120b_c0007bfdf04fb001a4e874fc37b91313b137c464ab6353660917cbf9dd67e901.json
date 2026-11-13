@@ -1,0 +1,28 @@
+{
+  "question": "Define Job Design and throw light on the meaning and significance of Job Enlargement and Job Enrichment.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Job design is the systematic process of arranging tasks, duties, responsibilities and relationships of a job so as to achieve organisational objectives while enhancing employee satisfaction and performance. It translates the information obtained from job analysis into a concrete structure of work, specifying how tasks are grouped, the degree of autonomy granted, and the nature of interactions required. Effective job design aligns individual capabilities with organisational needs, thereby fostering efficiency, motivation and adaptability in the public administration context.",
+  "body_sections": [
+    {
+      "heading": "Definition and Objectives of Job Design",
+      "content": "In the IGNOU framework, job design is presented as the logical continuation of job analysis, converting the factual data about tasks, skills and working conditions into a coherent work package. The primary objectives are: (i) to optimise the use of human resources, (ii) to improve work flow and productivity, (iii) to enhance employee morale by providing meaningful work, and (iv) to reduce turnover and absenteeism. By integrating task variety, task identity and task significance, job design seeks to create a balanced role that meets both organisational efficiency and employee well\u2011being."
+    },
+    {
+      "heading": "Job Enlargement: Meaning and Significance",
+      "content": "Job enlargement refers to the horizontal expansion of a job by adding tasks of a similar level of difficulty and responsibility. It broadens the scope of work without altering the depth of decision\u2011making authority. The significance lies in reducing monotony, increasing skill variety and providing employees with a broader perspective of organisational processes. In public administration, enlargement can improve service delivery by enabling staff to handle related functions, thereby reducing hand\u2011over delays and fostering a more flexible workforce."
+    },
+    {
+      "heading": "Job Enrichment: Meaning and Significance",
+      "content": "Job enrichment involves the vertical deepening of a job by granting greater autonomy, responsibility and decision\u2011making power. It incorporates elements such as task identity, task significance, feedback and self\u2011control, echoing Hackman and Oldham\u2019s Job Characteristics Model, which is endorsed in IGNOU study material. Enrichment is significant because it enhances intrinsic motivation, promotes personal growth and improves job satisfaction. For civil servants, enriched roles encourage innovative problem\u2011solving, accountability and a stronger commitment to public service outcomes."
+    }
+  ],
+  "critical_evaluation": "While job enlargement and enrichment are valuable tools, their effectiveness depends on organisational culture, managerial support and employee readiness. Enlargement alone may not boost motivation if tasks remain repetitive, whereas enrichment can fail without adequate training and clear performance feedback. Moreover, in highly hierarchical public institutions, excessive vertical enrichment may clash with established bureaucratic norms, necessitating a calibrated approach that blends both horizontal and vertical redesigns.",
+  "conclusion": "Job design is the cornerstone of aligning work structure with organisational goals and employee aspirations. By judiciously applying job enlargement, managers can broaden task variety and reduce boredom, while job enrichment deepens responsibility and fosters intrinsic motivation. A balanced integration of both strategies, tailored to the specific context of public administration, yields a more dynamic, efficient and satisfied workforce, ultimately enhancing service delivery to citizens.",
+  "key_thinkers_cited": [
+    "Hackman and Oldham",
+    "Herzberg",
+    "Yoder",
+    "Wendell French"
+  ]
+}

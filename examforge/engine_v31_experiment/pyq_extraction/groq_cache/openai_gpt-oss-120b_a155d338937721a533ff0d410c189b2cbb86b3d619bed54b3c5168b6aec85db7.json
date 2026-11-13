@@ -1,0 +1,27 @@
+{
+  "question": "Applied aspect of Social Justice.",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-260 words",
+  "introduction": "Social justice, as an applied concept in public administration, entails equitable distribution of resources and opportunities through people\u2011centric policies that.",
+  "body_sections": [
+    {
+      "heading": "Policy Formulation Incorporating Social Equity",
+      "content": "In the formulation stage, social equity mandates that policy objectives be framed after systematic diagnosis of marginalised groups\u2019 needs. Using the \u2018people\u2011centric\u2019 paradigm highlighted in the Unit, administrators employ participatory tools such as stakeholder consultations and social impact assessments. This ensures that resource allocation formulas embed corrective weights for historically disadvantaged castes, tribes, women and differently\u2011abled persons, thereby translating abstract justice into concrete program design and sustainable development outcomes globally."
+    },
+    {
+      "heading": "Implementation Mechanisms and Accountability",
+      "content": "During implementation, the applied aspect of social justice requires transparent mechanisms that monitor service delivery to vulnerable cohorts. The Unit stresses the role of decentralized agencies and autonomous bodies, such as Panchayati Raj Institutions, in ensuring flexibility and local responsiveness. Real\u2011time grievance redressal portals, social audits, and performance dashboards linked to budgetary allocations create accountability, enabling administrators to adjust interventions promptly and uphold equity on the ground for inclusive growth."
+    },
+    {
+      "heading": "Evaluation and Policy Revision",
+      "content": "Evaluation of social\u2011justice outcomes involves both quantitative indicators and qualitative feedback. The Unit recommends periodic reviews using the Social Equity Index, which aggregates data on health, education, and livelihood disparities. Findings feed into policy revision cycles, prompting re\u2011allocation of funds or redesign of service delivery models. Such evidence\u2011based adjustments reflect the dynamic nature of social equity, ensuring that public administration remains responsive to evolving patterns of exclusion in modern societies."
+    }
+  ],
+  "critical_evaluation": "While applied social justice enhances inclusivity, challenges persist in data reliability, inter\u2011sectoral coordination, and political will.",
+  "conclusion": "Effective application of social justice transforms public administration into a catalyst for equitable, participatory development.",
+  "key_thinkers_cited": [
+    "Governance school of public administration",
+    "Panchayati Raj Institutions",
+    "Social Equity Index (IGNOU)"
+  ]
+}

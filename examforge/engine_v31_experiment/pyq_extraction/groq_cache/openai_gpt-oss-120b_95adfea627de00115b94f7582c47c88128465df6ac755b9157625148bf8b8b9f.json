@@ -1,0 +1,27 @@
+{
+  "question": "Explain Systems Approach and bring out the 20 views of David Easton on Systems Approach.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "The systems approach views an organisation or a political entity as an inter\u2011related set of components that function together to achieve a common purpose. Originating in the physical sciences, the approach was transferred to social sciences, notably political science and public administration, to explain how inputs are transformed into outputs through systematic interactions. In the IGNOU syllabus, the approach is presented as a departure from classical, linear models, emphasizing openness, feedback and environmental exchange.",
+  "body_sections": [
+    {
+      "heading": "Meaning of Systems Approach",
+      "content": "A system is defined as an interconnected set of elements that operate as a whole. According to the IGNOU unit, three properties characterise a system: (i) a set of internal interactions, (ii) a boundary that distinguishes the system from its environment, and (iii) a flow of inputs and outputs that maintain equilibrium. The approach therefore stresses that organisations cannot be studied in isolation; they must be examined in relation to their external milieu, feedback mechanisms and internal subsystems."
+    },
+    {
+      "heading": "Organisation as an Open System",
+      "content": "Modern organisations are described as open systems because they continuously exchange resources, information and energy with their environment. This openness explains the growing complexity, diversification and trans\u2011national operations highlighted in the unit. Open\u2011system theory, drawing on Talcott Parsons and later scholars, posits that organisations adapt through feedback loops, thereby achieving stability while remaining responsive to external changes."
+    },
+    {
+      "heading": "David Easton's Twenty Views on Systems Approach",
+      "content": "Easton applied the systems paradigm to political systems. His twenty views, as outlined in the IGNOU material, are: 1) Politics is a system of authoritative decision\u2011making; 2) The system receives inputs (demands, supports) from the environment; 3) Decisions constitute the system's outputs; 4) Feedback links outputs back to inputs; 5) The system is open, interacting with its social environment; 6) Stability is achieved through equilibrium between inputs and outputs; 7) Change occurs when disequilibrium exceeds a threshold; 8) Authority is the mechanism that converts inputs into decisions; 9) The political system is differentiated into sub\u2011systems (legislature, executive, judiciary); 10) Each sub\u2011system has its own inputs and outputs; 11) The system is goal\u2011oriented, aiming at order and legitimacy; 12) Political culture shapes the nature of inputs; 13) Institutional arrangements determine decision pathways; 14) The system can be analysed at macro\u2011 and micro\u2011levels; 15) Power is the capacity to influence inputs; 16) Policy formulation is a conversion of demands into programs; 17) Implementation links the political system with administrative structures; 18) Evaluation of policies provides new feedback; 19) The system is dynamic, constantly adapting to societal change; 20) Comparative analysis of political systems is possible by applying the same systemic criteria."
+    }
+  ],
+  "critical_evaluation": "Easton's systemic model offers a powerful lens for analysing political stability and change, yet it has limitations. Its emphasis on equilibrium may underplay conflict and power struggles that do not fit neatly into feedback loops. Moreover, the model assumes rational processing of inputs, overlooking informal networks and elite bargaining. Contemporary scholars augment Easton\u2019s framework with network theory and institutionalism to capture the complexity of modern governance.",
+  "conclusion": "The systems approach, by treating organisations and political entities as open, interactive wholes, provides a coherent structure for analysing inputs, processes and outputs. Easton's twenty views extend this logic to political systems, highlighting authority, feedback and equilibrium as central mechanisms. While the approach remains foundational in public administration, integrating it with newer theories enhances its explanatory power for today\u2019s multifaceted administrative realities.",
+  "key_thinkers_cited": [
+    "David Easton",
+    "Chester Barnard",
+    "Talcott Parsons"
+  ]
+}

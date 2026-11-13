@@ -1,0 +1,26 @@
+{
+  "question": "Define Management Development and throw light on its major approaches.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Management development refers to a conscious and systematic process aimed at enhancing the managerial resources of an organization so that its goals and strategies are achieved. As Molander (1986) defines it, management development is \"a conscious and systematic process to control the development of managerial resources in the organisation for the achievement of goals and strategies.\" The concept goes beyond mere training; it seeks to expand managers' understanding of the managerial world, improve decision\u2011making capabilities, and align individual growth with organisational objectives (Smith et al., 1980).",
+  "body_sections": [
+    {
+      "heading": "Definition and Scope of Management Development",
+      "content": "The scope of management development encompasses the identification of managerial competencies, the design of learning interventions, and the evaluation of outcomes. While management education imparts theoretical knowledge, management development focuses on applying that knowledge in real\u2011world contexts. It integrates formal education, on\u2011the\u2011job training, coaching, and mentoring to create a holistic growth trajectory for managers. By systematically mapping current capabilities against future strategic needs, organizations can ensure a pipeline of competent leaders capable of navigating complex environments."
+    },
+    {
+      "heading": "Major Approaches to Management Development",
+      "content": "IGNOU identifies three principal approaches. 1. **Piecemeal Approach** \u2013 This method treats development as a series of isolated interventions such as workshops or short courses, without linking them to a broader strategic framework. 2. **Open System Approach** \u2013 Here, development is viewed as an interactive process between the organization and its external environment. It emphasizes feedback, adaptability, and continuous learning, allowing managers to respond to changing market and societal demands. 3. **Unified Approach** \u2013 This integrative model combines the strengths of the previous two, aligning individual learning activities with organizational goals, and fostering a culture where development is embedded in everyday work practices."
+    },
+    {
+      "heading": "Implementation Considerations",
+      "content": "Effective implementation requires attention to context, resource allocation, and evaluation mechanisms. The context includes organizational culture, size, and sector, which shape the choice of approach. Organising programmes involves selecting appropriate content, delivery modes, and facilitators, while ensuring alignment with strategic priorities. Evaluation, both formative and summative, helps ascertain whether the development activities translate into improved managerial performance and organizational outcomes. Coaching and mentoring, as highlighted in the unit, play a pivotal role in reinforcing learning and facilitating transfer of skills to the workplace."
+    }
+  ],
+  "critical_evaluation": "While the three approaches provide a useful taxonomy, each has limitations. The piecemeal approach may lead to fragmented learning and low transferability. The open system approach, though adaptable, can be resource\u2011intensive and may lack clear linkage to specific competency gaps. The unified approach, while theoretically optimal, demands strong leadership commitment and robust monitoring systems, which many public sector entities lack. Contemporary relevance calls for integrating digital learning platforms and fostering agile mindsets, ensuring that management development remains responsive to rapid technological and societal changes.",
+  "conclusion": "Management development is a strategic, systematic endeavour that equips managers with the knowledge, skills, and attitudes required to fulfil organisational missions. By selecting an appropriate approach\u2014piecemeal, open system, or unified\u2014and tailoring implementation to contextual realities, organizations can cultivate effective leadership. Continuous evaluation and adaptation are essential to sustain relevance in an ever\u2011evolving public administration landscape.",
+  "key_thinkers_cited": [
+    "Molander (1986)",
+    "Smith et al. (1980)"
+  ]
+}

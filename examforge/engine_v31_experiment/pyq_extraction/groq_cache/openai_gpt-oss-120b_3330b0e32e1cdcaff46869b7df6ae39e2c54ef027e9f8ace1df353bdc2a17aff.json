@@ -1,0 +1,27 @@
+{
+  "question": "'F.W. Taylor is the father of Scientific Management Approach'. Comment.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Frederick Winslow Taylor (1856\u20111915) is widely acknowledged as the pioneer of Scientific Management, a systematic effort to replace rule\u2011of\u2011thumb administration with a science of work. In the context of the industrial revolution, Taylor sought to increase productivity, reduce waste and harmonise the relationship between workers and management. His contribution lies not merely in coining the term but in formulating a set of principles that transformed managerial practice and laid the foundation for modern management theories.",
+  "body_sections": [
+    {
+      "heading": "1. Development of a True Science of Work",
+      "content": "Taylor\u2019s first principle emphasised the need to study work processes scientifically rather than relying on tradition. By conducting time\u2011and\u2011motion studies, he identified the \u2018one best way\u2019 to perform each task, thereby converting labour into a predictable, measurable activity. This approach challenged the prevailing artisanal methods and introduced objective standards for performance, a core tenet highlighted in Unit\u202f4 of the IGNOU textbook."
+    },
+    {
+      "heading": "2. Scientific Selection and Training of Workers",
+      "content": "The second principle advocated for the scientific selection of workers based on aptitude and the provision of systematic training. Taylor argued that workers should be matched to jobs that suit their capabilities, and that management must assume responsibility for training. This broke with the earlier practice of \u2018any man can do the work\u2019, fostering a partnership where efficiency gains were shared between labour and management."
+    },
+    {
+      "heading": "3. Division of Work and Responsibility between Management and Workers",
+      "content": "Taylor\u2019s third principle delineated clear responsibilities: management plans and designs work methods, while workers execute them. By separating planning from execution, Taylor eliminated the dual role that previously burdened foremen, leading to higher specialization and accountability. This division is central to the modern organisational structure and is reiterated in the IGNOU unit as a pivotal element of scientific management."
+    }
+  ],
+  "critical_evaluation": "While Taylor\u2019s principles revolutionised industrial productivity, they attracted criticism for mechanistic treatment of labour, neglect of human motivation and the potential for worker alienation. Subsequent scholars such as Elton Mayo highlighted the importance of social relations, and the Human Relations School argued that Taylor\u2019s focus on efficiency alone was insufficient for sustainable performance. Nevertheless, the core ideas of standardisation, measurement and systematic training retain relevance in contemporary public administration, especially in performance\u2011based budgeting and e\u2011governance initiatives.",
+  "conclusion": "In sum, Taylor\u2019s systematic analysis of work, scientific selection of personnel and clear division of responsibilities justify his epithet as the \u2018father of Scientific Management\u2019. Although later critiques have refined and expanded his framework, the foundational principles he introduced continue to underpin modern administrative practices, confirming his enduring legacy in both private and public sector management.",
+  "key_thinkers_cited": [
+    "Frederick Winslow Taylor",
+    "Elton Mayo",
+    "Henri Fayol"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "question": "Concept of trusteeship",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-260 words",
+  "introduction": "Gandhi\u2019s trusteeship is a moral\u2011economic doctrine that envisions private wealth not as a personal right but as a fiduciary responsibility towards society. It seeks to reconcile individual enterprise with collective welfare, positioning the individual as a caretaker rather than an owner.",
+  "body_sections": [
+    {
+      "heading": "Philosophical Foundations",
+      "content": "Gandhi derives trusteeship from the principle of *Sarvodaya* \u2013 the upliftment of all. He argues that material possessions are gifts from the divine and must be administered for the common good. This view challenges the liberal notion of absolute property rights, emphasizing duty over entitlement and urging individuals to internalise the welfare of the community as a sacred obligation."
+    },
+    {
+      "heading": "Operational Mechanism",
+      "content": "In practice, trusteeship calls for voluntary restraint in accumulation, equitable distribution of surplus, and reinvestment in social services such as education and health. Gandhi proposes that industrialists and landlords act as \u2018trustees\u2019 who allocate profits to uplift the under\u2011privileged, thereby creating a self\u2011regulating economy without coercive state intervention. The doctrine thus integrates ethical conduct with economic activity."
+    },
+    {
+      "heading": "Relation to the Modern State",
+      "content": "Gandhi critiques the modern state for fostering materialism and alienation, yet he does not reject state functions entirely. Trusteeship complements a minimalist state by reducing the need for extensive welfare machinery; the state becomes a facilitator of ethical commerce rather than a primary provider. This aligns with his broader vision of *Swaraj* where power rests in responsible individuals."
+    }
+  ],
+  "critical_evaluation": "While trusteeship offers a compelling ethical framework, its reliance on voluntary compliance limits scalability in contemporary complex economies. Institutional mechanisms are required to enforce accountability, and the doctrine may clash with entrenched capitalist incentives, raising questions about its practical viability today.",
+  "conclusion": "Trusteeship articulates Gandhi\u2019s attempt to fuse moral responsibility with economic activity, presenting an alternative to both unfettered capitalism and expansive state welfare. Its relevance persists as a normative benchmark for corporate social responsibility, even as implementation challenges remain.",
+  "key_thinkers_cited": [
+    "Mahatma Gandhi"
+  ]
+}

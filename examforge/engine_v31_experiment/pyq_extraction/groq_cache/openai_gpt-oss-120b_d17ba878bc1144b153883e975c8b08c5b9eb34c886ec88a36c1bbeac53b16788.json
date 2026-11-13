@@ -1,0 +1,26 @@
+{
+  "question": "Always Better Control (ABC) Analysis. 10 1",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "ABC (Always Better Control) analysis is a pivotal inventory\u2011control technique highlighted in Unit\u202f12\u2019s discussion on inventory control. It classifies items into three categories (A, B, C) based on annual consumption value, enabling managers to focus control efforts where they matter most, thereby enhancing logistics efficiency.",
+  "body_sections": [
+    {
+      "heading": "Principle and Classification",
+      "content": "The technique draws on the Pareto principle, asserting that roughly 80\u202f% of consumption value stems from 20\u202f% of items. Category\u202fA comprises high\u2011value, low\u2011quantity items requiring tight monitoring, safety stock and frequent review. Category\u202fB includes moderate\u2011value items with periodic review, while Category\u202fC covers low\u2011value, high\u2011quantity items managed with simple reorder points. This gradation aligns with the unit\u2019s emphasis on differentiated control for varied logistics functions."
+    },
+    {
+      "heading": "Implementation Steps",
+      "content": "Implementation follows a systematic sequence: (i) compute annual usage value for each item, (ii) rank items in descending order, (iii) calculate cumulative percentage of total value, and (iv) assign A, B, C labels based on pre\u2011set thresholds (e.g., A\u202f=\u202f0\u201170\u202f%, B\u202f=\u202f70\u201190\u202f%, C\u202f=\u202f90\u2011100\u202f%). The unit stresses that accurate data collection and periodic re\u2011classification are essential to sustain control."
+    },
+    {
+      "heading": "Strategic Benefits in Logistics Management",
+      "content": "ABC analysis supports the logistics objectives outlined in the unit\u2014optimising storage space, reducing carrying costs, and improving service levels. By concentrating resources on A\u2011items, organisations achieve better stock\u2011out protection, while C\u2011items benefit from cost\u2011effective bulk handling, thereby streamlining the end\u2011to\u2011end flow from source to consumption."
+    }
+  ],
+  "critical_evaluation": "While ABC analysis offers a pragmatic framework, it assumes stable demand patterns and may overlook items with critical strategic importance but low monetary value. In dynamic supply chains, reliance solely on value\u2011based classification can mask risks such as obsolescence or supplier reliability, necessitating complementary techniques like safety\u2011stock modelling.",
+  "conclusion": "ABC analysis, as presented in the IGNOU material, remains a cornerstone of inventory control, enabling differentiated attention to items based on consumption value. When integrated with periodic review and supplementary risk\u2011assessment tools, it delivers robust logistics performance aligned with the \u2018Always Better Control\u2019 ethos.",
+  "key_thinkers_cited": [
+    "Vilfredo Pareto",
+    "Unit\u202f12 Inventory Control Techniques"
+  ]
+}

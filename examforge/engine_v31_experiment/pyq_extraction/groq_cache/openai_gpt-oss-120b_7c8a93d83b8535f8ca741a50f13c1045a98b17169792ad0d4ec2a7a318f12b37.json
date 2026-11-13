@@ -1,0 +1,26 @@
+{
+  "question": "Examine Frederick Herzberg's motivation-hygiene theory and compare it with Maslow's model.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Motivation remains a central concern of public administration because it directly influences employee performance, satisfaction and organisational effectiveness. Two seminal contributions \u2013 Abraham Maslow\u2019s Hierarchy of Needs (1943) and Frederick Herzberg\u2019s Motivation\u2011Hygiene (or Two\u2011Factor) Theory (1959) \u2013 offer distinct yet complementary lenses for understanding why individuals work. While Maslow presents a sequential, need\u2011based pyramid, Herzberg differentiates between factors that cause dissatisfaction (hygiene) and those that engender true motivation (motivators). This answer outlines each theory, juxtaposes their core propositions and evaluates their relevance for contemporary public organisations.",
+  "body_sections": [
+    {
+      "heading": "Herzberg\u2019s Motivation\u2011Hygiene Theory",
+      "content": "Herzberg, based on a systematic study of engineers and accountants, identified two independent sets of determinants. Hygiene factors \u2013 salary, company policies, supervisory relations, working conditions and job security \u2013 do not motivate when present but cause dissatisfaction when absent. Motivators \u2013 achievement, recognition, responsibility, advancement and the work itself \u2013 generate genuine satisfaction and higher performance. The theory posits that improving hygiene eliminates dissatisfaction, whereas enriching the job with motivators raises intrinsic motivation. Herzberg further advocated \u2018job enrichment\u2019 and \u2018vertical job loading\u2019 as practical tools for public managers to redesign posts so that employees experience greater autonomy and meaningful achievement."
+    },
+    {
+      "heading": "Maslow\u2019s Hierarchy of Needs",
+      "content": "Maslow\u2019s model arranges human needs in a five\u2011level pyramid: physiological, safety, social (belongingness), esteem and self\u2011actualisation. According to the hierarchy, lower\u2011order needs must be at least partially satisfied before higher\u2011order needs become salient. In the public sector, basic remuneration and job security address physiological and safety needs; collegial work environments satisfy social needs; recognition and status meet esteem needs; and opportunities for personal growth, innovation and public service fulfil self\u2011actualisation. Maslow\u2019s theory underscores that motivation is dynamic \u2013 as one need is satisfied, the next level emerges, prompting managers to adopt a progressive, holistic approach to employee development."
+    },
+    {
+      "heading": "Comparative Analysis of Herzberg and Maslow",
+      "content": "Both theories recognise that extrinsic and intrinsic elements shape employee behaviour, yet they differ in structure and application. Maslow\u2019s hierarchy is a linear, developmental sequence, whereas Herzberg\u2019s two\u2011factor model treats hygiene and motivators as orthogonal \u2013 the presence of one does not guarantee the presence of the other. In practice, Herzberg\u2019s framework is more actionable for job design: eliminating hygiene deficits (e.g., inadequate pay) prevents dissatisfaction, while adding motivators (e.g., responsibility) drives performance. Maslow, by contrast, offers a broader diagnostic tool for assessing which level of need is dominant among staff, guiding policy decisions such as welfare schemes (physiological/safety) or leadership development programmes (esteem/self\u2011actualisation). Together, they provide a comprehensive motivational blueprint for public administrators."
+    }
+  ],
+  "critical_evaluation": "Empirical studies have shown mixed support for both models. Herzberg\u2019s reliance on self\u2011reported critical incidents may suffer from recall bias, and the dichotomy between hygiene and motivators can blur in complex public\u2011service settings where, for example, salary also conveys status. Maslow\u2019s strict hierarchy has been contested; individuals often pursue higher\u2011order needs despite unmet lower needs, especially when ideological commitment to public service is strong. Nonetheless, the theories remain valuable: Herzberg\u2019s job\u2011enrichment principles underpin modern performance\u2011management systems, while Maslow\u2019s need\u2011based perspective informs welfare and capacity\u2011building policies.",
+  "conclusion": "In sum, Herzberg\u2019s Motivation\u2011Hygiene Theory offers a pragmatic, two\u2011factor approach to designing motivating jobs, whereas Maslow\u2019s Hierarchy provides a broader, need\u2011progression framework. Effective public administration integrates both \u2013 first securing hygiene conditions to remove dissatisfaction, then aligning job characteristics and development opportunities with the evolving needs of employees, thereby fostering sustained motivation and organisational excellence.",
+  "key_thinkers_cited": [
+    "Frederick Herzberg",
+    "Abraham Maslow"
+  ]
+}

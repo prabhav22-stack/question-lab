@@ -1,0 +1,33 @@
+{
+  "question": "Analyse the theoretical foundations of the evolution of the concept of public systems management.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Public Systems Management (PSM) emerges as a synthesis of systems theory and contemporary public administration. A system, as defined by Gore and Stubbe (1994), is \u201ca combination of resources working together to convert inputs into outputs\u201d. In the public sector, these resources\u2014personnel, finance, information, and technology\u2014are organised to deliver collective goods and services. The evolution of PSM reflects shifting paradigms from classical bureaucracy to market\u2011oriented governance, integrating entrepreneurial, network and cybernetic perspectives to meet the demands of globalisation and citizen\u2011centric outcomes.",
+  "body_sections": [
+    {
+      "heading": "Classical Foundations and the Birth of Systems Thinking",
+      "content": "The earliest theoretical base lies in Max Weber\u2019s rational\u2011legal bureaucracy and Woodrow Wilson\u2019s separation of politics and administration, which emphasized hierarchical control and rule\u2011bound processes. Concurrently, Ludwig von Bertalanffy\u2019s General Systems Theory (1960s) introduced the idea that organisations could be studied as open systems interacting with their environment. Herbert Simon\u2019s bounded rationality and decision\u2011making models further reinforced the need to view public organisations as information\u2011processing systems, laying groundwork for later PSM concepts."
+    },
+    {
+      "heading": "New Public Management and the Market Model",
+      "content": "The 1980s witnessed the rise of New Public Management (NPM), championed by scholars such as Christopher Hood and Osborne & Gaebler. NPM imported private\u2011sector techniques\u2014performance measurement, contracting out, and cost\u2011effectiveness\u2014into the public realm, redefining administrators as entrepreneurial managers. This market model re\u2011oriented the public system from a command\u2011and\u2011control structure to a results\u2011oriented network, where inputs are strategically aligned with outputs through performance contracts and benchmarking."
+    },
+    {
+      "heading": "Contemporary Systems Approaches and Network Governance",
+      "content": "Recent scholarship extends PSM through cybernetic and network governance lenses. Mary Parker Follett\u2019s ideas on collaborative authority and Dwight Waldo\u2019s emphasis on values underpin the shift toward inter\u2011organizational systems and public\u2011private partnerships. The concept of \u201cpublic value\u201d (Moore, 1995) and the \u201cwhole\u2011of\u2011government\u201d approach treat policy problems as complex, adaptive systems requiring feedback loops, learning mechanisms, and stakeholder participation. Indian statutory reforms, such as the e\u2011Governance initiatives under the National e\u2011Governance Plan, exemplify the operationalisation of these systemic principles."
+    }
+  ],
+  "critical_evaluation": "While the systems perspective enriches analytical clarity, it risks over\u2011technicality, marginalising political judgement and ethical considerations. NPM\u2019s focus on efficiency may undermine equity, and network governance can blur accountability when multiple actors share responsibilities. Moreover, the rapid digitalisation of public services introduces cyber\u2011security and data\u2011privacy challenges that traditional system models do not fully address, calling for an integrated normative\u2011technical framework.",
+  "conclusion": "The theoretical evolution of public systems management reflects a trajectory from rigid bureaucratic structures to dynamic, networked, and performance\u2011driven systems. By integrating classical bureaucracy, systems theory, market\u2011oriented reforms, and contemporary network governance, PSM offers a comprehensive lens to analyse and improve public service delivery. However, scholars and practitioners must balance efficiency with democratic accountability and adapt the framework to emerging technological and societal complexities.",
+  "key_thinkers_cited": [
+    "Max Weber",
+    "Woodrow Wilson",
+    "Ludwig von Bertalanffy",
+    "Herbert Simon",
+    "Christopher Hood",
+    "Osborne & Gaebler",
+    "Mary Parker Follett",
+    "Dwight Waldo",
+    "Mark Moore"
+  ]
+}

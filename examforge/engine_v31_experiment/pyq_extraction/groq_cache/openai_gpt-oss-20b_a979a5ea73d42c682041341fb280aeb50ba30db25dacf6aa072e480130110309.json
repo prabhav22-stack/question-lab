@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS_WITH_MINOR_WARNINGS",
+  "factual_accuracy_score": 0.85,
+  "comments": "The framework largely aligns with the official IGNOU unit text, accurately reflecting key themes such as the governance school, people\u2011centric approaches, and the evolving norms of participation, autonomy, and flexibility. However, it introduces the notion of a \"social engineering perspective on equity\" and frames social equity as evolving from equality to social justice and social engineering\u2014concepts not explicitly present in the excerpt. These additions represent minor hallucinations. The critical evaluation is consistent with the excerpt\u2019s discussion of under\u2011implementation and exclusion. Overall, the content is academically suitable for high\u2011marking IGNOU term\u2011end examinations, provided the hallucinated elements are revised.",
+  "correction_needed": "Remove or rephrase the \"social engineering perspective on equity\" and the evolution from equality to social justice and social engineering to match the official text."
+}

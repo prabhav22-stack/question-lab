@@ -1,0 +1,31 @@
+{
+  "question": "What do you understand by organisational culture ? Discuss its components.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "approx. 450-500 words",
+  "introduction": "Organisational culture refers to the shared values, beliefs, assumptions and behavioural patterns that guide how members of an organisation think and act. As highlighted in the IGNOU Unit 17 material, culture is the \"stuff\" that binds individuals together, providing a collective identity and a framework for interpreting the external environment. In a rapidly changing, competitive world, a strong culture enables an organisation to respond swiftly, sustain learning and create new knowledge, thereby becoming a \u2018learning organisation\u2019 (Garrett, 1987; Senge, 1990).",
+  "body_sections": [
+    {
+      "heading": "1. Core Values and Beliefs",
+      "content": "Core values constitute the deepest layer of culture; they are the enduring principles that define what the organisation stands for. Beliefs are the shared convictions about how work should be performed and what outcomes are desirable. According to the unit, these values and beliefs shape decision\u2011making, influence strategic direction and provide the moral compass for employees. For example, a commitment to customer orientation or innovation becomes a cultural norm that permeates daily actions."
+    },
+    {
+      "heading": "2. Norms, Practices and Rituals",
+      "content": "Norms are the unwritten rules that dictate acceptable behaviour, while practices and rituals are the observable manifestations of those norms. The IGNOU text stresses that organisational culture is expressed through routine activities such as meetings, performance appraisal systems, and celebration of achievements. These rituals reinforce the underlying values, create a sense of belonging and facilitate the transmission of culture to new members."
+    },
+    {
+      "heading": "3. Symbols, Language and Stories",
+      "content": "Symbols (logos, dress codes, office layout) and a distinctive organisational language (jargon, slogans) serve as visible cues of culture. Stories and myths about founders, past successes or crises convey cultural meanings across generations. The unit notes that such symbolic artefacts help employees make sense of complex situations and align their behaviour with the organisational ethos."
+    },
+    {
+      "heading": "4. Learning Orientation and Core Competencies",
+      "content": "A contemporary component emphasized by Prahalad and Hamel (1990) is the focus on core competencies that constitute the collective learning of the organisation. This learning orientation is embedded in culture through continuous training, knowledge\u2011sharing platforms and a willingness to experiment. It ensures that culture remains dynamic, supporting the creation of new knowledge as advocated by Senge (1990)."
+    }
+  ],
+  "critical_evaluation": "While the components outlined above provide a comprehensive framework, organisational culture is not static. Rapid technological change and global competition can render existing values obsolete, leading to cultural inertia. Moreover, an overly strong culture may suppress dissent and stifle innovation, contradicting the learning\u2011organisation ideal. Hence, managers must periodically diagnose cultural fit, encourage sub\u2011cultures that foster creativity, and balance stability with adaptability.",
+  "conclusion": "In sum, organisational culture is the collective fabric of values, norms, symbols and learning orientations that shapes behaviour and performance. Its components\u2014core values, norms and rituals, symbols and stories, and a learning\u2011oriented competency base\u2014interact to create a coherent identity while enabling the organisation to navigate change. A nuanced understanding and deliberate management of these components are essential for sustaining relevance in today\u2019s volatile environment.",
+  "key_thinkers_cited": [
+    "Garrett (1987)",
+    "Senge (1990)",
+    "Prahalad and Hamel (1990)"
+  ]
+}

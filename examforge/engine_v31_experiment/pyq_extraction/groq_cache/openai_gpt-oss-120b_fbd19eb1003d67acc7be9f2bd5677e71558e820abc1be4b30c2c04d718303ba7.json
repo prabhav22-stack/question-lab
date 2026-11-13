@@ -1,0 +1,27 @@
+{
+  "question": "Change Management",
+  "format_and_marks": "SPLIT_10M | 10 Marks",
+  "target_word_count": "approx. 220-250 words",
+  "introduction": "Change management in public administration refers to the systematic process of planning, implementing, and sustaining alterations in structures, processes, or culture to achieve reform objectives, as highlighted in Unit 23 of the IGNOU MPA\u2011013 syllabus.",
+  "body_sections": [
+    {
+      "heading": "Nature and Drivers of Change",
+      "content": "Globalisation, rapid technological diffusion, heightened citizen expectations, and shifting political\u2011economic contexts constitute the primary drivers of change in government. These external pressures compel public agencies to redesign service delivery, adopt e\u2011governance tools, and re\u2011align policies with international standards, thereby creating a complex milieu for change management."
+    },
+    {
+      "heading": "Theoretical Models for Public Sector Change",
+      "content": "The unit recommends Lewin\u2019s three\u2011step model (unfreeze\u2011change\u2011refreeze) as a foundational framework, complemented by Kotter\u2019s eight\u2011step process that emphasizes vision, coalition building, and short\u2011term wins. An integrated model combining these with stakeholder analysis and capacity\u2011building modules is advocated to suit the public sector\u2019s hierarchical and political nature."
+    },
+    {
+      "heading": "Strategic Steps in Evolving a Change Management Strategy",
+      "content": "Evolving a change management strategy involves (i) diagnosing the current state and identifying gaps, (ii) mapping stakeholders and assessing resistance, (iii) designing interventions such as training, process re\u2011engineering, and ICT adoption, (iv) implementing pilots with monitoring mechanisms, and (v) institutionalising feedback loops to ensure sustainability and continuous improvement."
+    }
+  ],
+  "critical_evaluation": "While these models provide structured pathways, their linear assumptions may overlook deep\u2011rooted bureaucratic inertia, resource scarcity, and political volatility, necessitating adaptive, context\u2011specific modifications for effective public sector change.",
+  "conclusion": "In sum, a nuanced blend of classic change theories and contextual strategy is essential for successful reform implementation in contemporary public administration.",
+  "key_thinkers_cited": [
+    "Kurt Lewin",
+    "John Kotter",
+    "Lippitt"
+  ]
+}

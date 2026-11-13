@@ -1,0 +1,31 @@
+{
+  "question": "Define Human Resource Management and highlight its features.",
+  "format_and_marks": "FULL_20M | 20 Marks",
+  "target_word_count": "500-580 words",
+  "introduction": "Human Resource Management (HRM) is a strategic and comprehensive approach to managing people within an organization so that they help the business gain a competitive advantage. It goes beyond the traditional personnel administration of hiring, payroll and record\u2011keeping to encompass the planning, development, motivation and retention of a skilled workforce. In the public sector, HRM aligns human capital with policy objectives, while in the private sector it links employee performance with profitability. By integrating recruitment, training, performance appraisal, compensation, employee relations and strategic workforce planning, HRM ensures that the right people are in the right jobs at the right time, fostering organisational effectiveness and adaptability in a dynamic environment.",
+  "body_sections": [
+    {
+      "heading": "1. Definition and Scope of HRM",
+      "content": "HRM can be defined as the systematic process of acquiring, developing, utilizing and retaining human resources to achieve organisational goals. It covers the full employment cycle from workforce forecasting, job analysis and recruitment to onboarding, training, career development and succession planning. The scope also includes performance management, compensation and benefits, health and safety, industrial relations and employee welfare. By treating employees as valuable assets rather than mere costs, HRM expands its purview to strategic decision\u2011making, ensuring that human capital contributes directly to the achievement of mission, vision and long\u2011term sustainability."
+    },
+    {
+      "heading": "2. Core Features \u2013 Planning and Recruitment",
+      "content": "A fundamental feature of HRM is strategic workforce planning, which involves analysing current and future skill requirements and forecasting labour needs. This proactive approach prevents talent shortages and aligns staffing with organisational objectives. Recruitment, another key feature, entails sourcing, selecting and hiring candidates through systematic processes such as job postings, screening, interviews and assessment centres. Modern HRM emphasizes employer branding, diversity and inclusion, and the use of technology like applicant tracking systems. By integrating planning with recruitment, HRM ensures that the organisation builds a competent, diverse and adaptable talent pool capable of meeting evolving challenges."
+    },
+    {
+      "heading": "3. Core Features \u2013 Development, Performance and Compensation",
+      "content": "Employee development is a central HRM function that includes training, coaching, mentoring and continuous learning initiatives. It aims to enhance individual competencies, foster innovation and prepare successors for critical roles. Performance management, closely linked to development, involves setting clear objectives, regular feedback, appraisal systems and performance\u2011linked rewards. Compensation and benefits constitute another vital feature, encompassing salary structures, incentives, health insurance, retirement plans and non\u2011monetary rewards. Together, these features create a motivational climate, promote fairness, and align individual performance with organisational goals, thereby driving productivity and employee satisfaction."
+    },
+    {
+      "heading": "4. Core Features \u2013 Employee Relations and Strategic Role",
+      "content": "Effective employee relations, conflict resolution and labour\u2011law compliance are essential HRM features that maintain harmonious workplace relations and mitigate legal risks. HRM also plays a strategic role by participating in policy formulation, organisational design and change management. It acts as a bridge between top management and the workforce, translating strategic objectives into human\u2011centred initiatives. Through data\u2011driven analytics, HRM provides insights on turnover, engagement and talent gaps, enabling evidence\u2011based decisions. This strategic orientation positions HRM as a proactive partner in shaping organisational culture, driving innovation and sustaining competitive advantage."
+    }
+  ],
+  "critical_evaluation": "While HRM offers a comprehensive framework for managing people, its effectiveness can be constrained by bureaucratic inertia, inadequate data analytics and resistance to change. In many public institutions, rigid procedural norms limit flexibility, reducing the ability to respond swiftly to emerging skill needs. Moreover, over\u2011emphasis on quantitative metrics may overlook qualitative aspects such as employee morale and intrinsic motivation. Therefore, HRM must balance strategic rigor with humanistic values, ensuring that policies are both efficient and empathetic to sustain long\u2011term organisational health.",
+  "conclusion": "In summary, Human Resource Management is a multidimensional discipline that integrates planning, recruitment, development, performance, compensation and employee relations to create a high\u2011performing workforce. Its evolution from a clerical personnel function to a strategic partner reflects the growing recognition of people as a critical source of competitive advantage. By embracing both analytical rigor and humane practices, HRM can drive organisational effectiveness, adaptability and sustainable growth in both public and private sectors.",
+  "key_thinkers_cited": [
+    "Gary Dessler",
+    "Peter Drucker",
+    "John Kotter"
+  ]
+}

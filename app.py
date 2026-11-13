@@ -27,6 +27,7 @@ import analytics
 import anki_exporter
 import audio_engine
 import config
+import examforge_view
 import db
 import fsrs_engine
 import ocr_engine
@@ -49,6 +50,7 @@ try:
     importlib.reload(anki_exporter)
     importlib.reload(audio_engine)
     importlib.reload(fsrs_engine)
+    importlib.reload(examforge_view)
     importlib.reload(pdf_extractor)
     importlib.reload(revision_engine)
     importlib.reload(schemas)
@@ -285,6 +287,7 @@ NAV_PAGES = [
     "Current Affairs Lab",
     "Practice & Mock Tests",
     "🖨️ Offline Exam & OMR Simulation",
+    "🎓 ExamForge: MPA Lab",
     "AI Study Tutor",
     "AI Performance Coach",
     "Error Notebook",
@@ -6200,6 +6203,8 @@ def main() -> None:
         show_practice()
     elif selected_page == "🖨️ Offline Exam & OMR Simulation":
         show_offline_exam_simulation()
+    elif selected_page == "🎓 ExamForge: MPA Lab":
+        examforge_view.show_examforge_lab()
     elif selected_page == "AI Study Tutor":
         show_ai_tutor()
     elif selected_page == "AI Performance Coach":

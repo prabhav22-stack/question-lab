@@ -1,0 +1,6 @@
+{
+  "verdict": "PASS_WITH_MINOR_WARNINGS",
+  "factual_accuracy_score": 0.8,
+  "comments": "The framework is largely accurate and academically sound, but contains a few misattributions. M.\u202fN.\u202fSrinivas is a sociologist who studied village communities but did not formulate the concept of Swaraj; his work should be contextualised as a sociological study rather than a Gandhian theory. Ambedkar, while a key constitutional architect, was critical of Gandhi\u2019s trusteeship and did not endorse it; his inclusion should note this divergence. The RTI Act aligns with transparency but is not a direct Gandhian instrument. Overall, the content meets the 500\u2011/250\u2011word depth requirement and avoids hallucinations.",
+  "correction_needed": "Clarify that Srinivas\u2019s work is sociological, not a Gandhian theory; note Ambedkar\u2019s critical stance on trusteeship; reframe the RTI Act as a modern tool for transparency rather than a Gandhian instrument."
+}
