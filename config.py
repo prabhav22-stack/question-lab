@@ -62,6 +62,29 @@ def get_gemini_analysis_model() -> str:
     return _get_setting("GEMINI_ANALYSIS_MODEL", "gemini-3.5-flash")
 
 
+def get_nvidia_api_key() -> str:
+    """Return the configured NVIDIA NIM API key, or empty string."""
+    # First check session state for interactive overrides
+    if _HAS_STREAMLIT:
+        try:
+            if "nvidia_api_key" in st.session_state and st.session_state["nvidia_api_key"]:
+                return str(st.session_state["nvidia_api_key"]).strip()
+        except Exception:
+            pass
+    return _get_setting("NVIDIA_API_KEY", "")
+
+
+def get_nvidia_model() -> str:
+    """Return configured NVIDIA model name."""
+    return _get_setting("NVIDIA_MODEL", "meta/llama-3.3-70b-instruct")
+
+
+def is_nvidia_configured() -> bool:
+    """Check if an NVIDIA API key is configured."""
+    key = get_nvidia_api_key()
+    return bool(key and key != "YOUR_NVIDIA_API_KEY")
+
+
 def get_supabase_url() -> str:
     """Return configured Supabase project URL."""
     return _get_setting("SUPABASE_URL", "")

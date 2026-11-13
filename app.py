@@ -28,6 +28,7 @@ import anki_exporter
 import audio_engine
 import config
 import examforge_view
+import nvidia_service
 import db
 import fsrs_engine
 import ocr_engine
@@ -51,6 +52,7 @@ try:
     importlib.reload(audio_engine)
     importlib.reload(fsrs_engine)
     importlib.reload(examforge_view)
+    importlib.reload(nvidia_service)
     importlib.reload(pdf_extractor)
     importlib.reload(revision_engine)
     importlib.reload(schemas)
@@ -6021,8 +6023,37 @@ def show_settings() -> None:
 
     st.divider()
 
-    # 2. Supabase Cloud Sync
-    st.subheader("2. Supabase Cloud Sync")
+    # 2. NVIDIA AI (NIM) Inference Engine
+    st.subheader("2. NVIDIA AI (NIM) Inference Engine")
+    nv_key = config.get_nvidia_api_key()
+    c_nv1, c_nv2 = st.columns(2)
+    c_nv1.write(f"**NVIDIA API Key:** `{config.mask_secret(nv_key)}`")
+    c_nv2.write(f"**Default NIM Model:** `{config.get_nvidia_model()}`")
+
+    col_nv1, col_nv2 = st.columns([1, 2])
+    if col_nv1.button("🔌 Test NVIDIA Connection", type="primary", key="btn_test_nv_conn"):
+        with st.spinner("Testing NVIDIA NIM connection..."):
+            succ, msg = nvidia_service.query_nvidia_ai("Respond with 'NVIDIA NIM connection successful.' if you receive this.", max_tokens=25)
+            st.session_state["nvidia_test_result"] = {"success": succ, "message": msg}
+
+    nv_test_res = st.session_state.get("nvidia_test_result")
+    if nv_test_res:
+        if nv_test_res["success"]:
+            st.success(f"✅ {nv_test_res['message']}")
+        else:
+            st.error(f"❌ {nv_test_res['message']}")
+
+    if not config.is_nvidia_configured():
+        st.info(
+            "To configure your NVIDIA NIM key:\n"
+            "1. Obtain a free key (1,000 inference credits) at [build.nvidia.com](https://build.nvidia.com/).\n"
+            "2. Add to `.streamlit/secrets.toml`: `NVIDIA_API_KEY = \"nvapi-...\"` or set environment variable `NVIDIA_API_KEY`."
+        )
+
+    st.divider()
+
+    # 3. Supabase Cloud Sync
+    st.subheader("3. Supabase Cloud Sync")
     if config.is_supabase_configured():
         user = st.session_state.get("authenticated_user")
         if user:

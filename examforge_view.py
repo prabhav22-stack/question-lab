@@ -1,8 +1,8 @@
 """ExamForge v3.1 integration view for Question Lab.
 
 Provides predictive unit prioritisation, semantic PYQ clusters, official
-ebook-grounded model answers, and direct PDF study banks for Public Administration
-(MPA-011 through MPA-014).
+ebook-grounded model answers, direct PDF study banks, and NVIDIA AI-powered
+interactive doubt-solving for Public Administration (MPA-011 through MPA-014).
 """
 
 from __future__ import annotations
@@ -13,6 +13,9 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
 import streamlit as st
+
+import config
+import nvidia_service
 
 EXAMFORGE_ROOT = Path(__file__).parent.resolve() / "examforge"
 OUTPUT_DIR = EXAMFORGE_ROOT / "engine_v31_experiment" / "pyq_extraction" / "outputs"
@@ -49,7 +52,7 @@ def show_examforge_lab() -> None:
     st.title("🎓 ExamForge: Public Administration & MPA Lab")
     st.caption(
         "Predictive unit prioritisation, semantic PYQ clusters, official ebook-grounded model answers, "
-        "and syllabus forecasting for Civil Services Public Administration & IGNOU MPA First-Year."
+        "and NVIDIA AI doubt-solving for Civil Services Public Administration & IGNOU MPA First-Year."
     )
 
     df, model_answers = load_examforge_data()
@@ -70,7 +73,7 @@ def show_examforge_lab() -> None:
             </div>
             <div style="font-size: 13px; color: #cbd5e1;">
                 Select a course module below to inspect 15-year historical question frequency distributions,
-                TMA topic signals, verified 500-word model essay answers, and downloadable study compendiums.
+                TMA topic signals, verified 500-word model essay answers, and ask questions to NVIDIA AI.
             </div>
         </div>
         """,
@@ -208,23 +211,25 @@ def show_examforge_lab() -> None:
         st.warning("No units match the selected filters.")
         return
 
-    # Tabs
-    tab1, tab2, tab3, tab4 = st.tabs([
+    unit_rows = c_df[c_df["analytical_unit_id"] == selected_unit_id]
+    u_title = unit_rows["unit_title"].iloc[0] if not unit_rows.empty else selected_unit_id
+
+    # 5 Main Content Tabs
+    tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "🎯 Unit Question Bank & Top Clusters",
         "📝 Official Ebook Model Answers",
         "📊 Complete Portfolio Matrix",
         "📚 Source Grounding & Verification",
+        "🤖 Ask NVIDIA AI (Tutor & Doubts)",
     ])
 
     # -------------------------------------------------------------
     # TAB 1: UNIT QUESTION BANK & TOP CLUSTERS
     # -------------------------------------------------------------
     with tab1:
-        unit_rows = c_df[c_df["analytical_unit_id"] == selected_unit_id]
         if unit_rows.empty:
             st.info("No questions found for this unit.")
         else:
-            u_title = unit_rows["unit_title"].iloc[0]
             u_tier = unit_rows["portfolio_tier"].iloc[0]
             u_sec = unit_rows["portfolio_section"].iloc[0]
 
@@ -391,3 +396,106 @@ def show_examforge_lab() -> None:
                 - Master PDF Verification: **73 Pages (PASSED)**
                 """
             )
+
+    # -------------------------------------------------------------
+    # TAB 5: ASK NVIDIA AI (TUTOR & DOUBTS)
+    # -------------------------------------------------------------
+    with tab5:
+        st.markdown(f"### 🤖 Ask NVIDIA AI: Concept & PYQ Doubts Tutor for **Unit {selected_unit_id}**")
+        st.caption(
+            "Powered by NVIDIA NIM Inference Endpoints (Llama 3.3 70B & Nemotron 70B). "
+            "Ask any conceptual question, request thinker comparisons, or ask for answer structuring grounded in this unit."
+        )
+
+        # API Key management
+        nv_key = config.get_nvidia_api_key()
+        if not nv_key:
+            st.info(
+                "💡 **NVIDIA NIM API Key**: Enter your key below or set `NVIDIA_API_KEY` in `.streamlit/secrets.toml`. "
+                "Get 1,000 free inference credits at [build.nvidia.com](https://build.nvidia.com/)."
+            )
+            user_nv_key = st.text_input("Enter NVIDIA API Key (starts with nvapi-):", type="password", key="ef_user_nv_key")
+            if user_nv_key:
+                st.session_state["nvidia_api_key"] = user_nv_key.strip()
+                st.success("API key stored for this session!")
+                nv_key = user_nv_key.strip()
+        else:
+            st.success("🟢 **NVIDIA AI Connected**: API key active.")
+
+        nv_model_col1, nv_model_col2 = st.columns([2, 1])
+        with nv_model_col1:
+            sel_nv_model = st.selectbox(
+                "Select NVIDIA NIM Model:",
+                options=list(nvidia_service.NVIDIA_MODELS.keys()),
+                format_func=lambda m: nvidia_service.NVIDIA_MODELS.get(m, m),
+                index=0,
+                key="ef_nv_model_choice",
+            )
+        with nv_model_col2:
+            st.caption("⚡ High-throughput GPU inference on NVIDIA Tensor Cores.")
+
+        # Quick prompt buttons
+        st.markdown("**💡 Quick Question Starters:**")
+        qp_col1, qp_col2 = st.columns(2)
+        starter_text = ""
+        with qp_col1:
+            if st.button("⚖️ Core Theoretical Debate in this Unit", use_container_width=True, key="btn_qp1"):
+                starter_text = f"Explain the core theoretical debate and major conflicting perspectives in {selected_unit_id}: {u_title} in 250 words."
+            if st.button("🎯 Expected 20-Mark Analytical Questions (2026)", use_container_width=True, key="btn_qp2"):
+                starter_text = f"Formulate two high-probability 20-mark analytical examination questions for 2026 based on {selected_unit_id}: {u_title} and outline the ideal answering structure."
+        with qp_col2:
+            if st.button("🏛️ Indian Administrative Relevance & Case Examples", use_container_width=True, key="btn_qp3"):
+                starter_text = f"How do the administrative theories of {selected_unit_id}: {u_title} apply to contemporary Indian governance, Panchayati Raj, or civil service reforms? Provide real case examples."
+            if st.button("📚 Key Thinkers Breakdown & Quotes", use_container_width=True, key="btn_qp4"):
+                starter_text = f"List the seminal thinkers and theorists for {selected_unit_id}: {u_title}, their core concepts, and memorable quotes or models to use in exam answers."
+
+        user_ask = st.text_area(
+            "Enter your question or doubt:",
+            value=starter_text,
+            placeholder=f"e.g., Explain the difference between classical and human relations approaches in {selected_unit_id}, citing relevant theorists...",
+            height=100,
+            key="ef_custom_ask_input",
+        )
+
+        rep_pyq = ""
+        ma_summary = ""
+        r1_row = unit_rows[unit_rows["cluster_rank"] == 1]
+        if not r1_row.empty:
+            r1_cid = r1_row["cluster_id"].iloc[0]
+            if r1_cid in model_answers:
+                ma = model_answers[r1_cid]
+                rep_pyq = ma.get("representative_question", "")
+                sdata = ma.get("structured_data", {})
+                ma_summary = f"{sdata.get('introduction', '')} {sdata.get('critical_evaluation', '')}"
+
+        if st.button("🚀 Ask NVIDIA AI", type="primary", use_container_width=True, key="btn_submit_nv_ask"):
+            if not user_ask.strip():
+                st.warning("Please type a question or select one of the quick starters above.")
+            else:
+                with st.spinner(f"Consulting {nvidia_service.NVIDIA_MODELS.get(sel_nv_model, sel_nv_model)} on NVIDIA DGX Cloud..."):
+                    success, answer = nvidia_service.ask_examforge_question(
+                        user_query=user_ask.strip(),
+                        course_id=selected_course,
+                        unit_id=selected_unit_id,
+                        unit_title=u_title,
+                        representative_pyq=rep_pyq,
+                        model_answer_summary=ma_summary,
+                        model=sel_nv_model,
+                        api_key=nv_key,
+                    )
+                    if success:
+                        st.markdown(
+                            f"""
+                            <div style="background: rgba(15, 23, 42, 0.7); border: 1px solid rgba(16, 185, 129, 0.45); border-radius: 10px; padding: 20px; margin-top: 16px;">
+                                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                                    <span style="font-weight: 700; color: #34d399; font-size: 15px;">🎓 NVIDIA AI Academic Response</span>
+                                    <span style="font-size: 11px; background: rgba(16, 185, 129, 0.2); color: #6ee7b7; padding: 2px 8px; border-radius: 999px;">{sel_nv_model}</span>
+                                </div>
+                                <div style="color: #f1f5f9; line-height: 1.65; font-size: 14.5px;">
+                            """,
+                            unsafe_allow_html=True,
+                        )
+                        st.markdown(answer)
+                        st.markdown("</div></div>", unsafe_allow_html=True)
+                    else:
+                        st.error(answer)

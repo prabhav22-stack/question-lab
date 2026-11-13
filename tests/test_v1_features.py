@@ -1759,5 +1759,63 @@ class TestNewStackFeatures(unittest.TestCase):
             self.assertTrue(c_pdf.exists(), f"Course PDF for {c} missing")
 
 
+    def test_nvidia_service_unconfigured_key(self):
+        """Verify NVIDIA service returns clean helpful message when key is not configured."""
+        import nvidia_service
+        succ, msg = nvidia_service.query_nvidia_ai("Hello", api_key="")
+        self.assertFalse(succ)
+        self.assertIn("NVIDIA API Key not configured", msg)
+
+    def test_nvidia_service_mocked_success(self):
+        """Verify NVIDIA NIM API response parsing with mocked HTTP response."""
+        import nvidia_service
+        from unittest.mock import MagicMock, patch
+        import json
+        import io
+
+        mock_resp_data = {
+            "choices": [
+                {
+                    "message": {
+                        "role": "assistant",
+                        "content": "Administrative theory began with Woodrow Wilson's 1887 essay."
+                    }
+                }
+            ]
+        }
+        mock_response = io.BytesIO(json.dumps(mock_resp_data).encode("utf-8"))
+        mock_response.getcode = MagicMock(return_value=200)
+
+        with patch("urllib.request.urlopen", return_value=mock_response):
+            succ, msg = nvidia_service.query_nvidia_ai(
+                "Explain the origins of administrative theory.",
+                api_key="nvapi-test-fake-key",
+            )
+            self.assertTrue(succ)
+            self.assertIn("Woodrow Wilson", msg)
+
+    def test_nvidia_service_ask_examforge_question(self):
+        """Verify ask_examforge_question formats grounding prompt and calls query_nvidia_ai."""
+        import nvidia_service
+        from unittest.mock import patch
+
+        with patch("nvidia_service.query_nvidia_ai", return_value=(True, "Mocked tutor answer")) as mock_query:
+            succ, msg = nvidia_service.ask_examforge_question(
+                user_query="What is bounded rationality?",
+                course_id="MPA-012",
+                unit_id="MPA012-U08",
+                unit_title="Decision Making (Herbert Simon)",
+                representative_pyq="Critically evaluate Simon's decision-making model.",
+                model_answer_summary="Simon rejects classical economic rationality in favor of satisficing.",
+                api_key="nvapi-fake",
+            )
+            self.assertTrue(succ)
+            self.assertEqual(msg, "Mocked tutor answer")
+            mock_query.assert_called_once()
+            called_kwargs = mock_query.call_args[1]
+            self.assertIn("bounded rationality", called_kwargs["prompt"])
+            self.assertIn("Herbert Simon", called_kwargs["prompt"])
+
+
 if __name__ == "__main__":
     unittest.main()
