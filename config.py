@@ -124,9 +124,7 @@ def is_supabase_configured() -> bool:
 
 
 def mask_secret(secret: str) -> str:
-    """Return a masked representation of a secret for safe display."""
+    """Return a completely masked representation without revealing any characters."""
     if not secret:
         return "Not configured"
-    if len(secret) <= 8:
-        return "••••••••"
-    return f"{secret[:4]}••••••••{secret[-4:]}"
+    return "••••••••••••••••"

@@ -421,7 +421,7 @@ def show_examforge_lab() -> None:
                 st.success("API key stored for this session!")
                 nv_key = user_nv_key.strip()
         else:
-            st.success(f"🟢 **OpenRouter NVIDIA AI Connected**: API key active ({config.mask_secret(nv_key)}).")
+            st.success("🟢 **OpenRouter NVIDIA AI Connected**: Active & Ready.")
 
         model_options = list(nvidia_service.NVIDIA_MODELS.keys())
         default_model = config.get_nvidia_model()
