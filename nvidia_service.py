@@ -58,7 +58,7 @@ def query_nvidia_ai(
         "model": target_model,
         "messages": messages,
         "temperature": temperature,
-        "max_tokens": max_tokens,
+        "max_tokens": 5000,
     }
 
     headers: Dict[str, str] = {
@@ -109,15 +109,16 @@ def ask_examforge_question(
     unit_title: str,
     representative_pyq: str = "",
     model_answer_summary: str = "",
+    ebook_excerpt: str = "",
     model: str = DEFAULT_NVIDIA_MODEL,
     api_key: Optional[str] = None,
 ) -> Tuple[bool, str]:
-    """Ask a question grounded in the ExamForge syllabus context using NVIDIA AI."""
+    """Ask a question strictly grounded in official IGNOU ebooks and ExamForge syllabus context using NVIDIA AI."""
     system_prompt = (
-        "You are an expert Professor of Public Administration and veteran Civil Services Examination "
-        "(UPSC & BPSC Optional) Evaluator. You provide intellectually rigorous, academically grounded, "
-        "and well-structured responses citing authoritative administrative thinkers, theorists, "
-        "and constitutional provisions where appropriate."
+        "You are an authoritative Professor of Public Administration and veteran Civil Services Examination "
+        "(UPSC & BPSC Optional / IGNOU MPA) Evaluator. You provide comprehensive, rigorous, and fully completed "
+        "answers based strictly on the official IGNOU self-learning material and ebooks. Never cut your answers short; "
+        "always finish all sections thoroughly through the conclusion."
     )
 
     context_parts = [
@@ -127,19 +128,22 @@ def ask_examforge_question(
     if representative_pyq:
         context_parts.append(f"**Representative Exam PYQ:** \"{representative_pyq}\"")
     if model_answer_summary:
-        context_parts.append(f"**Core Theoretical Framework:** {model_answer_summary[:1200]}")
+        context_parts.append(f"**Verified Model Answer Framework:** {model_answer_summary[:1200]}")
+    if ebook_excerpt:
+        context_parts.append(f"\n**OFFICIAL IGNOU EBOOK CONTENT & READINGS (STRICT PRIMARY SOURCE):**\n{ebook_excerpt[:6500]}")
 
     full_prompt = (
-        f"CONTEXT ON CURRENT SYLLABUS UNIT:\n"
+        f"CONTEXT AND OFFICIAL COURSE MATERIAL:\n"
         + "\n".join(context_parts)
         + "\n\n"
         + f"STUDENT QUESTION / DOUBT:\n"
         f"{user_query}\n\n"
-        "INSTRUCTIONS:\n"
-        "1. Provide a direct, well-structured, and comprehensive answer suitable for UPSC/BPSC/MPA level.\n"
-        "2. Cite key thinkers, classical & modern administrative theorists (e.g., Woodrow Wilson, Taylor, Fayol, Weber, Mary Parker Follett, Herbert Simon, Dwight Waldo, Fred Riggs, Vincent Ostrom) where relevant.\n"
-        "3. Provide contemporary Indian administrative examples or constitutional/statutory provisions where applicable.\n"
-        "4. Conclude with a crisp, balanced analytical summary."
+        "STRICT INSTRUCTIONS:\n"
+        "1. Base your explanations, concepts, thinkers, arguments, and headings PRIMARILY on the official IGNOU ebook excerpt provided above.\n"
+        "2. Provide an exhaustive, complete examination-oriented note/essay without truncating any section. Ensure the conclusion is fully written out.\n"
+        "3. Cite key administrative thinkers, theorists, and conceptual models exactly as highlighted in the official IGNOU syllabus.\n"
+        "4. Provide contemporary Indian administrative illustrations, constitutional articles, and institutional examples where relevant.\n"
+        "5. Conclude with a crisp, balanced analytical summary and practical revision tips."
     )
 
     return query_nvidia_ai(
@@ -148,5 +152,6 @@ def ask_examforge_question(
         model=model,
         api_key=api_key,
         temperature=0.3,
-        max_tokens=2500,
+        max_tokens=5000,
+        timeout=60,
     )
