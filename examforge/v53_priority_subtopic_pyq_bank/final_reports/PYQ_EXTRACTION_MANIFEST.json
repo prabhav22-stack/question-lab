@@ -1,0 +1,14 @@
+{
+  "task_name": "EXAMFORGE_DECEMBER_2026_PRIORITY_SUBTOPIC_PYQ_EXTRACTION",
+  "portfolio_version": "ExamForge v5.3 Frozen",
+  "total_units": 29,
+  "subtopics_per_unit": 2,
+  "total_priority_subtopics": 58,
+  "total_extracted_pyqs": 719,
+  "historical_time_span": "June 2010 to June 2026 (15 Years)",
+  "total_examination_papers": 124,
+  "total_examination_sessions": 31,
+  "qc_tests_passed": 20,
+  "qc_tests_total": 20,
+  "all_qc_passed": true
+}
